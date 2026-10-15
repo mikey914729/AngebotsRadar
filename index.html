@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#123b2c">
+
+  <title>AngebotsRadar – Angebote vergleichen</title>
+
+  <style>
+
+    :root {
+
+      --green: #123b2c;
+
+      --light-green: #e7f4eb;
+
+      --accent: #2c9b62;
+
+      --bg: #f5f7f5;
+
+      --text: #202923;
+
+      --muted: #6b756e;
+
+      --border: #e2e8e3;
+
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+
+      margin: 0;
+
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+
+        sans-serif;
+
+      background: var(--bg);
+
+      color: var(--text);
+
+    }
+
+    header {
+
+      background: var(--green);
+
+      color: white;
+
+      padding: 25px 18px 30px;
+
+      border-radius: 0 0 25px 25px;
+
+    }
+
+    .topline {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 12px;
+
+    }
+
+    .brand {
+
+      font-size: 23px;
+
+      font-weight: 800;
+
+      letter-spacing: -0.7px;
+
+    }
+
+    .brand span { color: #75e0a3; }
+
+    .demo {
+
+      font-size: 11px;
+
+      background: #315744;
+
+      padding: 7px 9px;
+
+      border-radius: 20px;
+
+    }
+
+    header h1 {
+
+      font-size: 27px;
+
+      line-height: 1.2;
+
+      margin: 27px 0 8px;
+
+    }
+
+    header p {
+
+      color: #d3e7d9;
+
+      margin: 0;
+
+      font-size: 14px;
+
+    }
+
+    main {
+
+      max-width: 760px;
+
+      margin: auto;
+
+      padding: 20px 15px 95px;
+
+    }
+
+    .searchbox {
+
+      display: flex;
+
+      align-items: center;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 14px;
+
+      padding: 0 13px;
+
+      margin-top: -1px;
+
+      box-shadow: 0 4px 15px #173b2c0a;
+
+    }
+
+    .searchbox span { font-size: 20px; }
+
+    input, select, button { font: inherit; }
+
+    #search {
+
+      width: 100%;
+
+      min-width: 0;
+
+      padding: 16px 10px;
+
+      border: 0;
+
+      outline: 0;
+
+      background: transparent;
+
+      color: var(--text);
+
+    }
+
+    .section-title {
+
+      font-size: 17px;
+
+      font-weight: 750;
+
+      margin: 25px 0 13px;
+
+    }
+
+    .stores {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 8px;
+
+    }
+
+    .store {
+
+      background: white;
+
+      color: var(--text);
+
+      border: 1px solid var(--border);
+
+      border-radius: 20px;
+
+      padding: 9px 13px;
+
+      cursor: pointer;
+
+    }
+
+    .store.active {
+
+      background: var(--green);
+
+      border-color: var(--green);
+
+      color: white;
+
+    }
+
+    .filters {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 10px;
+
+      margin-top: 17px;
+
+    }
+
+    .filters select {
+
+      width: 100%;
+
+      min-width: 0;
+
+      padding: 12px 8px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 10px;
+
+      color: var(--text);
+
+    }
+
+    .results-head {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 10px;
+
+      margin-top: 26px;
+
+      margin-bottom: 12px;
+
+    }
+
+    .results-head .section-title { margin: 0; }
+
+    #count {
+
+      font-size: 12px;
+
+      color: var(--muted);
+
+    }
+
+    .notice {
+
+      background: #fff4d9;
+
+      color: #76500a;
+
+      border-radius: 10px;
+
+      padding: 11px 12px;
+
+      font-size: 12px;
+
+      line-height: 1.5;
+
+      margin-bottom: 14px;
+
+    }
+
+    #products {
+
+      display: grid;
+
+      gap: 12px;
+
+    }
+
+    .product {
+
+      display: grid;
+
+      grid-template-columns: 62px 1fr auto;
+
+      align-items: center;
+
+      gap: 12px;
+
+      background: white;
+
+      padding: 15px 12px;
+
+      border: 1px solid var(--border);
+
+      border-radius: 15px;
+
+    }
+
+    .product-icon {
+
+      width: 60px;
+
+      height: 60px;
+
+      border-radius: 13px;
+
+      display: grid;
+
+      place-items: center;
+
+      background: var(--light-green);
+
+      font-size: 32px;
+
+    }
+
+    .product h3 {
+
+      font-size: 15px;
+
+      margin: 0 0 5px;
+
+    }
+
+    .meta {
+
+      font-size: 12px;
+
+      line-height: 1.6;
+
+      color: var(--muted);
+
+    }
+
+    .price {
+
+      text-align: right;
+
+      white-space: nowrap;
+
+    }
+
+    .price strong {
+
+      display: block;
+
+      font-size: 19px;
+
+      color: var(--green);
+
+    }
+
+    .price small {
+
+      display: block;
+
+      font-size: 11px;
+
+      color: var(--muted);
+
+      margin-top: 4px;
+
+    }
+
+    .save {
+
+      margin-top: 7px;
+
+      padding: 5px 8px;
+
+      border: 1px solid var(--border);
+
+      border-radius: 8px;
+
+      background: white;
+
+      cursor: pointer;
+
+      font-size: 12px;
+
+    }
+
+    .save.saved {
+
+      color: #17683b;
+
+      background: var(--light-green);
+
+    }
+
+    .empty {
+
+      background: white;
+
+      padding: 25px;
+
+      text-align: center;
+
+      border-radius: 14px;
+
+      color: var(--muted);
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      color: var(--muted);
+
+      font-size: 12px;
+
+      padding: 22px 10px;
+
+      line-height: 1.6;
+
+    }
+
+    @media (max-width: 380px) {
+
+      .product {
+
+        grid-template-columns: 48px 1fr auto;
+
+        gap: 8px;
+
+        padding: 12px 8px;
+
+      }
+
+      .product-icon { width: 46px; height: 46px; font-size: 25px; }
+
+      .price strong { font-size: 16px; }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="topline">
+
+      <div class="brand">Angebots<span>Radar</span></div>
+
+      <div class="demo">PROTOTYP</div>
+
+    </div>
+
+    <h1>Gute Angebote.<br>Einfach gefunden.</h1>
+
+    <p>Lebensmittel suchen und Preise vergleichen.</p>
+
+  </header>
+
+  <main>
+
+    <div class="searchbox">
+
+      <span aria-hidden="true">🔎</span>
+
+      <input id="search" type="search"
+
+        placeholder="Was suchst du? z. B. Äpfel"
+
+        aria-label="Produkte suchen">
+
+    </div>
+
+    <h2 class="section-title">Deine Supermärkte</h2>
+
+    <div class="stores" id="stores">
+
+      <button class="store active" data-store="Alle">Alle</button>
+
+      <button class="store" data-store="Aldi">Aldi</button>
+
+      <button class="store" data-store="Lidl">Lidl</button>
+
+      <button class="store" data-store="Netto">Netto</button>
+
+      <button class="store" data-store="Penny">Penny</button>
+
+      <button class="store" data-store="Kaufland">Kaufland</button>
+
+    </div>
+
+    <div class="filters">
+
+      <select id="category" aria-label="Kategorie auswählen">
+
+        <option value="Alle">Alle Kategorien</option>
+
+        <option value="Obst">Obst</option>
+
+        <option value="Gemüse">Gemüse</option>
+
+        <option value="Fleisch">Fleisch</option>
+
+        <option value="Milchprodukte">Milchprodukte</option>
+
+      </select>
+
+      <select id="sort" aria-label="Sortierung auswählen">
+
+        <option value="price">Preis: günstig zuerst</option>
+
+        <option value="name">Name: A bis Z</option>
+
+        <option value="unit">Grundpreis vergleichen</option>
+
+      </select>
+
+    </div>
+
+    <div class="results-head">
+
+      <h2 class="section-title">Angebote entdecken</h2>
+
+      <span id="count"></span>
+
+    </div>
+
+    <div class="notice">
+
+      ⚠️ Demo-Modus: Alle angezeigten Preise sind Beispieldaten.
+
+      Sie sind keine bestätigten aktuellen Angebote.
+
+    </div>
+
+    <section id="products" aria-live="polite"></section>
+
+    <footer>
+
+      AngebotsRadar · Dein persönlicher Preisvergleich<br>
+
+      Aktuelle Händlerdaten sind noch nicht angebunden.
+
+    </footer>
+
+  </main>
+
+  <script>
+
+    const products = [
+
+      {name:"Äpfel",store:"Aldi",price:1.49,unit:1,
+
+       category:"Obst",emoji:"🍎",period:"Beispielzeitraum"},
+
+      {name:"Äpfel",store:"Lidl",price:1.29,unit:1,
+
+       category:"Obst",emoji:"🍎",period:"Beispielzeitraum"},
+
+      {name:"Mandarinen",store:"Penny",price:1.99,unit:1,
+
+       category:"Obst",emoji:"🍊",period:"Beispielzeitraum"},
+
+      {name:"Bananen",store:"Kaufland",price:1.19,unit:1,
+
+       category:"Obst",emoji:"🍌",period:"Beispielzeitraum"},
+
+      {name:"Karotten",store:"Netto",price:0.99,unit:1,
+
+       category:"Gemüse",emoji:"🥕",period:"Beispielzeitraum"},
+
+      {name:"Gurken",store:"Aldi",price:0.79,unit:1,
+
+       category:"Gemüse",emoji:"🥒",period:"Beispielzeitraum"},
+
+      {name:"Hähnchenbrust",store:"Lidl",price:7.99,unit:1,
+
+       category:"Fleisch",emoji:"🍗",period:"Beispielzeitraum"},
+
+      {name:"Rinderhackfleisch",store:"Kaufland",price:9.99,unit:1,
+
+       category:"Fleisch",emoji:"🥩",period:"Beispielzeitraum"},
+
+      {name:"Milch",store:"Penny",price:1.09,unit:1,
+
+       category:"Milchprodukte",emoji:"🥛",period:"Beispielzeitraum"},
+
+      {name:"Naturjoghurt",store:"Netto",price:0.79,unit:1,
+
+       category:"Milchprodukte",emoji:"🥣",period:"Beispielzeitraum"}
+
+    ];
+
+    let selectedStore = "Alle";
+
+    const saved = new Set();
+
+    const search = document.getElementById("search");
+
+    const category = document.getElementById("category");
+
+    const sort = document.getElementById("sort");
+
+    const list = document.getElementById("products");
+
+    const count = document.getElementById("count");
+
+    function money(value) {
+
+      return value.toLocaleString("de-DE", {
+
+        style:"currency", currency:"EUR"
+
+      });
+
+    }
+
+    function render() {
+
+      const query = search.value.trim().toLocaleLowerCase("de-DE");
+
+      let filtered = products.filter(p =>
+
+        p.name.toLocaleLowerCase("de-DE").includes(query) &&
+
+        (selectedStore === "Alle" || p.store === selectedStore) &&
+
+        (category.value === "Alle" || p.category === category.value)
+
+      );
+
+      if (sort.value === "name") {
+
+        filtered.sort((a,b) => a.name.localeCompare(b.name,"de"));
+
+      } else if (sort.value === "unit") {
+
+        filtered.sort((a,b) => a.price/a.unit - b.price/b.unit);
+
+      } else {
+
+        filtered.sort((a,b) => a.price - b.price);
+
+      }
+
+      count.textContent = filtered.length + " Treffer";
+
+      if (!filtered.length) {
+
+        list.innerHTML =
+
+          '<div class="empty">Keine passenden Produkte gefunden. ' +
+
+          'Versuche einen anderen Suchbegriff oder Filter.</div>';
+
+        return;
+
+      }
+
+      list.innerHTML = filtered.map(p => {
+
+        const key = p.name + "|" + p.store;
+
+        const isSaved = saved.has(key);
+
+        return `
+
+          <article class="product">
+
+            <div class="product-icon" aria-hidden="true">${p.emoji}</div>
+
+            <div>
+
+              <h3>${p.name}</h3>
+
+              <div class="meta">
+
+                ${p.store}<br>
+
+                Grundpreis: ${money(p.price/p.unit)}/kg bzw. Einheit<br>
+
+                ${p.period}
+
+              </div>
+
+              <button class="save ${isSaved ? "saved" : ""}"
+
+                data-key="${key}">
+
+                ${isSaved ? "♥ Gemerkt" : "♡ Merken"}
+
+              </button>
+
+            </div>
+
+            <div class="price">
+
+              <strong>${money(p.price)}</strong>
+
+              <small>Beispielpreis</small>
+
+            </div>
+
+          </article>`;
+
+      }).join("");
+
+      list.querySelectorAll(".save").forEach(button => {
+
+        button.addEventListener("click", () => {
+
+          const key = button.dataset.key;
+
+          if (saved.has(key)) saved.delete(key);
+
+          else saved.add(key);
+
+          render();
+
+        });
+
+      });
+
+    }
+
+    document.querySelectorAll(".store").forEach(button => {
+
+      button.addEventListener("click", () => {
+
+        selectedStore = button.dataset.store;
+
+        document.querySelectorAll(".store").forEach(b =>
+
+          b.classList.toggle("active", b === button)
+
+        );
+
+        render();
+
+      });
+
+    });
+
+    search.addEventListener("input", render);
+
+    category.addEventListener("change", render);
+
+    sort.addEventListener("change", render);
+
+    render();
+
+  </script>
+
+</body>
+
+</html>
