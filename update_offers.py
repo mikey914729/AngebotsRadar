@@ -3,7 +3,6 @@ import requests
 
 def hole_aktuelle_prospekte():
     plz = "85283"
-    # Offizielle API für tagesaktuelle Prospektangebote im Einzelhandel
     url = f"https://discounto.de{plz}&limit=100"
     
     print(f"Verbinde mit Prospekt-Server... Lade Live-Angebote für Wolnzach (PLZ {plz})...")
@@ -18,7 +17,6 @@ def hole_aktuelle_prospekte():
         print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
         roh_angebote = []
 
-    # Falls die API gerade keine Daten liefert, sichern wir die Wunsch-Märkte mit echten Prospekt-Highlights ab
     if not roh_angebote:
         roh_angebote = [
             {"title": "Wintertraum Pfeffernüsse 600g", "merchant": "ALDI SÜD Wolnzach", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image": "cookies"},
@@ -26,7 +24,7 @@ def hole_aktuelle_prospekte():
             {"title": "GUT & GÜNSTIG Deutsche Markenbutter", "merchant": "Netto Marken-Discount", "price": "1.69", "old_price": "2.29", "valid_until": "Diese Woche", "image": "butter"},
             {"title": "Müllermilch Schoko / Erdbeer 400ml", "merchant": "PENNY Markt", "price": "0.69", "old_price": "1.39", "valid_until": "Diese Woche", "image": "milkshake"},
             {"title": "Ariel Vollwaschmittel XXL Pulver", "merchant": "ROSSMANN Drogerie", "price": "14.99", "old_price": "19.99", "valid_until": "Diese Woche", "image": "laundry"},
-            {"title": "Premium Hundefutter Fleisch-Brocken", "merchant": "Fressnapf", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image": "dog food"},
+            {"title": "Premium Hundefutter Fleisch-Brocken", "merchant": "Fressnapf", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image": "dogfood"},
             {"title": "Universal Holzschrauben Senkkopf 50er Set", "merchant": "Sonderpreis Baumarkt", "price": "4.99", "old_price": "7.49", "valid_until": "Diese Woche", "image": "screws"}
         ]
 
@@ -35,7 +33,6 @@ def hole_aktuelle_prospekte():
     for item in roh_angebote:
         merchant_raw = item.get("merchant", "").lower()
 
-        # Filtert gezielt deine Wunsch-Märkte aus Wolnzach heraus
         if "aldi" in merchant_raw:
             id_name = "aldi"
             label = "ALDI SÜD"
@@ -60,7 +57,6 @@ def hole_aktuelle_prospekte():
         else:
             continue
 
-        # Automatische Rabatt-Berechnung in Prozent
         rabatt_text = ""
         try:
             p_neu = float(str(item.get("price")).replace(",", "."))
@@ -72,31 +68,26 @@ def hole_aktuelle_prospekte():
         except Exception:
             pass
 
-        # Intelligente Bildzuordnung
         bild_url = item.get("image") or item.get("image_url") or ""
+        text_fuer_suche = (item.get("title") or "").lower()
         
-        # Falls der Link kein echter Internet-Link ist (sondern eine lokale .jpeg-Bezeichnung oder ein Stichwort)
+        # Falls kein funktionierender Internet-Link da ist, weisen wir wunderschöne, feste Unsplash-Bilder zu
         if not bild_url.startswith("http"):
-            # Wir nutzen das Stichwort oder extrahieren das erste Wort des Produkts für ein passendes Unsplash-Foto
-            suchbegriff = bild_url if (bild_url and "." not in bild_url) else item.get("title", "grocery").split()[0]
-            bild_url = f"https://unsplash.com" # Standard-Fallback
+            bild_url = "https://unsplash.com" # Standard-Ersatzkorb
             
-            # Automatische Zuweisung basierend auf bekannten Begriffen für die Testliste
-            if "pfeffer" in suchbegriff.lower() or "cookie" in suchbegriff.lower():
+            if "pfeffer" in text_fuer_suche or "cookie" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "schoko" in suchbegriff.lower() or "choc" in suchbegriff.lower() or "ritter" in suchbegriff.lower():
+            elif "schoko" in text_fuer_suche or "ritter" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "butter" in suchbegriff.lower():
+            elif "butter" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "milch" in suchbegriff.lower() or "shake" in suchbegriff.lower():
+            elif "milch" in text_fuer_suche or "erdbeer" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "ariel" in suchbegriff.lower() or "wasch" in suchbegriff.lower() or "laundry" in suchbegriff.lower():
+            elif "ariel" in text_fuer_suche or "wasch" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "futter" in suchbegriff.lower() or "hund" in suchbegriff.lower() or "dog" in suchbegriff.lower():
+            elif "futter" in text_fuer_suche or "hund" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
-            elif "schraub" in suchbegriff.lower() or "screw" in suchbegriff.lower():
-                bild_url = "https://unsplash.com"
-            elif "apfel" in item.get("title", "").lower() or "äpfel" in item.get("title", "").lower():
+            elif "schraub" in text_fuer_suche or "werkzeug" in text_fuer_suche:
                 bild_url = "https://unsplash.com"
 
         angebot = {
@@ -111,7 +102,6 @@ def hole_aktuelle_prospekte():
         }
         angebote_liste.append(angebot)
 
-    # In die daten.json schreiben
     with open("daten.json", "w", encoding="utf-8") as f:
         json.dump(angebote_liste, f, ensure_ascii=False, indent=2)
 
