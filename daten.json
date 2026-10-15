@@ -1,18 +1,42 @@
 [
   {
-    "name": "REWE Geisenfeld",
-    "typ": "supermarket",
-    "strasse": "Regensburger Str.",
-    "hausnummer": "18",
+    "name": "Minderleinsmühle Bio-Mehl 1kg",
+    "typ": "SONDERANGEBOT",
+    "strasse": "Edeka Center Geisenfeld",
+    "hausnummer": "",
     "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Mo-Sa: 07:00-20:00"
+    "oeffnungszeiten": "Gültig bis: Samstag",
+    "preis": "1.49 €",
+    "alter_preis": "statt 1.99 €"
   },
   {
-    "name": "Edeka Center",
-    "typ": "supermarket",
-    "strasse": "Augsburger Str.",
-    "hausnummer": "10",
+    "name": "Kasseler Nacken ohne Knochen",
+    "typ": "SONDERANGEBOT",
+    "strasse": "REWE Regensburger Str.",
+    "hausnummer": "",
     "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Mo-Sa: 07:00-20:00"
+    "oeffnungszeiten": "Gültig bis: Samstag",
+    "preis": "5.99 €",
+    "alter_preis": "statt 8.90 €"
+  },
+  {
+    "name": "GUT & GÜNSTIG Deutsche Markenbutter",
+    "typ": "SONDERANGEBOT",
+    "strasse": "Edeka Center Geisenfeld",
+    "hausnummer": "",
+    "ort": "85283 Geisenfeld",
+    "oeffnungszeiten": "Gültig bis: Samstag",
+    "preis": "1.69 €",
+    "alter_preis": "statt 2.29 €"
+  },
+  {
+    "name": "Coca-Cola Kiste 12x1L",
+    "typ": "SONDERANGEBOT",
+    "strasse": "Getränkemarkt Geisenfeld",
+    "hausnummer": "",
+    "ort": "85283 Geisenfeld",
+    "oeffnungszeiten": "Gültig bis: Sonntag",
+    "preis": "9.99 €",
+    "alter_preis": "statt 13.99 €"
   }
 ]
