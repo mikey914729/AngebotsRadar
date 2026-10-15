@@ -33,4 +33,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "AngebotsRadar: Daten für 85283 aktualisiert [skip ci]"
-          file_pattern: 'angebote_85283.json'
+          file_pattern: 'daten.json'
