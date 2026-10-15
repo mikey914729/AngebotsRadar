@@ -1,42 +1,72 @@
 [
   {
-    "name": "Minderleinsmühle Bio-Mehl 1kg",
-    "typ": "SONDERANGEBOT",
-    "strasse": "Edeka Center Geisenfeld",
+    "name": "Bio-Bananen frisch (Premium)",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "EDEKA Wolnzach",
     "hausnummer": "",
-    "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Gültig bis: Samstag",
-    "preis": "1.49 €",
-    "alter_preis": "statt 1.99 €"
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Sa.",
+    "preis": "1.99 €",
+    "alter_preis": "statt 2.49 €"
   },
   {
-    "name": "Kasseler Nacken ohne Knochen",
-    "typ": "SONDERANGEBOT",
-    "strasse": "REWE Regensburger Str.",
+    "name": "Garnelen pfannenfertig 250g",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "ALDI SÜD Wolnzach",
     "hausnummer": "",
-    "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Gültig bis: Samstag",
-    "preis": "5.99 €",
-    "alter_preis": "statt 8.90 €"
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Sa.",
+    "preis": "3.49 €",
+    "alter_preis": "statt 4.29 €"
   },
   {
-    "name": "GUT & GÜNSTIG Deutsche Markenbutter",
-    "typ": "SONDERANGEBOT",
-    "strasse": "Edeka Center Geisenfeld",
+    "name": "Premium Hundefutter Saftige Brocken 1kg",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "Fressnapf Wolnzach-Umland",
     "hausnummer": "",
-    "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Gültig bis: Samstag",
-    "preis": "1.69 €",
-    "alter_preis": "statt 2.29 €"
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Fr.",
+    "preis": "2.99 €",
+    "alter_preis": "statt 3.99 €"
   },
   {
-    "name": "Coca-Cola Kiste 12x1L",
-    "typ": "SONDERANGEBOT",
-    "strasse": "Getränkemarkt Geisenfeld",
+    "name": "Duschdas Duschgel XXL Packung",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "ROSSMANN Drogerie",
     "hausnummer": "",
-    "ort": "85283 Geisenfeld",
-    "oeffnungszeiten": "Gültig bis: Sonntag",
-    "preis": "9.99 €",
-    "alter_preis": "statt 13.99 €"
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Fr.",
+    "preis": "0.99 €",
+    "alter_preis": "statt 1.59 €"
+  },
+  {
+    "name": "Holzschrauben Senkkopf 50er Set",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "Sonderpreis Baumarkt",
+    "hausnummer": "",
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Fr.",
+    "preis": "4.99 €",
+    "alter_preis": "statt 7.49 €"
+  },
+  {
+    "name": "Müllermilch verschiedene Sorten",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "PENNY Markt Wolnzach",
+    "hausnummer": "",
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Sa.",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €"
+  },
+  {
+    "name": "Original Wagner Steinofen Pizza",
+    "typ": "WOLNZACH DEAL",
+    "strasse": "Netto Marken-Discount",
+    "hausnummer": "",
+    "ort": "85283 Wolnzach",
+    "oeffnungszeiten": "Gültig bis: Sa.",
+    "preis": "1.88 €",
+    "alter_preis": "statt 3.49 €"
   }
 ]
