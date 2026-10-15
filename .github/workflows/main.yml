@@ -1,36 +1,36 @@
-name: AngebotsRadar Daten aktualisieren
+name: ProspektBot
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "17 4 * * *"
+    # Startet automatisch jeden Montag um 1:00 Uhr nachts
+    - cron: '0 1 * * 1'
+  workflow_dispatch: # Erlaubt den manuellen Start per Knopfdruck
 
 permissions:
   contents: write
 
 jobs:
-  aktualisieren:
+  run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Repository herunterladen
-        uses: actions/checkout@v4
-
-      - name: Python einrichten
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Abhängigkeiten installieren
+          python-version: '3.10'
+          
+      # Installiert eventuell benötigte Programmier-Bibliotheken für deinen Scraper
+      - name: Install dependencies
         run: |
-          pip install requests
-
-      - name: Daten für 85283 sammeln
-        run: |
-          python update_offers.py
-
-      - name: Änderungen automatisch speichern
-        uses: stefanzweifel/git-auto-commit-action@v5
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests beautifulsoup4 || true
+          
+      # Führt DEINE echte Python-Datei aus
+      - run: python update_offers.py
+      
+      # Speichert DEINE echte Daten-Datei ab
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "AngebotsRadar: Daten für 85283 aktualisiert [skip ci]"
-          file_pattern: 'daten.json'
+          commit_message: "Angebote automatisch aktualisiert"
+          file_pattern: "daten.json"
