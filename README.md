@@ -1,0 +1,2 @@
+# AngebotsRadar
+Vergleich aktueller Lebensmittelangebote deutscher Supermärkte
