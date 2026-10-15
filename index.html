@@ -6,67 +6,65 @@
     <title>AngebotsRadar - 85283</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; }
-        h1 { color: #333; text-align: center; }
+        h1 { color: #d93838; text-align: center; margin-bottom: 5px; }
         .update-info { text-align: center; color: #666; font-size: 0.9em; margin-bottom: 20px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .card h3 { margin-top: 0; color: #007bff; }
-        .badge { display: inline-block; padding: 4px 8px; background: #eee; border-radius: 4px; font-size: 0.8em; margin-bottom: 10px; }
-        .times { font-size: 0.85em; color: #555; background: #fff9e6; padding: 5px; border-radius: 4px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative; border-top: 4px solid #d93838; }
+        .card h3 { margin: 0 0 10px 0; color: #333; font-size: 1.2em; }
+        .market-name { color: #007bff; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .price-tag { font-size: 1.6em; color: #d93838; font-weight: bold; margin: 10px 0 5px 0; }
+        .old-price { font-size: 0.9em; color: #777; text-decoration: line-through; margin-bottom: 10px; }
+        .badge { position: absolute; top: 10px; right: 10px; padding: 4px 8px; background: #ffebeb; color: #d93838; border-radius: 4px; font-size: 0.75em; font-weight: bold; }
+        .times { font-size: 0.8em; color: #555; background: #f9f9f9; padding: 8px; border-radius: 4px; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-    <h1>AngebotsRadar: Region 85283</h1>
-    <div class="update-info" id="timestamp">Lade aktuelle Live-Daten...</div>
+    <h1>🔥 AngebotsRadar: Live-Schnäppchen 🔥</h1>
+    <div class="update-info" id="timestamp">Lade aktuelle Angebote für 85283...</div>
 
-    <div class="grid" id="markets-container">
-        <!-- Hier landen die Live-Märkte automatisch -->
-    </div>
+    <div class="grid" id="markets-container"></div>
 
     <script>
-// Ermittelt automatisch die richtige URL, egal ob lokal oder auf GitHub Pages
-const dataUrl = './daten.json';
+        const dataUrl = './daten.json';
 
         async function ladeLiveDaten() {
             try {
                 const response = await fetch(dataUrl);
-                if (!response.ok) throw new Error('Daten konnten nicht geladen werden');
+                if (!response.ok) throw new Error('Fehler beim Laden');
                 
-                const maerkte = await response.json();
+                const angebote = await response.json();
                 const container = document.getElementById('markets-container');
-                container.innerHTML = ''; // Lade-Text entfernen
+                container.innerHTML = '';
 
-                if (maerkte.length === 0) {
-                    container.innerHTML = '<p>Keine aktiven Märkte gefunden.</p>';
+                if (angebote.length === 0) {
+                    container.innerHTML = '<p>Aktuell keine Angebote für diese Region verfügbar.</p>';
                     return;
                 }
 
-                // Generiere HTML-Karten für jeden Markt
-                maerkte.forEach(markt => {
+                angebote.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
-                        <h3>${markt.name}</h3>
-                        <span class="badge">${markt.typ ? markt.typ.toUpperCase() : 'LADEN'}</span>
-                        <p><strong>Adresse:</strong><br>${markt.strasse} ${markt.hausnummer}<br>${markt.ort}</p>
-                        <div class="times">🕒 Öffnungszeiten:<br>${markt.oeffnungszeiten}</div>
+                        <span class="badge">DEAL</span>
+                        <h3>${item.name}</h3>
+                        <div class="market-name">📍 ${item.strasse}</div>
+                        <div class="price-tag">${item.preis}</div>
+                        <div class="old-price">${item.alter_preis ? item.alter_preis : '&nbsp;'}</div>
+                        <div class="times">⏳ ${item.oeffnungszeiten}</div>
                     `;
                     container.appendChild(card);
                 });
 
-                // Aktualisierungszeit anzeigen (Aktuelle Uhrzeit des Aufrufs)
                 const jetzt = new Date().toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
-                document.getElementById('timestamp').innerText = `Live-Stand von heute (Zuletzt geprüft um ${jetzt} Uhr)`;
+                document.getElementById('timestamp').innerText = `Angebots-Zusammenfassung für Geisenfeld (Stand: ${jetzt} Uhr)`;
 
             } catch (fehler) {
                 console.error(fehler);
-                document.getElementById('timestamp').innerText = 'Fehler beim Laden der Live-Daten.';
-                document.getElementById('markets-container').innerHTML = '<p>Die Angebotsdaten stehen in Kürze wieder bereit.</p>';
+                document.getElementById('timestamp').innerText = 'Fehler beim Laden der Live-Angebote.';
             }
         }
 
-        // Starten, wenn die Seite aufgerufen wird
         ladeLiveDaten();
     </script>
 </body>
