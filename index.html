@@ -70,14 +70,15 @@
                 let rabattAnzeige = item.rabatt ? item.rabatt : '% Aktion';
                 let bildQuelle = item.bild ? item.bild : 'https://unsplash.com';
 
-                // Hier ist das fehlerfreie HTML für die Kacheln ohne kaputte Plus-Zeichen
+// Hier ist das absolut flimmerfreie HTML für die Kacheln
 card.innerHTML = `
     <span class="badge-deal">${rabattAnzeige}</span>
-    <img class="product-img" src="${bildQuelle}" alt="${item.produkt_name}" onerror="this.src='https://unsplash.com';">
+    <img class="product-img" src="${bildQuelle}" alt="${item.produkt_name}" onerror="this.onerror=null; this.src='https://unsplash.com';">
     <div class="market-label">📍 ${item.markt_name}</div>
     <div class="product-title">${item.produkt_name}</div>
     <div class="price">${item.preis}</div>
 `;
+
 
                 container.appendChild(card);
             });
