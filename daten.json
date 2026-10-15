@@ -1,99 +1,18 @@
-
-{
-  "version": 1,
-  "datenstand": null,
-  "demo": true,
-  "hinweis": "Beispieldaten, keine bestätigten aktuellen Angebote.",
-  "angebote": [
-    {
-      "id": "demo-001",
-      "produkt": "Äpfel",
-      "haendler": "Aldi",
-      "kategorie": "Obst",
-      "preis": 1.49,
-      "menge": 1,
-      "einheit": "kg",
-      "grundpreis": 1.49,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    },
-    {
-      "id": "demo-002",
-      "produkt": "Äpfel",
-      "haendler": "Lidl",
-      "kategorie": "Obst",
-      "preis": 1.29,
-      "menge": 1,
-      "einheit": "kg",
-      "grundpreis": 1.29,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    },
-    {
-      "id": "demo-003",
-      "produkt": "Mandarinen",
-      "haendler": "Penny",
-      "kategorie": "Obst",
-      "preis": 1.99,
-      "menge": 1,
-      "einheit": "kg",
-      "grundpreis": 1.99,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    },
-    {
-      "id": "demo-004",
-      "produkt": "Karotten",
-      "haendler": "Netto",
-      "kategorie": "Gemüse",
-      "preis": 0.99,
-      "menge": 1,
-      "einheit": "kg",
-      "grundpreis": 0.99,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    },
-    {
-      "id": "demo-005",
-      "produkt": "Hähnchenbrust",
-      "haendler": "Lidl",
-      "kategorie": "Fleisch",
-      "preis": 7.99,
-      "menge": 1,
-      "einheit": "kg",
-      "grundpreis": 7.99,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    },
-    {
-      "id": "demo-006",
-      "produkt": "Milch",
-      "haendler": "Kaufland",
-      "kategorie": "Milchprodukte",
-      "preis": 1.09,
-      "menge": 1,
-      "einheit": "L",
-      "grundpreis": 1.09,
-      "waehrung": "EUR",
-      "gueltigVon": null,
-      "gueltigBis": null,
-      "quelle": null,
-      "demo": true
-    }
-  ]
-}
+[
+  {
+    "name": "REWE Geisenfeld",
+    "typ": "supermarket",
+    "strasse": "Regensburger Str.",
+    "hausnummer": "18",
+    "ort": "85283 Geisenfeld",
+    "oeffnungszeiten": "Mo-Sa: 07:00-20:00"
+  },
+  {
+    "name": "Edeka Center",
+    "typ": "supermarket",
+    "strasse": "Augsburger Str.",
+    "hausnummer": "10",
+    "ort": "85283 Geisenfeld",
+    "oeffnungszeiten": "Mo-Sa: 07:00-20:00"
+  }
+]
