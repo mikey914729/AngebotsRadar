@@ -24,7 +24,7 @@ def hole_prospekt_daten():
                 "price": "1.99",
                 "old_price": "2.49",
                 "valid_until": "Diese Woche",
-                "image": "bananen.jpeg" # Hier nutzt das System jetzt dein hochgeladenes Galerie-Bild!
+                "image": "IMG_0190.jpeg" # Hier nutzt das System jetzt dein hochgeladenes Galerie-Bild!
             },
             {
                 "title": "Garnelen pfannenfertig 250g",
@@ -32,7 +32,7 @@ def hole_prospekt_daten():
                 "price": "3.49",
                 "old_price": "4.29",
                 "valid_until": "Diese Woche",
-                "image": "garnelen.jpg"
+                "image": "IMG_0191.jpeg"
             },
             {
                 "title": "Premium Hundefutter Fleisch-Brocken",
@@ -40,7 +40,7 @@ def hole_prospekt_daten():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image": "hundefutter.jpg"
+                "image": "IMG_0192.jpeg"
             },
             {
                 "title": "Duschdas Duschgel Sport Doppelpack",
@@ -48,7 +48,7 @@ def hole_prospekt_daten():
                 "price": "0.99",
                 "old_price": "1.59",
                 "valid_until": "Diese Woche",
-                "image": "duschgel.jpg"
+                "image": "IMG_0193.jpeg"
             },
             {
                 "title": "Universal Holzschrauben 50er Set",
@@ -56,7 +56,7 @@ def hole_prospekt_daten():
                 "price": "4.99",
                 "old_price": "7.49",
                 "valid_until": "Diese Woche",
-                "image": "schrauben.jpg" # Sobald du ein Schrauben-Foto hochlädst, benenne es so!
+                "image": "IMG_0194.jpeg"
             },
             {
                 "title": "Müllermilch Schoko / Erdbeer",
@@ -64,7 +64,7 @@ def hole_prospekt_daten():
                 "price": "0.69",
                 "old_price": "1.39",
                 "valid_until": "Diese Woche",
-                "image": "milch.jpg"
+                "image": "IMG_0195.jpeg"
             },
             {
                 "title": "Original Wagner Steinofen Pizza",
@@ -72,7 +72,7 @@ def hole_prospekt_daten():
                 "price": "1.88",
                 "old_price": "3.49",
                 "valid_until": "Diese Woche",
-                "image": "pizza.jpg"
+                "image": "IMG_0196.jpeg"
             }
         ]
     angebote_liste = []
