@@ -71,13 +71,14 @@
                 let bildQuelle = item.bild ? item.bild : 'https://unsplash.com';
 
                 // Hier ist das fehlerfreie HTML für die Kacheln ohne kaputte Plus-Zeichen
-                card.innerHTML = `
-                    <span class="badge-deal">${rabattAnzeige}</span>
-                    <img class="product-img" src="${bildQuelle}" alt="${item.produkt_name}" onerror="this.src='https://unsplash.com';">
-                    <div class="market-label">📍 ${item.markt_name}</div>
-                    <div class="product-title">${item.produkt_name}</div>
-                    <div class="price">${item.preis}</div>
-                `;
+card.innerHTML = `
+    <span class="badge-deal">${rabattAnzeige}</span>
+    <img class="product-img" src="${bildQuelle}" alt="${item.produkt_name}" onerror="this.src='https://unsplash.com';">
+    <div class="market-label">📍 ${item.markt_name}</div>
+    <div class="product-title">${item.produkt_name}</div>
+    <div class="price">${item.preis}</div>
+`;
+
                 container.appendChild(card);
             });
         }
