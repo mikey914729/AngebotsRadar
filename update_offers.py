@@ -41,7 +41,7 @@ def hole_lokale_maerkte():
         maerkte.append(markt)
         
     # Ergebnisse in JSON-Datei speichern
-    with open("angebote_85283.json", "w", encoding="utf-8") as f:
+    with open("daten.json", "w", encoding="utf-8") as f:
         json.dump(maerkte, f, ensure_ascii=False, indent=2)
         
     print(f"Erfolgreich {len(maerkte)} Märkte für 85283 aktualisiert!")
