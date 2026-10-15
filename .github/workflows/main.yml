@@ -1,27 +1,30 @@
 name: AngebotsRadar Daten aktualisieren
 
 on:
-workflow_dispatch:
-schedule:
-- cron: “17 4 * * *”
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-aktualisieren:
-runs-on: ubuntu-latest
+  aktualisieren:
+    runs-on: ubuntu-latest
 
-steps:
-  - name: Repository herunterladen
-    uses: actions/checkout@v4
-  - name: Python einrichten
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.12"
-  - name: Aktualisierungs-Test
-    run: |
-      python -c "print('AngebotsRadar: automatischer Lauf funktioniert')"
-  - name: Änderungen speichern
-    run: |
-      git status
+    steps:
+      - name: Repository herunterladen
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aktualisierungs-Test
+        run: |
+          python -c "print('AngebotsRadar: automatischer Lauf funktioniert')"
+
+      - name: Änderungen speichern
+        run: |
+          git status
