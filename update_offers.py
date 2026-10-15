@@ -16,9 +16,7 @@ def hole_prospekt_daten():
         roh_angebote = data.get("offers", [])
     except Exception:
         print("Verwende Wolnzach Prospekt-Katalog-Fallback...")
-        # Stabile Daten inkl. perfekter Bild-URLs für dein iPad-Prospekt
-                # Garantiert blockierungsfreie, echte Bilddateien (Endung .jpg/.png)
-                # Universelle, blockierungsfreie CDN-Bilder (Garantiert kompatibel mit iPad & Safari)
+                # Lokale Bildpfade, die direkt aus deinem eigenen Repository geladen werden
         roh_angebote = [
             {
                 "title": "Frische Bio-Bananen (Costa Rica)",
@@ -26,7 +24,7 @@ def hole_prospekt_daten():
                 "price": "1.99",
                 "old_price": "2.49",
                 "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
+                "image": "bananen.jpg"
             },
             {
                 "title": "Garnelen pfannenfertig 250g",
@@ -34,7 +32,7 @@ def hole_prospekt_daten():
                 "price": "3.49",
                 "old_price": "4.29",
                 "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
+                "image": "garnelen.jpg"
             },
             {
                 "title": "Premium Hundefutter Fleisch-Brocken",
@@ -42,42 +40,9 @@ def hole_prospekt_daten():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
-            },
-            {
-                "title": "Duschdas Duschgel Sport Doppelpack",
-                "merchant": "ROSSMANN Drogerie",
-                "price": "0.99",
-                "old_price": "1.59",
-                "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
-            },
-            {
-                "title": "Universal Holzschrauben 50er Set",
-                "merchant": "Sonderpreis Baumarkt",
-                "price": "4.99",
-                "old_price": "7.49",
-                "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
-            },
-            {
-                "title": "Müllermilch Schoko / Erdbeer",
-                "merchant": "PENNY Markt Wolnzach",
-                "price": "0.69",
-                "old_price": "1.39",
-                "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
-            },
-            {
-                "title": "Original Wagner Steinofen Pizza",
-                "merchant": "Netto Marken-Discount",
-                "price": "1.88",
-                "old_price": "3.49",
-                "valid_until": "Diese Woche",
-                "image": "https://picsum.photos"
+                "image": "hundefutter.jpg"
             }
         ]
-
     angebote_liste = []
 
     for item in roh_angebote:
