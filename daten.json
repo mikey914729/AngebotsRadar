@@ -7,7 +7,7 @@
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "aldi_pfeffernuesse.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "edeka",
@@ -17,7 +17,7 @@
     "alter_preis": "statt 1.49 €",
     "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "edeka_rittersport.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "netto",
@@ -27,7 +27,7 @@
     "alter_preis": "statt 2.29 €",
     "rabatt": "🔥 26% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "netto_butter.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "penny",
@@ -37,7 +37,7 @@
     "alter_preis": "statt 1.39 €",
     "rabatt": "🔥 50% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "penny_muellermilch.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "rossmann",
@@ -47,7 +47,7 @@
     "alter_preis": "statt 19.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "rossmann_ariel.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "fressnapf",
@@ -57,7 +57,7 @@
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "fressnapf_hundefutter.jpeg"
+    "bild": "https://unsplash.com"
   },
   {
     "markt_id": "baumarkt",
@@ -67,6 +67,6 @@
     "alter_preis": "statt 7.49 €",
     "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "baumarkt_schrauben.jpeg"
+    "bild": "https://unsplash.com"
   }
 ]
