@@ -63,28 +63,7 @@
     <!-- Hier werden die Prospektseiten aufgeschlagen -->
     <div class="prospekt-grid" id="prospekt-container"></div>
 
-    <script>
-        // Cache-Buster URL um das iPad zum Neuladen zu zwingen
-        const dataUrl = './daten.json?v=' + new Date().getTime();
-        let alleAngebote = [];
-
-        async function ladeProspekt() {
-            try {
-                const response = await fetch(dataUrl);
-                if (!response.ok) throw new Error('Katalog konnte nicht geöffnet werden');
-                
-                alleAngebote = await response.json();
-                
-                // Beim ersten Start einfach direkt alle Anzeigen laden
-                baueProspektAnsicht(alleAngebote);
-                document.getElementById('status-msg').innerText = "Aktuelle Angebote gültig für diese Woche in 85283 Wolnzach";
-            } catch (f) {
-                console.error(f);
-                document.getElementById('status-msg').innerText = "Fehler beim Aufschlagen der Prospekte.";
-            }
-        }
-
-                function baueProspektAnsicht(liste) {
+    <        function baueProspektAnsicht(liste) {
             const container = document.getElementById('prospekt-container');
             container.innerHTML = '';
 
@@ -98,9 +77,10 @@
                 card.className = 'prospekt-card';
                 card.innerHTML = `
                     <div class="image-container">
-                        <span class="badge-deal">% Aktion</span>
-                        <!-- Sauberer, direkter Bildaufruf ohne blockierende Fehler-Skripte -->
-                        <img class="product-img" src="${item.bild}" alt="${item.produkt_name}">
+                        <!-- Zeigt das Rabatt-Prozent-Schild an, wenn eines berechnet wurde -->
+                        <span class="badge-deal">${item.rabatt ? item.rabatt : '% Aktion'}</span>
+                        <img class="product-img" src="/AngebotsRadar/${item.bild}" alt="${item.produkt_name}"
+                             onerror="this.src='https://unsplash.com';">
                     </div>
                     <div class="info-container">
                         <div>
@@ -119,22 +99,5 @@
                 container.appendChild(card);
             });
         }
-
-        function filtriereMarkt(marktId, button) {
-            // Aktiven Button optisch umschalten
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-
-            if(marktId === 'alle') {
-                baueProspektAnsicht(alleAngebote);
-            } else {
-                const gefiltert = alleAngebote.filter(a => a.markt_id === marktId);
-                baueProspektAnsicht(gefiltert);
-            }
-        }
-
-        // Prospekt direkt laden
-        ladeProspekt();
-    </script>
 </body>
 </html>
