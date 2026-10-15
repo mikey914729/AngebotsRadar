@@ -4,180 +4,20 @@
     "markt_name": "ALDI SÜD",
     "produkt_name": "Wintertraum Pfeffernüsse 600g",
     "preis": "2.99 €",
-    "alter_preis": "Aktion",
+    "alter_preis": "statt 3.99 €",
+    "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
     "bild": "aldi_pfeffernuesse.jpeg"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Lacura Premium Kollagenpulver 250g",
-    "preis": "7.95 €",
-    "alter_preis": "Aktion",
-    "gueltigkeit": "Diese Woche",
-    "bild": "aldi_kollagen.jpeg"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Halloween Katzenkratzhaus (Geist)",
-    "preis": "5.99 €",
-    "alter_preis": "Aktion",
-    "gueltigkeit": "Diese Woche",
-    "bild": "aldi_katzenhaus.jpeg"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Lily & Dan Filz-Hausschuhe",
-    "preis": "4.99 €",
-    "alter_preis": "Aktion",
-    "gueltigkeit": "Diese Woche",
-    "bild": "aldi_hausschuhe.jpeg"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Kinder Halloween-Kostüm (Hexe/Vampir)",
-    "preis": "6.99 €",
-    "alter_preis": "Aktion",
-    "gueltigkeit": "Diese Woche",
-    "bild": "aldi_kostuem.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Lätta Streichfett (versch. Sorten) 450g",
-    "preis": "0.99 €",
-    "alter_preis": "statt 2.29 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_laetta.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Frische Himbeeren Klasse I 125g",
-    "preis": "1.99 €",
-    "alter_preis": "Festpreis",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_himbeeren.jpeg"
   },
   {
     "markt_id": "edeka",
     "markt_name": "EDEKA",
     "produkt_name": "Ritter Sport Schokolade 100g",
     "preis": "0.99 €",
-    "alter_preis": "statt 1.11 €",
+    "alter_preis": "statt 1.49 €",
+    "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
     "bild": "edeka_rittersport.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Adelholzener Alpenquellen Schorle 12x0,75L",
-    "preis": "6.99 €",
-    "alter_preis": "statt 7.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_adelholzener.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Lavazza Caffè Crema / Bella Crema 1kg",
-    "preis": "13.99 €",
-    "alter_preis": "statt 14.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_lavazza.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Bertolli Olivenöl (versch. Sorten) 500ml",
-    "preis": "5.49 €",
-    "alter_preis": "statt 5.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_bertolli.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Landliebe Deutsche Markenbutter 250g",
-    "preis": "1.29 €",
-    "alter_preis": "statt 1.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_butter.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Frosta Fertiggerichte (versch. Sorten) 500g",
-    "preis": "2.29 €",
-    "alter_preis": "statt 2.59 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_frosta.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Knackige Bio-Gurke Stück",
-    "preis": "0.49 €",
-    "alter_preis": "statt 0.79 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_gurke.jpeg"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Original Wagner Steinofen Pizza / Flammkuchen",
-    "preis": "1.79 €",
-    "alter_preis": "statt 1.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "edeka_wagner.jpeg"
-  },
-  {
-    "markt_id": "baumarkt",
-    "markt_name": "Sonderpreis Baumarkt",
-    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
-    "preis": "4.99 €",
-    "alter_preis": "statt 7.49 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "baumarkt_schrauben.jpeg"
-  },
-  {
-    "markt_id": "baumarkt",
-    "markt_name": "Sonderpreis Baumarkt",
-    "produkt_name": "Profi Akku-Bohrschrauber 18V Set",
-    "preis": "39.99 €",
-    "alter_preis": "statt 49.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "baumarkt_bohrer.jpeg"
-  },
-  {
-    "markt_id": "rossmann",
-    "markt_name": "ROSSMANN",
-    "produkt_name": "Duschdas Duschgel Sport Doppelpack",
-    "preis": "0.99 €",
-    "alter_preis": "statt 1.59 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "rossmann_duschdas.jpeg"
-  },
-  {
-    "markt_id": "rossmann",
-    "markt_name": "ROSSMANN",
-    "produkt_name": "Ariel Vollwaschmittel XXL Pulver",
-    "preis": "14.99 €",
-    "alter_preis": "statt 19.99 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "rossmann_ariel.jpeg"
-  },
-  {
-    "markt_id": "penny",
-    "markt_name": "PENNY",
-    "produkt_name": "Müllermilch Schoko / Erdbeer 400ml",
-    "preis": "0.69 €",
-    "alter_preis": "statt 1.39 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "penny_muellermilch.jpeg"
   },
   {
     "markt_id": "netto",
@@ -185,16 +25,48 @@
     "produkt_name": "GUT & GÜNSTIG Deutsche Markenbutter",
     "preis": "1.69 €",
     "alter_preis": "statt 2.29 €",
+    "rabatt": "🔥 26% gespart!",
     "gueltigkeit": "Diese Woche",
     "bild": "netto_butter.jpeg"
   },
   {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko / Erdbeer 400ml",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €",
+    "rabatt": "🔥 50% gespart!",
+    "gueltigkeit": "Diese Woche",
+    "bild": "penny_muellermilch.jpeg"
+  },
+  {
+    "markt_id": "rossmann",
+    "markt_name": "ROSSMANN",
+    "produkt_name": "Ariel Vollwaschmittel XXL Pulver",
+    "preis": "14.99 €",
+    "alter_preis": "statt 19.99 €",
+    "rabatt": "🔥 25% gespart!",
+    "gueltigkeit": "Diese Woche",
+    "bild": "rossmann_ariel.jpeg"
+  },
+  {
     "markt_id": "fressnapf",
     "markt_name": "Fressnapf",
-    "produkt_name": "Premium Hundefutter Saftige Fleisch-Brocken 1kg",
+    "produkt_name": "Premium Hundefutter Fleisch-Brocken",
     "preis": "2.99 €",
     "alter_preis": "statt 3.99 €",
+    "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
     "bild": "fressnapf_hundefutter.jpeg"
+  },
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
+    "preis": "4.99 €",
+    "alter_preis": "statt 7.49 €",
+    "rabatt": "🔥 33% gespart!",
+    "gueltigkeit": "Diese Woche",
+    "bild": "baumarkt_schrauben.jpeg"
   }
 ]
