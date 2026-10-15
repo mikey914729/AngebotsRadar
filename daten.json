@@ -1,72 +1,65 @@
 [
   {
-    "name": "Bio-Bananen frisch (Premium)",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "EDEKA Wolnzach",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Sa.",
+    "markt_id": "edeka",
+    "markt_name": "EDEKA",
+    "produkt_name": "Frische Bio-Bananen (Costa Rica)",
     "preis": "1.99 €",
-    "alter_preis": "statt 2.49 €"
+    "alter_preis": "statt 2.49 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Garnelen pfannenfertig 250g",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "ALDI SÜD Wolnzach",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Sa.",
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Garnelen pfannenfertig 250g",
     "preis": "3.49 €",
-    "alter_preis": "statt 4.29 €"
+    "alter_preis": "statt 4.29 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Premium Hundefutter Saftige Brocken 1kg",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "Fressnapf Wolnzach-Umland",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Fr.",
+    "markt_id": "fressnapf",
+    "markt_name": "Fressnapf",
+    "produkt_name": "Premium Hundefutter Fleisch-Brocken",
     "preis": "2.99 €",
-    "alter_preis": "statt 3.99 €"
+    "alter_preis": "statt 3.99 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Duschdas Duschgel XXL Packung",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "ROSSMANN Drogerie",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Fr.",
+    "markt_id": "rossmann",
+    "markt_name": "ROSSMANN",
+    "produkt_name": "Duschdas Duschgel Sport Doppelpack",
     "preis": "0.99 €",
-    "alter_preis": "statt 1.59 €"
+    "alter_preis": "statt 1.59 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Holzschrauben Senkkopf 50er Set",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "Sonderpreis Baumarkt",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Fr.",
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Universal Holzschrauben 50er Set",
     "preis": "4.99 €",
-    "alter_preis": "statt 7.49 €"
+    "alter_preis": "statt 7.49 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Müllermilch verschiedene Sorten",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "PENNY Markt Wolnzach",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Sa.",
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko / Erdbeer",
     "preis": "0.69 €",
-    "alter_preis": "statt 1.39 €"
+    "alter_preis": "statt 1.39 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   },
   {
-    "name": "Original Wagner Steinofen Pizza",
-    "typ": "WOLNZACH DEAL",
-    "strasse": "Netto Marken-Discount",
-    "hausnummer": "",
-    "ort": "85283 Wolnzach",
-    "oeffnungszeiten": "Gültig bis: Sa.",
+    "markt_id": "netto",
+    "markt_name": "Netto",
+    "produkt_name": "Original Wagner Steinofen Pizza",
     "preis": "1.88 €",
-    "alter_preis": "statt 3.49 €"
+    "alter_preis": "statt 3.49 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "https://unsplash.com"
   }
 ]
