@@ -6,7 +6,7 @@
     "preis": "1.99 €",
     "alter_preis": "statt 2.49 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "aldi",
@@ -15,7 +15,7 @@
     "preis": "3.49 €",
     "alter_preis": "statt 4.29 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "fressnapf",
@@ -24,7 +24,7 @@
     "preis": "2.99 €",
     "alter_preis": "statt 3.99 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "rossmann",
@@ -33,7 +33,7 @@
     "preis": "0.99 €",
     "alter_preis": "statt 1.59 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "baumarkt",
@@ -42,7 +42,7 @@
     "preis": "4.99 €",
     "alter_preis": "statt 7.49 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "penny",
@@ -51,7 +51,7 @@
     "preis": "0.69 €",
     "alter_preis": "statt 1.39 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   },
   {
     "markt_id": "netto",
@@ -60,6 +60,6 @@
     "preis": "1.88 €",
     "alter_preis": "statt 3.49 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "https://unsplash.com"
+    "bild": "https://wikimedia.org"
   }
 ]
