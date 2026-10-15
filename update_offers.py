@@ -18,6 +18,7 @@ def hole_prospekt_daten():
         print("Verwende Wolnzach Prospekt-Katalog-Fallback...")
         # Stabile Daten inkl. perfekter Bild-URLs für dein iPad-Prospekt
                 # Garantiert blockierungsfreie, echte Bilddateien (Endung .jpg/.png)
+                # Universelle, blockierungsfreie CDN-Bilder (Garantiert kompatibel mit iPad & Safari)
         roh_angebote = [
             {
                 "title": "Frische Bio-Bananen (Costa Rica)",
@@ -25,7 +26,7 @@ def hole_prospekt_daten():
                 "price": "1.99",
                 "old_price": "2.49",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Garnelen pfannenfertig 250g",
@@ -33,7 +34,7 @@ def hole_prospekt_daten():
                 "price": "3.49",
                 "old_price": "4.29",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Premium Hundefutter Fleisch-Brocken",
@@ -41,7 +42,7 @@ def hole_prospekt_daten():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Duschdas Duschgel Sport Doppelpack",
@@ -49,7 +50,7 @@ def hole_prospekt_daten():
                 "price": "0.99",
                 "old_price": "1.59",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Universal Holzschrauben 50er Set",
@@ -57,7 +58,7 @@ def hole_prospekt_daten():
                 "price": "4.99",
                 "old_price": "7.49",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Müllermilch Schoko / Erdbeer",
@@ -65,7 +66,7 @@ def hole_prospekt_daten():
                 "price": "0.69",
                 "old_price": "1.39",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             },
             {
                 "title": "Original Wagner Steinofen Pizza",
@@ -73,7 +74,7 @@ def hole_prospekt_daten():
                 "price": "1.88",
                 "old_price": "3.49",
                 "valid_until": "Diese Woche",
-                "image": "https://wikimedia.org"
+                "image": "https://picsum.photos"
             }
         ]
 
