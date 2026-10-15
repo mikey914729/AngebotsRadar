@@ -26,9 +26,7 @@
 
     <script>
 // Ermittelt automatisch die richtige URL, egal ob lokal oder auf GitHub Pages
-const dataUrl = window.location.pathname.includes('AngebotsRadar') 
-    ? '/AngebotsRadar/daten.json' 
-    : 'daten.json';
+const dataUrl = './daten.json';
 
         async function ladeLiveDaten() {
             try {
