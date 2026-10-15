@@ -24,7 +24,7 @@ def hole_prospekt_daten():
                 "price": "1.99",
                 "old_price": "2.49",
                 "valid_until": "Diese Woche",
-                "image": "bananen.jpeg"
+                "image": "IMG_0190.jpeg"
             },
             {
                 "title": "Garnelen pfannenfertig 250g",
