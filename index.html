@@ -564,211 +564,147 @@
 
   </main>
 
-  <script>
 
-    const products = [
-
-      {name:"Äpfel",store:"Aldi",price:1.49,unit:1,
-
-       category:"Obst",emoji:"🍎",period:"Beispielzeitraum"},
-
-      {name:"Äpfel",store:"Lidl",price:1.29,unit:1,
-
-       category:"Obst",emoji:"🍎",period:"Beispielzeitraum"},
-
-      {name:"Mandarinen",store:"Penny",price:1.99,unit:1,
-
-       category:"Obst",emoji:"🍊",period:"Beispielzeitraum"},
-
-      {name:"Bananen",store:"Kaufland",price:1.19,unit:1,
-
-       category:"Obst",emoji:"🍌",period:"Beispielzeitraum"},
-
-      {name:"Karotten",store:"Netto",price:0.99,unit:1,
-
-       category:"Gemüse",emoji:"🥕",period:"Beispielzeitraum"},
-
-      {name:"Gurken",store:"Aldi",price:0.79,unit:1,
-
-       category:"Gemüse",emoji:"🥒",period:"Beispielzeitraum"},
-
-      {name:"Hähnchenbrust",store:"Lidl",price:7.99,unit:1,
-
-       category:"Fleisch",emoji:"🍗",period:"Beispielzeitraum"},
-
-      {name:"Rinderhackfleisch",store:"Kaufland",price:9.99,unit:1,
-
-       category:"Fleisch",emoji:"🥩",period:"Beispielzeitraum"},
-
-      {name:"Milch",store:"Penny",price:1.09,unit:1,
-
-       category:"Milchprodukte",emoji:"🥛",period:"Beispielzeitraum"},
-
-      {name:"Naturjoghurt",store:"Netto",price:0.79,unit:1,
-
-       category:"Milchprodukte",emoji:"🥣",period:"Beispielzeitraum"}
-
-    ];
-
-    let selectedStore = "Alle";
-
-    const saved = new Set();
-
-    const search = document.getElementById("search");
-
-    const category = document.getElementById("category");
-
-    const sort = document.getElementById("sort");
-
-    const list = document.getElementById("products");
-
-    const count = document.getElementById("count");
-
-    function money(value) {
-
-      return value.toLocaleString("de-DE", {
-
-        style:"currency", currency:"EUR"
-
-      });
-
-    }
-
-    function render() {
-
-      const query = search.value.trim().toLocaleLowerCase("de-DE");
-
-      let filtered = products.filter(p =>
-
-        p.name.toLocaleLowerCase("de-DE").includes(query) &&
-
-        (selectedStore === "Alle" || p.store === selectedStore) &&
-
-        (category.value === "Alle" || p.category === category.value)
-
-      );
-
-      if (sort.value === "name") {
-
-        filtered.sort((a,b) => a.name.localeCompare(b.name,"de"));
-
-      } else if (sort.value === "unit") {
-
-        filtered.sort((a,b) => a.price/a.unit - b.price/b.unit);
-
-      } else {
-
-        filtered.sort((a,b) => a.price - b.price);
-
-      }
-
-      count.textContent = filtered.length + " Treffer";
-
-      if (!filtered.length) {
-
-        list.innerHTML =
-
-          '<div class="empty">Keine passenden Produkte gefunden. ' +
-
-          'Versuche einen anderen Suchbegriff oder Filter.</div>';
-
-        return;
-
-      }
-
-      list.innerHTML = filtered.map(p => {
-
-        const key = p.name + "|" + p.store;
-
-        const isSaved = saved.has(key);
-
-        return `
-
-          <article class="product">
-
-            <div class="product-icon" aria-hidden="true">${p.emoji}</div>
-
-            <div>
-
-              <h3>${p.name}</h3>
-
-              <div class="meta">
-
-                ${p.store}<br>
-
-                Grundpreis: ${money(p.price/p.unit)}/kg bzw. Einheit<br>
-
-                ${p.period}
-
-              </div>
-
-              <button class="save ${isSaved ? "saved" : ""}"
-
-                data-key="${key}">
-
-                ${isSaved ? "♥ Gemerkt" : "♡ Merken"}
-
-              </button>
-
-            </div>
-
-            <div class="price">
-
-              <strong>${money(p.price)}</strong>
-
-              <small>Beispielpreis</small>
-
-            </div>
-
-          </article>`;
-
-      }).join("");
-
-      list.querySelectorAll(".save").forEach(button => {
-
-        button.addEventListener("click", () => {
-
-          const key = button.dataset.key;
-
-          if (saved.has(key)) saved.delete(key);
-
-          else saved.add(key);
-
-          render();
-
-        });
-
-      });
-
-    }
-
-    document.querySelectorAll(".store").forEach(button => {
-
-      button.addEventListener("click", () => {
-
-        selectedStore = button.dataset.store;
-
-        document.querySelectorAll(".store").forEach(b =>
-
-          b.classList.toggle("active", b === button)
-
-        );
-
-        render();
-
-      });
-
+<script>
+  let products = [];
+  let selectedStore = "Alle";
+  const saved = new Set();
+
+  const search = document.getElementById("search");
+  const category = document.getElementById("category");
+  const sort = document.getElementById("sort");
+  const list = document.getElementById("products");
+  const count = document.getElementById("count");
+
+  function money(value) {
+    return value.toLocaleString("de-DE", {
+      style: "currency",
+      currency: "EUR"
     });
+  }
 
-    search.addEventListener("input", render);
+  function render() {
+    const query = search.value.trim().toLocaleLowerCase("de-DE");
 
-    category.addEventListener("change", render);
+    let filtered = products.filter(p =>
+      p.name.toLocaleLowerCase("de-DE").includes(query) &&
+      (selectedStore === "Alle" || p.store === selectedStore) &&
+      (category.value === "Alle" || p.category === category.value)
+    );
 
-    sort.addEventListener("change", render);
+    if (sort.value === "name") {
+      filtered.sort((a, b) => a.name.localeCompare(b.name, "de"));
+    } else {
+      filtered.sort((a, b) => a.price - b.price);
+    }
 
-    render();
+    count.textContent = filtered.length + " Treffer";
 
-  </script>
+    if (!filtered.length) {
+      list.innerHTML =
+        '<div class="empty">Keine Angebote gefunden.</div>';
+      return;
+    }
+
+    list.innerHTML = filtered.map(p => {
+      const key = p.name + "|" + p.store;
+      const isSaved = saved.has(key);
+      const unitLabel = p.einheit === "L" ? "L" : "kg";
+      const unitPrice = p.grundpreis ??
+        (p.preis / p.menge);
+
+      return `
+        <article class="product">
+          <div class="product-icon">${p.emoji || "🛒"}</div>
+          <div>
+            <h3>${p.name}</h3>
+            <div class="meta">
+              ${p.store}<br>
+              Grundpreis: ${money(unitPrice)}/${unitLabel}<br>
+              ${p.period || "Zeitraum nicht bestätigt"}
+            </div>
+            <button class="save ${isSaved ? "saved" : ""}"
+              data-key="${key}">
+              ${isSaved ? "♥ Gemerkt" : "♡ Merken"}
+            </button>
+          </div>
+          <div class="price">
+            <strong>${money(p.price)}</strong>
+            <small>Demo-Preis</small>
+          </div>
+        </article>`;
+    }).join("");
+
+    list.querySelectorAll(".save").forEach(button => {
+      button.addEventListener("click", () => {
+        const key = button.dataset.key;
+        if (saved.has(key)) saved.delete(key);
+        else saved.add(key);
+        render();
+      });
+    });
+  }
+
+  document.querySelectorAll(".store").forEach(button => {
+    button.addEventListener("click", () => {
+      selectedStore = button.dataset.store;
+      document.querySelectorAll(".store").forEach(b =>
+        b.classList.toggle("active", b === button)
+      );
+      render();
+    });
+  });
+
+  search.addEventListener("input", render);
+  category.addEventListener("change", render);
+  sort.addEventListener("change", render);
+
+  async function loadOffers() {
+    list.innerHTML =
+      '<div class="empty">Angebote werden geladen …</div>';
+
+    try {
+      const response = await fetch("./daten.json");
+
+      if (!response.ok) {
+        throw new Error("Datendatei konnte nicht geladen werden.");
+      }
+
+      const data = await response.json();
+
+      products = data.angebote.map(p => ({
+        name: p.produkt,
+        store: p.haendler,
+        price: p.preis,
+        unit: p.menge,
+        einheit: p.einheit,
+        grundpreis: p.grundpreis,
+        category: p.kategorie,
+        emoji: ({
+          "Äpfel": "🍎",
+          "Mandarinen": "🍊",
+          "Karotten": "🥕",
+          "Hähnchenbrust": "🍗",
+          "Milch": "🥛"
+        })[p.produkt] || "🛒",
+        period: p.demo
+          ? "Nur Beispieldaten"
+          : "Angebotszeitraum prüfen"
+      }));
+
+      render();
+    } catch (error) {
+      list.innerHTML =
+        '<div class="empty">' +
+        'Die Datei daten.json konnte nicht geladen werden. ' +
+        'Bitte prüfe, ob sie im selben Repository-Ordner wie ' +
+        'index.html liegt und veröffentlicht wurde.</div>';
+      count.textContent = "Ladefehler";
+    }
+  }
+
+  loadOffers();
+</script>
 
 </body>
 
