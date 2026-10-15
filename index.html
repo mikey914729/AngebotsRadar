@@ -25,8 +25,10 @@
     </div>
 
     <script>
-        // Da alles auf GitHub Pages liegt, können wir die Datei direkt relativ laden
-        const dataUrl = '/AngebotsRadar/daten.json';
+// Ermittelt automatisch die richtige URL, egal ob lokal oder auf GitHub Pages
+const dataUrl = window.location.pathname.includes('AngebotsRadar') 
+    ? '/AngebotsRadar/daten.json' 
+    : 'daten.json';
 
         async function ladeLiveDaten() {
             try {
