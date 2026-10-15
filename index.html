@@ -63,11 +63,11 @@
     <!-- Hier werden die Prospektseiten aufgeschlagen -->
     <div class="prospekt-grid" id="prospekt-container"></div>
 
-    <        function baueProspektAnsicht(liste) {
+            function baueProspektAnsicht(liste) {
             const container = document.getElementById('prospekt-container');
             container.innerHTML = '';
 
-            if(liste.length === 0) {
+            if (liste.length === 0) {
                 container.innerHTML = '<p style="text-align:center; grid-column: 1/-1; color:#7f8c8d;">Für diesen Markt liegen aktuell keine Prospektangebote vor.</p>';
                 return;
             }
@@ -75,9 +75,10 @@
             liste.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'prospekt-card';
+                
+                // HIER WURDEN DIE BACKTICKS ( ` ) KORRIGIERT, DAMIT DER BROWSER DEN CODE ERKENNT:
                 card.innerHTML = `
                     <div class="image-container">
-                        <!-- Zeigt das Rabatt-Prozent-Schild an, wenn eines berechnet wurde -->
                         <span class="badge-deal">${item.rabatt ? item.rabatt : '% Aktion'}</span>
                         <img class="product-img" src="/AngebotsRadar/${item.bild}" alt="${item.produkt_name}"
                              onerror="this.src='https://unsplash.com';">
