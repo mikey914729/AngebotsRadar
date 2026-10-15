@@ -6,7 +6,7 @@
     "preis": "1.99 €",
     "alter_preis": "statt 2.49 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "IMG_0190.jpeg"
+    "bild": "bananen.jpeg"
   },
   {
     "markt_id": "aldi",
@@ -25,5 +25,41 @@
     "alter_preis": "statt 3.99 €",
     "gueltigkeit": "Diese Woche",
     "bild": "hundefutter.jpg"
+  },
+  {
+    "markt_id": "rossmann",
+    "markt_name": "ROSSMANN",
+    "produkt_name": "Duschdas Duschgel Sport Doppelpack",
+    "preis": "0.99 €",
+    "alter_preis": "statt 1.59 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "duschgel.jpg"
+  },
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Universal Holzschrauben 50er Set",
+    "preis": "4.99 €",
+    "alter_preis": "statt 7.49 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "schrauben.jpg"
+  },
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko / Erdbeer",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "milch.jpg"
+  },
+  {
+    "markt_id": "netto",
+    "markt_name": "Netto",
+    "produkt_name": "Original Wagner Steinofen Pizza",
+    "preis": "1.88 €",
+    "alter_preis": "statt 3.49 €",
+    "gueltigkeit": "Diese Woche",
+    "bild": "pizza.jpg"
   }
 ]
