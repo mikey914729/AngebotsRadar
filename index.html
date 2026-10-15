@@ -63,8 +63,8 @@
     <!-- Hier werden die Prospektseiten aufgeschlagen -->
     <div class="prospekt-grid" id="prospekt-container"></div>
 
-     <       function baueProspektAnsicht(liste) {
-            const container = document.getElementById('prospekt-container');
+        function baueProspektAnsicht(liste) {
+            var container = document.getElementById('prospekt-container');
             container.innerHTML = '';
 
             if (liste.length === 0) {
@@ -72,31 +72,33 @@
                 return;
             }
 
-            liste.forEach(item => {
-                const card = document.createElement('div');
+            liste.forEach(function(item) {
+                var card = document.createElement('div');
                 card.className = 'prospekt-card';
                 
-                // HIER WURDEN DIE BACKTICKS ( ` ) KORRIGIERT, DAMIT DER BROWSER DEN CODE ERKENNT:
-                card.innerHTML = `
-                    <div class="image-container">
-                        <span class="badge-deal">${item.rabatt ? item.rabatt : '% Aktion'}</span>
-                        <img class="product-img" src="/AngebotsRadar/${item.bild}" alt="${item.produkt_name}"
-                             onerror="this.src='https://unsplash.com';">
-                    </div>
-                    <div class="info-container">
-                        <div>
-                            <div class="market-label">📍 ${item.markt_name}</div>
-                            <div class="product-title">${item.produkt_name}</div>
-                        </div>
-                        <div>
-                            <div class="price-section">
-                                <div class="current-price">${item.preis}</div>
-                                <div class="old-price">${item.alter_preis}</div>
-                            </div>
-                            <div class="duration-tag">📅 ${item.gueltigkeit}</div>
-                        </div>
-                    </div>
-                `;
+                var rabattAnzeige = item.rabatt ? item.rabatt : '% Aktion';
+
+                // Hier nutzen wir jetzt die sichere Plus-Methode (keine Backticks mehr!)
+                card.innerHTML = 
+                    '<div class="image-container">' +
+                        '<span class="badge-deal">' + rabattAnzeige + '</span>' +
+                        '<img class="product-img" src="/AngebotsRadar/' + item.bild + '" alt="' + item.produkt_name + '" ' +
+                             'onerror="this.src=\'https://unsplash.com\';">' +
+                    </div>' +
+                    '<div class="info-container">' +
+                        '<div>' +
+                            '<div class="market-label">📍 ' + item.markt_name + '</div>' +
+                            '<div class="product-title">' + item.produkt_name + '</div>' +
+                        '</div>' +
+                        '<div>' +
+                            '<div class="price-section">' +
+                                '<div class="current-price">' + item.preis + '</div>' +
+                                '<div class="old-price">' + item.alter_preis + '</div>' +
+                            '</div>' +
+                            '<div class="duration-tag">📅 ' + item.gueltigkeit + '</div>' +
+                        '</div>' +
+                    '</div>';
+
                 container.appendChild(card);
             });
         }
