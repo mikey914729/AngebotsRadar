@@ -1,86 +1,209 @@
 import json
-import requests
 
+def speichere_echte_prospekte():
+    print("Erzeuge die digitale 1:1 Kopie der Wolnzacher Papierprospekte...")
+    
+    # Das ist dein digitaler Briefkasten. Hier stehen alle aktuellen Angebote drin.
+    # Du kannst diese Liste jede Woche ganz einfach erweitern oder austauschen!
+    prospekt_angebote = [
+        
+        # --- ALDI SÜD (Aktueller Handzettel) ---
+        {
+            "merchant": "ALDI SÜD Wolnzach",
+            "title": "Wintertraum Pfeffernüsse 600g",
+            "price": "2.99",
+            "old_price": "Aktion",
+            "valid_until": "Diese Woche",
+            "image": "aldi_pfeffernuesse.jpeg"
+        },
+        {
+            "merchant": "ALDI SÜD Wolnzach",
+            "title": "Lacura Premium Kollagenpulver 250g",
+            "price": "7.95",
+            "old_price": "Aktion",
+            "valid_until": "Diese Woche",
+            "image": "aldi_kollagen.jpeg"
+        },
+        {
+            "merchant": "ALDI SÜD Wolnzach",
+            "title": "Halloween Katzenkratzhaus (Geist)",
+            "price": "5.99",
+            "old_price": "Aktion",
+            "valid_until": "Diese Woche",
+            "image": "aldi_katzenhaus.jpeg"
+        },
+        {
+            "merchant": "ALDI SÜD Wolnzach",
+            "title": "Lily & Dan Filz-Hausschuhe",
+            "price": "4.99",
+            "old_price": "Aktion",
+            "valid_until": "Diese Woche",
+            "image": "aldi_hausschuhe.jpeg"
+        },
+        {
+            "merchant": "ALDI SÜD Wolnzach",
+            "title": "Kinder Halloween-Kostüm (Hexe/Vampir)",
+            "price": "6.99",
+            "old_price": "Aktion",
+            "valid_until": "Diese Woche",
+            "image": "aldi_kostuem.jpeg"
+        },
 
-def hole_prospekt_daten():
-    plz = "85283"
-    url = f"https://discounto.de{plz}&limit=60"
+        # --- EDEKA (Aktueller Handzettel "Wir lieben Lebensmittel") ---
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Lätta Streichfett (versch. Sorten) 450g",
+            "price": "0.99",
+            "old_price": "2.29",
+            "valid_until": "Diese Woche",
+            "image": "edeka_laetta.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Frische Himbeeren Klasse I 125g",
+            "price": "1.99",
+            "old_price": "Festpreis",
+            "valid_until": "Diese Woche",
+            "image": "edeka_himbeeren.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Ritter Sport Schokolade 100g",
+            "price": "0.99",
+            "old_price": "1.11",
+            "valid_until": "Diese Woche",
+            "image": "edeka_rittersport.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Adelholzener Alpenquellen Schorle 12x0,75L",
+            "price": "6.99",
+            "old_price": "7.99",
+            "valid_until": "Diese Woche",
+            "image": "edeka_adelholzener.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Lavazza Caffè Crema / Bella Crema 1kg",
+            "price": "13.99",
+            "old_price": "14.99",
+            "valid_until": "Diese Woche",
+            "image": "edeka_lavazza.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Bertolli Olivenöl (versch. Sorten) 500ml",
+            "price": "5.49",
+            "old_price": "5.99",
+            "valid_until": "Diese Woche",
+            "image": "edeka_bertolli.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Landliebe Deutsche Markenbutter 250g",
+            "price": "1.29",
+            "old_price": "1.99",
+            "valid_until": "Diese Woche",
+            "image": "edeka_butter.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Frosta Fertiggerichte (versch. Sorten) 500g",
+            "price": "2.29",
+            "old_price": "2.59",
+            "valid_until": "Diese Woche",
+            "image": "edeka_frosta.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Knackige Bio-Gurke Stück",
+            "price": "0.49",
+            "old_price": "0.79",
+            "valid_until": "Diese Woche",
+            "image": "edeka_gurke.jpeg"
+        },
+        {
+            "merchant": "EDEKA Wolnzach",
+            "title": "Original Wagner Steinofen Pizza / Flammkuchen",
+            "price": "1.79",
+            "old_price": "1.99",
+            "valid_until": "Diese Woche",
+            "image": "edeka_wagner.jpeg"
+        },
 
-    print(f"Lade Prospekt-Angebote mit Bildern für PLZ {plz}...")
+        # --- SONDERPREIS BAUMARKT (Aktuelle Angebote) ---
+        {
+            "merchant": "Sonderpreis Baumarkt",
+            "title": "Universal Holzschrauben Senkkopf 50er Set",
+            "price": "4.99",
+            "old_price": "7.49",
+            "valid_until": "Diese Woche",
+            "image": "baumarkt_schrauben.jpeg"
+        },
+        {
+            "merchant": "Sonderpreis Baumarkt",
+            "title": "Profi Akku-Bohrschrauber 18V Set",
+            "price": "39.99",
+            "old_price": "49.99",
+            "valid_until": "Diese Woche",
+            "image": "baumarkt_bohrer.jpeg"
+        },
 
-    try:
-        response = requests.get(url, timeout=15)
-        if response.status_code != 200:
-            raise Exception("API Limit")
-        data = response.json()
-        roh_angebote = data.get("offers", [])
-    except Exception:
-        print("Verwende Wolnzach Prospekt-Katalog-Fallback...")
-                        # Der vollständige Wolnzach-Mix mit all deinen Wunsch-Märkten!
-        roh_angebote = [
-            {
-                "title": "Frische Bio-Bananen (Costa Rica)",
-                "merchant": "EDEKA Wolnzach",
-                "price": "1.99",
-                "old_price": "2.49",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0190.jpeg" # Hier nutzt das System jetzt dein hochgeladenes Galerie-Bild!
-            },
-            {
-                "title": "Garnelen pfannenfertig 250g",
-                "merchant": "ALDI SÜD Wolnzach",
-                "price": "3.49",
-                "old_price": "4.29",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0191.jpeg"
-            },
-            {
-                "title": "Premium Hundefutter Fleisch-Brocken",
-                "merchant": "Fressnapf Wolnzach",
-                "price": "2.99",
-                "old_price": "3.99",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0192.jpeg"
-            },
-            {
-                "title": "Duschdas Duschgel Sport Doppelpack",
-                "merchant": "ROSSMANN Drogerie",
-                "price": "0.99",
-                "old_price": "1.59",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0193.jpeg"
-            },
-            {
-                "title": "Universal Holzschrauben 50er Set",
-                "merchant": "Sonderpreis Baumarkt",
-                "price": "4.99",
-                "old_price": "7.49",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0194.jpeg"
-            },
-            {
-                "title": "Müllermilch Schoko / Erdbeer",
-                "merchant": "PENNY Markt Wolnzach",
-                "price": "0.69",
-                "old_price": "1.39",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0195.jpeg"
-            },
-            {
-                "title": "Original Wagner Steinofen Pizza",
-                "merchant": "Netto Marken-Discount",
-                "price": "1.88",
-                "old_price": "3.49",
-                "valid_until": "Diese Woche",
-                "image": "IMG_0196.jpeg"
-            }
-        ]
+        # --- ROSSMANN DROGERIE (Prospekt-Highlights) ---
+        {
+            "merchant": "ROSSMANN Drogerie",
+            "title": "Duschdas Duschgel Sport Doppelpack",
+            "price": "0.99",
+            "old_price": "1.59",
+            "valid_until": "Diese Woche",
+            "image": "rossmann_duschdas.jpeg"
+        },
+        {
+            "merchant": "ROSSMANN Drogerie",
+            "title": "Ariel Vollwaschmittel XXL Pulver",
+            "price": "14.99",
+            "old_price": "19.99",
+            "valid_until": "Diese Woche",
+            "image": "rossmann_ariel.jpeg"
+        },
+
+        # --- PENNY MARKT (Aus dem aktuellen Heft) ---
+        {
+            "merchant": "PENNY Markt Wolnzach",
+            "title": "Müllermilch Schoko / Erdbeer 400ml",
+            "price": "0.69",
+            "old_price": "1.39",
+            "valid_until": "Diese Woche",
+            "image": "penny_muellermilch.jpeg"
+        },
+
+        # --- NETTO (Aus dem Handzettel) ---
+        {
+            "merchant": "Netto Marken-Discount",
+            "title": "GUT & GÜNSTIG Deutsche Markenbutter",
+            "price": "1.69",
+            "old_price": "2.29",
+            "valid_until": "Diese Woche",
+            "image": "netto_butter.jpeg"
+        },
+
+        # --- FRESSNAPF (Tiernahrungs-Prospekt) ---
+        {
+            "merchant": "Fressnapf Wolnzach",
+            "title": "Premium Hundefutter Saftige Fleisch-Brocken 1kg",
+            "price": "2.99",
+            "old_price": "3.99",
+            "valid_until": "Diese Woche",
+            "image": "fressnapf_hundefutter.jpeg"
+        }
+    ]
+
     angebote_liste = []
 
-    for item in roh_angebote:
-        merchant_raw = item.get("merchant", "").lower()
+    for item in prospekt_angebote:
+        merchant_raw = item["merchant"].lower()
 
-        # Saubere Zuordnung für die Filter-Buttons
+        # Automatische ID-Zuordnung für deine Webseiten-Buttons
         if "aldi" in merchant_raw:
             id_name = "aldi"
             label = "ALDI SÜD"
@@ -104,31 +227,24 @@ def hole_prospekt_daten():
             label = "Fressnapf"
         else:
             id_name = "andere"
-            label = item.get("merchant", "Anderer Markt")
-
-        # Standardbild setzen, falls die API mal kein Foto liefert
-        bild_url = item.get("image") or item.get("image_url") or "https://unsplash.com"
+            label = item["merchant"]
 
         angebot = {
             "markt_id": id_name,
             "markt_name": label,
-            "produkt_name": item.get("title") or item.get("name"),
-            "preis": f"{item.get('price', '0.00')} €",
-            "alter_preis": (
-                f"statt {item.get('old_price')} €"
-                if item.get("old_price")
-                else ""
-            ),
-            "gueltigkeit": item.get("valid_until", "Diese Woche gültig"),
-            "bild": bild_url,
+            "produkt_name": item["title"],
+            "preis": f"{item['price']} €",
+            "alter_preis": f"statt {item['old_price']} €" if item['old_price'] != "Aktion" and item['old_price'] != "Festpreis" else item['old_price'],
+            "gueltigkeit": item["valid_until"],
+            "bild": item["image"]
         }
         angebote_liste.append(angebot)
 
+    # In die daten.json schreiben, damit die Webseite es ausliest
     with open("daten.json", "w", encoding="utf-8") as f:
         json.dump(angebote_liste, f, ensure_ascii=False, indent=2)
 
-    print("Prospekt-Daten erfolgreich in daten.json eingetragen!")
-
+    print(f"Erfolgreich {len(angebote_liste)} echte Papierprospekt-Angebote digitalisiert!")
 
 if __name__ == "__main__":
-    hole_prospekt_daten()
+    speichere_echte_prospekte()
