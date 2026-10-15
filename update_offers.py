@@ -16,7 +16,7 @@ def hole_prospekt_daten():
         roh_angebote = data.get("offers", [])
     except Exception:
         print("Verwende Wolnzach Prospekt-Katalog-Fallback...")
-                # Lokale Bildpfade, die direkt aus deinem eigenen Repository geladen werden
+                        # Der vollständige Wolnzach-Mix mit all deinen Wunsch-Märkten!
         roh_angebote = [
             {
                 "title": "Frische Bio-Bananen (Costa Rica)",
@@ -24,7 +24,7 @@ def hole_prospekt_daten():
                 "price": "1.99",
                 "old_price": "2.49",
                 "valid_until": "Diese Woche",
-                "image": "IMG_0190.jpeg"
+                "image": "bananen.jpeg" # Hier nutzt das System jetzt dein hochgeladenes Galerie-Bild!
             },
             {
                 "title": "Garnelen pfannenfertig 250g",
@@ -41,6 +41,38 @@ def hole_prospekt_daten():
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
                 "image": "hundefutter.jpg"
+            },
+            {
+                "title": "Duschdas Duschgel Sport Doppelpack",
+                "merchant": "ROSSMANN Drogerie",
+                "price": "0.99",
+                "old_price": "1.59",
+                "valid_until": "Diese Woche",
+                "image": "duschgel.jpg"
+            },
+            {
+                "title": "Universal Holzschrauben 50er Set",
+                "merchant": "Sonderpreis Baumarkt",
+                "price": "4.99",
+                "old_price": "7.49",
+                "valid_until": "Diese Woche",
+                "image": "schrauben.jpg" # Sobald du ein Schrauben-Foto hochlädst, benenne es so!
+            },
+            {
+                "title": "Müllermilch Schoko / Erdbeer",
+                "merchant": "PENNY Markt Wolnzach",
+                "price": "0.69",
+                "old_price": "1.39",
+                "valid_until": "Diese Woche",
+                "image": "milch.jpg"
+            },
+            {
+                "title": "Original Wagner Steinofen Pizza",
+                "merchant": "Netto Marken-Discount",
+                "price": "1.88",
+                "old_price": "3.49",
+                "valid_until": "Diese Woche",
+                "image": "pizza.jpg"
             }
         ]
     angebote_liste = []
