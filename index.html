@@ -84,7 +84,7 @@
             }
         }
 
-        function baueProspektAnsicht(liste) {
+                function baueProspektAnsicht(liste) {
             const container = document.getElementById('prospekt-container');
             container.innerHTML = '';
 
@@ -99,7 +99,8 @@
                 card.innerHTML = `
                     <div class="image-container">
                         <span class="badge-deal">% Aktion</span>
-                        <img class="product-img" src="${item.bild}" alt="${item.produkt_name}" onerror="this.src='https://unsplash.com'">
+                        <!-- Sauberer, direkter Bildaufruf ohne blockierende Fehler-Skripte -->
+                        <img class="product-img" src="${item.bild}" alt="${item.produkt_name}">
                     </div>
                     <div class="info-container">
                         <div>
