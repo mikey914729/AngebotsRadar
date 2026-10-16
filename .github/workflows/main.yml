@@ -1,37 +1,35 @@
 name: ProspektBot
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 1 * * 1' # Läuft automatisch jeden Montag um 01:00 Uhr nachts
-  workflow_dispatch: # Das schaltet den grauen Button für den manuellen Start frei!
+    - cron: '0 6 * * *' # Startet automatisch jeden Tag um 06:00 Uhr
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Repository auschecken
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-python-version: '3.10'
+    - name: Python einrichten
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests pypdf
+    - name: Abhängigkeiten installieren
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run multi-market pipeline
-         - run: python update_offers.py
+    - name: Multi-Markt-Pipeline ausführen
+      run: python3 update_offers.py
 
-    - run: python update_offers.py
-
-    - name: Commit and Push Changes
+    - name: Änderungen speichern und pushen
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
-        git add daten_aldi.json daten.json || echo "Keine Dateien zum Hinzufügen"
+        git add daten_aldi.json daten.json || echo "Keine Dateien vorhanden"
         git commit -m "Update Aldi Angebote aus PDF" || echo "Keine Änderungen zum Committen"
         git push origin main
