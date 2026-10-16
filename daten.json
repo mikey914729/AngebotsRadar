@@ -2,31 +2,31 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Äpfel süß-säuerlich 1kg",
+    "produkt_name": "Frische Kulturäpfel Klasse I",
     "preis": "1.59 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "Diese Woche",
+    "gueltigkeit": "KW 42",
     "bild": "apple"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Speisekartoffeln 2,5 kg",
+    "produkt_name": "Speisekartoffeln vorwiegend festkochend",
     "preis": "2.49 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "Diese Woche",
+    "gueltigkeit": "KW 42",
     "bild": "potato"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Norwegische Lachsfiletportionen 500 g",
+    "produkt_name": "Frisches Lachsfilet mit Haut",
     "preis": "7.49 €",
     "alter_preis": "statt 9.49 €",
     "rabatt": "🔥 AKTION",
-    "gueltigkeit": "Diese Woche",
+    "gueltigkeit": "KW 42",
     "bild": "fish"
   },
   {
@@ -36,7 +36,7 @@
     "preis": "12.99 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "Diese Woche",
+    "gueltigkeit": "KW 42",
     "bild": "milkshake"
   },
   {
