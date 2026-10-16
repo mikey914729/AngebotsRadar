@@ -37,7 +37,7 @@
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "fish"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -47,7 +47,7 @@
     "alter_preis": "2,19 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "fish"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -55,26 +55,6 @@
     "produkt_name": "Stremellachs",
     "preis": "17,52 €",
     "alter_preis": "3,29 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "fish"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Hintergrund KI-generiert",
-    "preis": "16,10 €",
-    "alter_preis": "12,10 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "BIO-QUALITÄT GÜNSTIG FESTLICHE DEKO ZU AMERIKA-KLASSIKER",
-    "preis": "1,99 €",
-    "alter_preis": "1,39 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -212,7 +192,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Ursprung Deutschland/Niederlande Dein Bio-Händler Nr. 1 2",
+    "produkt_name": "Speisezwiebeln, gelb",
     "preis": "0,86 €",
     "alter_preis": "",
     "rabatt": "",
@@ -252,27 +232,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ZUM",
-    "preis": "0,33 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "ZUM",
-    "preis": "0,89 €",
-    "alter_preis": "0,33 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "-62  750-g-Glas",
+    "produkt_name": "Nutella",
     "preis": "5,32 €",
     "alter_preis": "",
     "rabatt": "",
@@ -282,7 +242,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-62  750-g-Glas",
+    "produkt_name": "Nutella",
     "preis": "3,99 €",
     "alter_preis": "5,32 €",
     "rabatt": "",
@@ -292,7 +252,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-62  750-g-Glas",
+    "produkt_name": "Nutella",
     "preis": "5,79 €",
     "alter_preis": "3,99 €",
     "rabatt": "",
@@ -412,29 +372,19 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "62 Riegel 172-g-",
+    "produkt_name": "FERRERO",
     "preis": "14,48 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "62 Riegel 172-g-",
+    "produkt_name": "MÖVENPICK",
     "preis": "1,69 €",
     "alter_preis": "14,48 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "chocolate"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Eis-Schale",
-    "preis": "2,49 €",
-    "alter_preis": "1,69 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -472,7 +422,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 325-ml-Glas",
+    "produkt_name": "Versch. Sorten",
     "preis": "4,28 €",
     "alter_preis": "",
     "rabatt": "",
@@ -482,7 +432,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 325-ml-Glas",
+    "produkt_name": "Versch. Sorten",
     "preis": "1,39 €",
     "alter_preis": "4,28 €",
     "rabatt": "",
@@ -492,7 +442,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 325-ml-Glas",
+    "produkt_name": "Versch. Sorten",
     "preis": "1,99 €",
     "alter_preis": "1,39 €",
     "rabatt": "",
@@ -512,17 +462,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mild 3,8  Fett 400-g-",
-    "preis": "2,39 €",
-    "alter_preis": "1,98 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "-20  Traditionell fermen-",
+    "produkt_name": "Proteinreich",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -552,9 +492,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "NUR NUR NATUR Versch. Sorten je 150-g-",
+    "produkt_name": "NUR NUR NATUR",
     "preis": "13,27 €",
-    "alter_preis": "",
+    "alter_preis": "0,99 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -562,37 +502,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 360-g-",
-    "preis": "2,47 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 360-g-",
-    "preis": "1,99 €",
-    "alter_preis": "2,47 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 360-g-",
-    "preis": "0,89 €",
-    "alter_preis": "1,99 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 360-g-",
+    "produkt_name": "Mind. 4 Monate gereift",
     "preis": "2,39 €",
     "alter_preis": "0,89 €",
     "rabatt": "",
@@ -612,27 +522,27 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "100  Direktsaft",
+    "produkt_name": "Äpfel vom Bodensee Weichkäse",
     "preis": "0,75 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "milkshake"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "100  Direktsaft",
+    "produkt_name": "Äpfel vom Bodensee Weichkäse",
     "preis": "14,95 €",
     "alter_preis": "2,12 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "milkshake"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-20  -18",
+    "produkt_name": "Äpfel vom Bodensee Weichkäse",
     "preis": "2,99 €",
     "alter_preis": "1,59 €",
     "rabatt": "",
@@ -662,7 +572,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KI-generiert",
+    "produkt_name": "NUR NUR NATUR Abtropfgewicht",
     "preis": "9,39 €",
     "alter_preis": "",
     "rabatt": "",
@@ -672,37 +582,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Weizen-Sauerteig-",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Weizen-Sauerteig-",
-    "preis": "0,35 €",
-    "alter_preis": "1,69 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Weizen-Sauerteig-",
-    "preis": "2,19 €",
-    "alter_preis": "0,35 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Weizen-Sauerteig-",
+    "produkt_name": "Nur in  NUR NUR NATUR",
     "preis": "0,49 €",
     "alter_preis": "2,19 €",
     "rabatt": "",
@@ -712,7 +592,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mehrmals täglich Filialen2 Bio-Roggen- 670-g-Glas Abtropfgewicht",
+    "produkt_name": "BACKWELT NUR NUR NATUR",
     "preis": "5,97 €",
     "alter_preis": "",
     "rabatt": "",
@@ -782,7 +662,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Dinkel-Spaghetti Sozialrichtlinien.",
+    "produkt_name": "NUR NUR NATUR Weltweit einheitliche",
     "preis": "1,45 €",
     "alter_preis": "2,22 €",
     "rabatt": "",
@@ -792,7 +672,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "330-g-Glas Abtropfgewicht",
+    "produkt_name": "Mit Weißweinessig",
     "preis": "3,63 €",
     "alter_preis": "",
     "rabatt": "",
@@ -802,7 +682,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "330-g-Glas Abtropfgewicht",
+    "produkt_name": "Mit Weißweinessig",
     "preis": "3,14 €",
     "alter_preis": "3,63 €",
     "rabatt": "",
@@ -812,19 +692,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "FRISCHFLEISCH -27",
+    "produkt_name": "NUR NUR NATUR",
     "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "FRISCHFLEISCH -27",
-    "preis": "0,69 €",
-    "alter_preis": "4,99 €",
+    "alter_preis": "3,14 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -882,7 +752,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KI-generiert",
+    "produkt_name": "Bio  W eitere Informationen unter",
     "preis": "7,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -892,27 +762,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-13  Lachsfilet-Portionen",
-    "preis": "9,49 €",
-    "alter_preis": "3,29 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "fish"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Hamburger",
-    "preis": "3,79 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "XXL",
+    "produkt_name": "UTES",
     "preis": "7,19 €",
     "alter_preis": "",
     "rabatt": "",
@@ -972,16 +822,6 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mit Paprika-Putenhackfleisch-",
-    "preis": "5,49 €",
-    "alter_preis": "6,10 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
     "produkt_name": "Mo. .  Sa. .",
     "preis": "17,10 €",
     "alter_preis": "12,10 €",
@@ -992,7 +832,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "WOCHEN- Dinkel-Sandwich",
+    "produkt_name": "GOLDÄHREN",
     "preis": "2,11 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1062,7 +902,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Am Stück 400-g-",
+    "produkt_name": "MILSANI",
     "preis": "5,98 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1072,29 +912,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Am Stück 400-g-",
+    "produkt_name": "MILSANI",
     "preis": "1,49 €",
     "alter_preis": "5,98 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Am Stück 400-g-",
-    "preis": "2,19 €",
-    "alter_preis": "1,49 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Am Stück 400-g-",
-    "preis": "2,39 €",
-    "alter_preis": "2,19 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -1112,7 +932,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-32  -26",
+    "produkt_name": "Versch. Sorten",
     "preis": "1,95 €",
     "alter_preis": "1,69 €",
     "rabatt": "",
@@ -1122,7 +942,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-32  -26",
+    "produkt_name": "Versch. Sorten",
     "preis": "2,65 €",
     "alter_preis": "2,49 €",
     "rabatt": "",
@@ -1202,27 +1022,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Knusper-Schoklis",
-    "preis": "2,29 €",
-    "alter_preis": "7,16 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Knusper-Schoklis",
-    "preis": "1,39 €",
-    "alter_preis": "7,16 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "9 x 23,5 g",
+    "produkt_name": "Milk & Crisp",
     "preis": "7,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1232,19 +1032,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "9 x 23,5 g",
+    "produkt_name": "Milk & Crisp",
     "preis": "1,69 €",
     "alter_preis": "7,99 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "9 x 23,5 g",
-    "preis": "1,99 €",
-    "alter_preis": "1,69 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -1262,7 +1052,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten 3 x 20 g",
+    "produkt_name": "WELCHER",
     "preis": "2,19 €",
     "alter_preis": "28,17 €",
     "rabatt": "",
@@ -1272,7 +1062,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Glas TEAM-TEST",
+    "produkt_name": "Gold 1 STARTE DEN",
     "preis": "20,75 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1292,7 +1082,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Spaß in den Berufsalltag. Welcher Team-Typ du bist",
+    "produkt_name": "ist immer Verlass und einige bringen die Extraportion",
     "preis": "5,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1407,7 +1197,7 @@
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -1417,7 +1207,7 @@
     "alter_preis": "8,76 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -1452,7 +1242,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Elisen-Lebkuchen Feines",
+    "produkt_name": "Nürnberger WINTERTRAUM",
     "preis": "19,97 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1492,7 +1282,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Rumkugeln KI-generiert",
+    "produkt_name": "WINTERTRAUM",
     "preis": "6,95 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1507,7 +1297,7 @@
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -1517,12 +1307,12 @@
     "alter_preis": "9,39 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "produkt_name": "WINTERTRAUM",
     "preis": "5,98 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1532,7 +1322,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "produkt_name": "WINTERTRAUM",
     "preis": "4,98 €",
     "alter_preis": "5,98 €",
     "rabatt": "",
@@ -1542,7 +1332,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "produkt_name": "WINTERTRAUM",
     "preis": "18,32 €",
     "alter_preis": "4,98 €",
     "rabatt": "",
@@ -1572,27 +1362,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Mini-Elisen-Lebkuchen",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Mini-Elisen-Lebkuchen",
-    "preis": "28,60 €",
-    "alter_preis": "2,49 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "produkt_name": "oder Aachener spritzgebäck,",
     "preis": "27,92 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1602,7 +1372,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "produkt_name": "oder Aachener spritzgebäck,",
     "preis": "26,00 €",
     "alter_preis": "27,92 €",
     "rabatt": "",
@@ -1612,7 +1382,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "produkt_name": "oder Aachener spritzgebäck,",
     "preis": "17,09 €",
     "alter_preis": "23,92 €",
     "rabatt": "",
@@ -1632,7 +1402,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "läufer 120 x 30 cm",
+    "produkt_name": "Tischläufer",
     "preis": "3,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1642,7 +1412,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Effekt 2er-Set",
+    "produkt_name": "4,5 oder 6 Std.",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1652,7 +1422,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Weitere spülmaschinen- und",
+    "produkt_name": "antihaftbeschichtete",
     "preis": "6,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1662,38 +1432,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Volumen 450, 443",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "6er-Set",
+    "produkt_name": "Stück",
     "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "CROFTON Hexenhut-Lichterkette",
-    "preis": "9,99 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Wahl zwischen Steckbaustein-",
-    "preis": "9,99 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
@@ -1752,7 +1492,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "100  Polyester",
+    "produkt_name": "Squishee",
     "preis": "3,99 €",
     "alter_preis": "4,99 €",
     "rabatt": "",
@@ -1762,17 +1502,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "2er-Set Größen 2129 je Paar",
-    "preis": "4,99 €",
-    "alter_preis": "2,99 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "170 x 130 cm Kissen",
+    "produkt_name": "Maße Decke",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1832,7 +1562,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Benzstr. 1 48683 Ahaus",
+    "produkt_name": "MULTINORM PharCoNa GmbH",
     "preis": "2,95 €",
     "alter_preis": "6,99 €",
     "rabatt": "",
@@ -1852,7 +1582,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Medizinprodukt versch. mittel1 je 150 Tablet-",
+    "produkt_name": "Wärmepads",
     "preis": "17,88 €",
     "alter_preis": "26,34 €",
     "rabatt": "",
@@ -1882,7 +1612,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Chrysanthemen-",
+    "produkt_name": "Halspastillen Herbstliche",
     "preis": "4,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -1952,7 +1682,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "2er-Set",
+    "produkt_name": "Abschaltung nach 6 Std.",
     "preis": "7,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2002,16 +1732,6 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "rabheizsuA rabheizsuA lichen Längen auszieh- inkl. Batterien",
-    "preis": "3,99 €",
-    "alter_preis": "7,99 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
     "produkt_name": "Farbe",
     "preis": "4,99 €",
     "alter_preis": "",
@@ -2022,7 +1742,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "LED-Lese- oder Buchleuchte",
+    "produkt_name": "CASALUX",
     "preis": "6,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2032,7 +1752,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-Rätselbuch Journal oder Gefühlstagebuch",
+    "produkt_name": "bare Leuchte in Buchform zum Aufstellen",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2072,7 +1792,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "mit Memory-Schaum",
+    "produkt_name": "Ergonomischer Sitzkomfort",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2092,7 +1812,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "3-fach-Eck-Steckdosenleiste",
+    "produkt_name": "WORKZONE",
     "preis": "12,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2102,9 +1822,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mit USB-A- und USB-C-Ausgängen zum",
+    "produkt_name": "WORKZONE",
     "preis": "5,99 €",
-    "alter_preis": "",
+    "alter_preis": "12,99 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -2172,7 +1892,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "100  Polyester",
+    "produkt_name": "Versch. Modelle handschuhe",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2222,7 +1942,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "4er-Set",
+    "produkt_name": "Abwischbar",
     "preis": "7,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2242,7 +1962,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ca. 26 x 30 cm und Alu-",
+    "produkt_name": "ca. 25 cm mit Bügel,",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2252,7 +1972,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "per Knopfdruck 4er-Set",
+    "produkt_name": "Stufenlos ausziehbar",
     "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2272,7 +1992,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "8er-Set",
+    "produkt_name": "stoffpinsel, 1 Rührstab",
     "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2342,7 +2062,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Original-Feta",
+    "produkt_name": "Ganze Bohnen",
     "preis": "13,27 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2354,7 +2074,7 @@
     "markt_name": "ALDI SÜD",
     "produkt_name": "GRATIS",
     "preis": "1,99 €",
-    "alter_preis": "",
+    "alter_preis": "13,27 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -2402,7 +2122,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mini-",
+    "produkt_name": "Joghurt",
     "preis": "2,99 €",
     "alter_preis": "1,78 €",
     "rabatt": "",
@@ -2412,7 +2132,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Netz",
+    "produkt_name": "10 x 20 g",
     "preis": "14,95 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2432,27 +2152,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "8-kg-Karton -25",
-    "preis": "8,24 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "8-kg-Karton -25",
-    "preis": "65,94 €",
-    "alter_preis": "8,24 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "8-kg-Karton -25",
+    "produkt_name": "Quarkig   1",
     "preis": "10,99 €",
     "alter_preis": "1,69 €",
     "rabatt": "",
@@ -2462,32 +2162,22 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Röstzwiebeln 12  Saftgehalt",
+    "produkt_name": "AMERICAN Orangina",
     "preis": "7,93 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "milkshake"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Röstzwiebeln 12  Saftgehalt",
+    "produkt_name": "AMERICAN Orangina",
     "preis": "1,98 €",
     "alter_preis": "7,93 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "milkshake"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Röstzwiebeln 12  Saftgehalt",
-    "preis": "0,25 €",
-    "alter_preis": "1,98 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "milkshake"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -2522,7 +2212,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 200-g-Tube",
+    "produkt_name": "Versch. Sorten",
     "preis": "5,95 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2532,19 +2222,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Hot-Dog-",
+    "produkt_name": "AMERICAN",
     "preis": "1,19 €",
     "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Hot-Dog-",
-    "preis": "2,99 €",
-    "alter_preis": "1,19 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -2562,7 +2242,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "17  vol. je 0,5-",
+    "produkt_name": "Lebkuchen",
     "preis": "14,27 €",
     "alter_preis": "19,98 €",
     "rabatt": "",
@@ -2582,7 +2262,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Stuffed 1-2-3 Frites",
+    "produkt_name": "Frites oder",
     "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2592,7 +2272,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Stuffed 1-2-3 Frites",
+    "produkt_name": "Frites oder",
     "preis": "1,99 €",
     "alter_preis": "3,49 €",
     "rabatt": "",
@@ -2612,19 +2292,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "B B Q - M a r in a d e  P re i s 9 . 9 7 , 8 .6 6 , 1 8 0 - g - P a c k u ng",
+    "produkt_name": "Versch. Sorten je",
     "preis": "8,51 €",
     "alter_preis": "8,55 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "B B Q - M a r in a d e  P re i s 9 . 9 7 , 8 .6 6 , 1 8 0 - g - P a c k u ng",
-    "preis": "8,28 €",
-    "alter_preis": "4,91 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -2722,16 +2392,6 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Schoko-Lollies Knoppers Minis",
-    "preis": "9,05 €",
-    "alter_preis": "9,93 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "chocolate"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
     "produkt_name": "Halloween",
     "preis": "11,63 €",
     "alter_preis": "",
@@ -2742,7 +2402,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "XXL",
+    "produkt_name": "Aromatisierte",
     "preis": "1,69 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2752,17 +2412,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "XXL",
-    "preis": "16,90 €",
-    "alter_preis": "1,69 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "600-g-Dose",
+    "produkt_name": "Hariween",
     "preis": "8,32 €",
     "alter_preis": "",
     "rabatt": "",
@@ -2772,7 +2422,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "34. 9 P r o t e i n - C h ips",
+    "produkt_name": "Halloween",
     "preis": "4,49 €",
     "alter_preis": "1,79 €",
     "rabatt": "",
@@ -2862,9 +2512,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "500-ml-Tiegel ab",
+    "produkt_name": "HIGHLIGHT",
     "preis": "12,98 €",
-    "alter_preis": "",
+    "alter_preis": "6,49 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -3062,7 +2712,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gewürz- Kokosmakronen",
+    "produkt_name": "WINTERTRAUM WINTERTRAUM",
     "preis": "7,45 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3072,7 +2722,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gewürz- Kokosmakronen",
+    "produkt_name": "WINTERTRAUM WINTERTRAUM",
     "preis": "2,82 €",
     "alter_preis": "7,45 €",
     "rabatt": "",
@@ -3082,7 +2732,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gewürz- Kokosmakronen",
+    "produkt_name": "WINTERTRAUM WINTERTRAUM",
     "preis": "1,69 €",
     "alter_preis": "2,82 €",
     "rabatt": "",
@@ -3122,7 +2772,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mandel-Spekulatius WINTERTRAUM",
+    "produkt_name": "WINTERTRAUM",
     "preis": "6,63 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3172,7 +2822,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 200-g-",
+    "produkt_name": "S E G E B A",
     "preis": "9,95 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3182,7 +2832,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 200-g-",
+    "produkt_name": "S E G E B A",
     "preis": "1,99 €",
     "alter_preis": "1,79 €",
     "rabatt": "",
@@ -3192,12 +2842,12 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Schokoladen-Kränze",
+    "produkt_name": "WINTERTRAUM",
     "preis": "8,95 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -3232,8 +2882,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mini-Stollen",
-    "preis": "8,95 €",
+    "produkt_name": "T E S C H",
+    "preis": "7,96 €",
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
@@ -3332,7 +2982,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Milch-Mäuse Knusper Freunde",
+    "produkt_name": "CHOCEUR",
     "preis": "11,94 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3347,7 +2997,7 @@
     "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -3357,7 +3007,7 @@
     "alter_preis": "10,47 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
-    "bild": "chocolate"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
@@ -3412,7 +3062,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mini-Kuchen",
+    "produkt_name": "MEINE KUCHENWELT",
     "preis": "6,76 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3422,7 +3072,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 160-",
+    "produkt_name": "CHOCEUR",
     "preis": "11,06 €",
     "alter_preis": "12,44 €",
     "rabatt": "",
@@ -3432,7 +3082,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 160-",
+    "produkt_name": "CHOCEUR",
     "preis": "1,99 €",
     "alter_preis": "12,44 €",
     "rabatt": "",
@@ -3442,19 +3092,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch. Sorten je 160-",
+    "produkt_name": "MEINE KUCHENWELT",
     "preis": "1,99 €",
     "alter_preis": "1,99 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Mini-Hefeschnecken",
-    "preis": "6,63 €",
-    "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -3482,7 +3122,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "12  vol.",
+    "produkt_name": "Genuss",
     "preis": "7,13 €",
     "alter_preis": "",
     "rabatt": "",
@@ -3492,7 +3132,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "12  vol.",
+    "produkt_name": "Genuss",
     "preis": "4,99 €",
     "alter_preis": "7,13 €",
     "rabatt": "",
@@ -3502,9 +3142,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Schnittkäse",
-    "preis": "13,27 €",
-    "alter_preis": "",
+    "produkt_name": "Points",
+    "preis": "1,99 €",
+    "alter_preis": "13,27 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -3512,9 +3152,9 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Bio-Schnittkäse",
-    "preis": "1,99 €",
-    "alter_preis": "13,27 €",
+    "produkt_name": "S E G E B",
+    "preis": "17,99 €",
+    "alter_preis": "",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
@@ -3545,16 +3185,6 @@
     "produkt_name": "Versch. Sorten Frankreich",
     "preis": "4,99 €",
     "alter_preis": "1,29 €",
-    "rabatt": "",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Do. .  Sa. 3.",
-    "preis": "31,10 €",
-    "alter_preis": "1,10 €",
     "rabatt": "",
     "gueltigkeit": "KW 42",
     "bild": "default"
