@@ -26,9 +26,10 @@ jobs:
       - name: Run multi-market pipeline
         run: python update_offers.py
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add daten.json daten_*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Live-Prospekt-Datenbank vollautomatisch aktualisiert" && git push)
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add daten_aldi.json daten.json
+        git commit -m "Update Aldi Angebote aus PDF" || echo "Keine Änderungen"
+        git push
