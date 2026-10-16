@@ -24,12 +24,14 @@ jobs:
           pip install requests pypdf
 
       - name: Run multi-market pipeline
-        run: python update_offers.py
+         - run: python update_offers.py
 
-         - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@://github.com"
-          git add daten_aldi.json daten.json || echo "Keine Dateien zum Hinzufügen"
-          git commit -m "Update Aldi Angebote aus PDF" || echo "Keine Änderungen zum Committen"
-          git push origin main
+    - run: python update_offers.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@://github.com"
+        git add daten_aldi.json daten.json || echo "Keine Dateien zum Hinzufügen"
+        git commit -m "Update Aldi Angebote aus PDF" || echo "Keine Änderungen zum Committen"
+        git push origin main
