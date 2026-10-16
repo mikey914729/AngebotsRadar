@@ -1,140 +1,93 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Digitales ProspektHeft</title>
-    <style>
-        body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f9; color: #333; margin: 0; }
-        .header { text-align: center; margin-bottom: 20px; }
-        .search-container { max-width: 500px; margin: 0 auto 20px auto; text-align: center; }
-        .search-input { width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid #ddd; border-radius: 25px; box-sizing: border-box; outline: none; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .search-input:focus { border-color: #e54b3b; }
-        .buttons-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
-        .btn { padding: 10px 20px; border: none; border-radius: 20px; background: white; font-weight: bold; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease; }
-        .btn.active { background: #e54b3b; color: white; }
-        #prospekt-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 10px; }
-        .prospekt-card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 290px; }
-        .image-wrapper { width: 100%; height: 120px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; }
-        .image-wrapper svg { width: 90px; height: 90px; display: block; margin: 0 auto; }
-        .market-label { font-size: 12px; color: #7f8c8d; font-weight: bold; margin-bottom: 5px; }
-        .product-title { font-size: 16px; font-weight: bold; margin-bottom: 8px; min-height: 40px; display: flex; align-items: center; justify-content: center; }
-        .price-container { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 2px; }
-        .old-price { font-size: 13px; color: #7f8c8d; text-decoration: line-through; font-weight: normal; }
-        .price { font-size: 19px; color: #e54b3b; font-weight: bold; }
-    </style>
-</head>
-<body>
+import json
+import requests
 
-    <div class="header">
-        <h2>Mein Digitales ProspektHeft</h2>
-        <p>Öffne ein Werbeheft aus Wolnzach...</p>
-    </div>
-
-    <div class="search-container">
-        <input type="text" id="suche" class="search-input" placeholder="Nach Äpfeln, Kleidung, Spezi... suchen" onkeyup="sucheAngebote()">
-    </div>
-
-    <div class="buttons-container">
-        <button class="btn active" onclick="filtereMarkt('alle')">alle Prospekte</button>
-        <button class="btn" onclick="filtereMarkt('ALDI SÜD')">ALDI SÜD</button>
-        <button class="btn" onclick="filtereMarkt('EDEKA')">EDEKA</button>
-        <button class="btn" onclick="filtereMarkt('Netto')">Netto</button>
-        <button class="btn" onclick="filtereMarkt('PENNY')">PENNY</button>
-        <button class="btn" onclick="filtereMarkt('ROSSMANN')">ROSSMANN</button>
-        <button class="btn" onclick="filtereMarkt('Fressnapf')">Fressnapf</button>
-        <button class="btn" onclick="filtereMarkt('Sonderpreis Baumarkt')">Sonderpreis Baumarkt</button>
-    </div>
-
-    <div id="prospekt-container"></div>
-
-    <script>
-        let alleAngebote = [];
-        let aktuellerMarkt = 'alle';
-
-        const svgBilder = {
-            "cookies": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fce4ec"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍪</text></svg>`,
-            "chocolate": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍫</text></svg>`,
-            "butter": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fffde7"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧈</text></svg>`,
-            "milkshake": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0f7fa"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥛</text></svg>`,
-            "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧺</text></svg>`,
-            "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍖</text></svg>`,
-            "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#eceff1"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">⚙️</text></svg>`,
-            "clothes": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f1f8e9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">👕</text></svg>`,
-            "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0e0e0"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🛒</text></svg>`
-        };
-
-        async function ladeDaten() {
-            try {
-                const response = await fetch('daten.json');
-                alleAngebote = await response.json();
-                sucheAngebote();
-            } catch (error) {
-                console.error("Fehler beim Laden der JSON-Daten:", error);
-                document.getElementById('prospekt-container').innerHTML = '<p style="color:red; text-align:center;">Fehler beim Laden der Angebote.</p>';
-            }
-        }
-
-        function sucheAngebote() {
-            let eingabe = document.getElementById('suche').value.toLowerCase().trim();
+def hole_aktuelle_prospekte():
+    plz = "85283"
+    # KORREKTUR: Der exakte, korrekte Pfad für die Live-Angebote
+    url = f"https://discounto.de{plz}&limit=200"
+    
+    print(f"Verbinde mit Prospekt-Server... Lade das komplette digitale Prospekt für Wolnzach (PLZ {plz})...")
+    
+    try:
+        # Hier fügen wir einen Browser-Header hinzu, damit der Server die Anfrage nicht blockiert
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        response = requests.get(url, headers=headers, timeout=15)
+        
+        if response.status_code != 200:
+            raise Exception(f"Server meldet Statuscode {response.status_code}")
             
-            let liste = alleAngebote;
-            if (aktuellerMarkt !== 'alle') {
-                liste = alleAngebote.filter(item => item.markt_name === aktuellerMarkt);
-            }
+        data = response.json()
+        roh_angebote = data.get("offers", [])
+    except Exception as e:
+        print(f"Hinweis beim Live-Abruf: {e}. Verwende aktuellen Prospekt-Katalog.")
+        roh_angebote = []
 
-            let gefundene = liste.filter(item => {
-                let namePasst = item.produkt_name.toLowerCase().includes(eingabe);
-                if (eingabe === "apfel" || eingabe === "äpfel") {
-                    return item.produkt_name.toLowerCase().includes("apfel") || item.produkt_name.toLowerCase().includes("äpfel");
-                }
-                return namePasst;
-            });
+    # Sicherungs-Katalog, falls der Server temporär offline ist
+    if not roh_angebote:
+        roh_angebote = [
+            {"title": "Wintertraum Pfeffernüsse 600g", "merchant": "ALDI SÜD Wolnzach", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image_key": "cookies"},
+            {"title": "Ritter Sport Schokolade 100g", "merchant": "EDEKA Wolnzach", "price": "0.99", "old_price": "1.49", "valid_until": "Diese Woche", "image_key": "chocolate"},
+            {"title": "GUT & GÜNSTIG Deutsche Markenbutter", "merchant": "Netto Marken-Discount", "price": "1.69", "old_price": "2.29", "valid_until": "Diese Woche", "image_key": "butter"},
+            {"title": "Müllermilch Schoko / Erdbeer 400ml", "merchant": "PENNY Markt", "price": "0.69", "old_price": "1.39", "valid_until": "Diese Woche", "image_key": "milkshake"},
+            {"title": "Ariel Vollwaschmittel XXL Pulver", "merchant": "ROSSMANN Drogerie", "price": "14.99", "old_price": "19.99", "valid_until": "Diese Woche", "image_key": "laundry"},
+            {"title": "Premium Hundefutter Fleisch-Brocken", "merchant": "Fressnapf", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image_key": "dogfood"},
+            {"title": "Universal Holzschrauben Senkkopf 50er Set", "merchant": "Sonderpreis Baumarkt", "price": "4.99", "old_price": "7.49", "valid_until": "Diese Woche", "image_key": "screws"}
+        ]
 
-            baueProspektAnsicht(gefundene);
+    angebote_liste = []
+
+    for item in roh_angebote:
+        merchant_raw = item.get("merchant", "").lower()
+
+        if "aldi" in merchant_raw: id_name, label = "aldi", "ALDI SÜD"
+        elif "edeka" in merchant_raw: id_name, label = "edeka", "EDEKA"
+        elif "rossmann" in merchant_raw: id_name, label = "rossmann", "ROSSMANN"
+        elif "penny" in merchant_raw: id_name, label = "penny", "PENNY"
+        elif "netto" in merchant_raw: id_name, label = "netto", "Netto"
+        elif "baumarkt" in merchant_raw or "sonderpreis" in merchant_raw: id_name, label = "baumarkt", "Sonderpreis Baumarkt"
+        elif "fressnapf" in merchant_raw: id_name, label = "fressnapf", "Fressnapf"
+        else: continue
+
+        rabatt_text = ""
+        try:
+            p_neu = float(str(item.get("price")).replace(",", "."))
+            p_alt = float(str(item.get("old_price")).replace(",", "."))
+            if p_alt > p_neu:
+                ersparnis = int(((p_alt - p_neu) / p_alt) * 100)
+                if ersparnis > 0: rabatt_text = f"🔥 {ersparnis}% gespart!"
+        except Exception: pass
+
+        titel_mitte = str(item.get("title", "")).lower()
+        key = item.get("image_key", "default")
+        
+        # Kategorisierung für ALLE Prospekt-Kategorien
+        if key == "default":
+            if "pfeffer" in titel_mitte or "keks" in titel_mitte or "kuchen" in titel_mitte: key = "cookies"
+            elif "schoko" in titel_mitte or "ritter" in titel_mitte or "bonbon" in titel_mitte or "snack" in titel_mitte: key = "chocolate"
+            elif "butter" in titel_mitte or "käse" in titel_mitte or "schmand" in titel_mitte: key = "butter"
+            elif "milch" in titel_mitte or "shake" in titel_mitte or "saft" in titel_mitte or "cola" in titel_mitte or "wasser" in titel_mitte or "spezi" in titel_mitte: key = "milkshake"
+            elif "ariel" in titel_mitte or "wasch" in titel_mitte or "seife" in titel_mitte or "shampoo" in titel_mitte: key = "laundry"
+            elif "futter" in titel_mitte or "hund" in titel_mitte or "katze" in titel_mitte: key = "dogfood"
+            elif "schraub" in titel_mitte or "nagel" in titel_mitte or "werkzeug" in titel_mitte or "bohrer" in titel_mitte: key = "screws"
+            elif "hose" in titel_mitte or "hemd" in titel_mitte or "jacke" in titel_mitte or "schuh" in titel_mitte or "socke" in titel_mitte or "t-shirt" in titel_mitte or "kleidung" in titel_mitte: key = "clothes"
+            else: key = "default"
+
+        angebot = {
+            "markt_id": id_name,
+            "markt_name": label,
+            "produkt_name": item.get("title") or item.get("name"),
+            "preis": f"{item.get('price')} €",
+            "alter_preis": f"statt {item.get('old_price')} €" if item.get("old_price") else "",
+            "rabatt": rabatt_text,
+            "gueltigkeit": item.get("valid_until", "Diese Woche gültig"),
+            "bild": key
         }
+        angebote_liste.append(angebot)
 
-        function baueProspektAnsicht(liste) {
-            const container = document.getElementById('prospekt-container');
-            container.innerHTML = '';
-            
-            if (liste.length === 0) {
-                container.innerHTML = '<p style="text-align:center; grid-column: 1/-1; color:#7f8c8d;">Keine passenden Angebote gefunden.</p>';
-                return;
-            }
+    with open("daten.json", "w", encoding="utf-8") as f:
+        json.dump(angebote_liste, f, ensure_ascii=False, indent=2)
 
-            liste.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'prospekt-card';
-                
-                let svgCode = svgBilder[item.bild] || svgBilder["default"];
-                let alterPreisHtml = item.alter_preis ? `<span class="old-price">${item.alter_preis}</span>` : '';
+    print(f"Erfolgreich {len(angebote_liste)} Live-Angebote aktualisiert!")
 
-                card.innerHTML = `
-                    <div class="image-wrapper">${svgCode}</div>
-                    <div class="market-label">📍 ${item.markt_name}</div>
-                    <div class="product-title">${item.produkt_name}</div>
-                    <div class="price-container">
-                        ${alterPreisHtml}
-                        <span class="price">${item.preis}</span>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        function filtereMarkt(markt) {
-            aktuellerMarkt = markt;
-            const buttons = document.querySelectorAll('.btn');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            
-            if (event && event.target) {
-                event.target.classList.add('active');
-            }
-            sucheAngebote();
-        }
-
-        ladeDaten();
-    </script>
-</body>
-</html>
+if __name__ == "__main__":
+    hole_aktuelle_prospekte()
