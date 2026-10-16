@@ -5,34 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mein Digitales ProspektHeft</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; background: #000000; color: #ffffff; margin: 0; }
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f9; color: #333; margin: 0; }
         .header { text-align: center; margin-bottom: 20px; }
         .search-container { max-width: 500px; margin: 0 auto 20px auto; text-align: center; }
-        .search-input { width: 100%; padding: 12px 20px; font-size: 16px; border: 1px solid #3a3a3c; border-radius: 25px; box-sizing: border-box; background: #1c1c1e; color: #ffffff; outline: none; }
-        .search-input:focus { border-color: #0a84ff; }
+        .search-input { width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid #ddd; border-radius: 25px; box-sizing: border-box; outline: none; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .search-input:focus { border-color: #e54b3b; }
         .buttons-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
-        .btn { padding: 10px 20px; border: 1px solid #2c2c2e; border-radius: 20px; background: #1c1c1e; color: #ffffff; font-weight: bold; cursor: pointer; }
-        .btn.active { background: #ffffff; color: #000000; border-color: #ffffff; }
+        .btn { padding: 10px 20px; border: none; border-radius: 20px; background: white; font-weight: bold; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease; }
+        .btn.active { background: #e54b3b; color: white; }
         #prospekt-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 10px; }
-        .prospekt-card { background: #1c1c1e; padding: 15px; border-radius: 12px; border: 1px solid #2c2c2e; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 290px; }
+        .prospekt-card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 290px; }
+        
         .image-wrapper { width: 100%; height: 120px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; }
         .image-wrapper svg { width: 90px; height: 90px; display: block; margin: 0 auto; }
-        .market-label { font-size: 12px; color: #8e8e93; font-weight: bold; margin-bottom: 5px; }
-        .product-title { font-size: 16px; font-weight: bold; margin-bottom: 8px; min-height: 40px; display: flex; align-items: center; justify-content: center; color: #ffffff; }
+        
+        .market-label { font-size: 12px; color: #7f8c8d; font-weight: bold; margin-bottom: 5px; }
+        .product-title { font-size: 16px; font-weight: bold; margin-bottom: 8px; min-height: 40px; display: flex; align-items: center; justify-content: center; }
+        
         .price-container { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 2px; }
-        .old-price { font-size: 13px; color: #8e8e93; text-decoration: line-through; font-weight: normal; }
-        .price { font-size: 19px; color: #30d158; font-weight: bold; }
+        .old-price { font-size: 13px; color: #7f8c8d; text-decoration: line-through; font-weight: normal; }
+        .price { font-size: 19px; color: #e54b3b; font-weight: bold; }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h2>Prospekte</h2>
-        <p>Angebote aus Wolnzach (85283)</p>
+        <h2>Mein Digitales ProspektHeft</h2>
+        <p>Öffne ein Werbeheft aus Wolnzach...</p>
     </div>
 
     <div class="search-container">
-        <input type="text" id="suche" class="search-input" placeholder="Nach Produkten suchen..." onkeyup="sucheAngebote()">
+        <input type="text" id="suche" class="search-input" placeholder="Nach Äpfeln, Schokolade, Spezi... suchen" onkeyup="sucheAngebote()">
     </div>
 
     <div class="buttons-container">
@@ -53,20 +56,20 @@
         let aktuellerMarkt = 'alle';
 
         const svgBilder = {
-            "apple": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#2c1414"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍎</text></svg>`,
-            "potato": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#2c2514"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥔</text></svg>`,
-            "fish": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#14222c"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🐟</text></svg>`,
-            "lemon": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#2c2c14"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍋</text></svg>`,
-            "onion": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#24142c"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧅</text></svg>`,
-            "cookies": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#2c1420"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍪</text></svg>`,
-            "chocolate": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#231b15"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍫</text></svg>`,
-            "butter": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#2a2c14"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧈</text></svg>`,
-            "milkshake": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#142c2c"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥛</text></svg>`,
-            "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#22142c"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧺</text></svg>`,
-            "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#231b15"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍖</text></svg>`,
-            "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#1f2426"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">⚙️</text></svg>`,
+            "apple": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#ffebee"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍎</text></svg>`,
+            "potato": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fff8e1"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥔</text></svg>`,
+            "fish": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e1f5fe"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🐟</text></svg>`,
+            "lemon": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fffde7"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍋</text></svg>`,
+            "onion": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧅</text></svg>`,
+            "cookies": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fce4ec"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍪</text></svg>`,
+            "chocolate": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍫</text></svg>`,
+            "butter": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fffde7"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧈</text></svg>`,
+            "milkshake": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0f7fa"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥛</text></svg>`,
+            "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧺</text></svg>`,
+            "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍖</text></svg>`,
+            "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#eceff1"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">⚙️</text></svg>`,
             "clothes": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#192c14"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">👕</text></svg>`,
-            "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#222222"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🛒</text></svg>`
+            "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0e0e0"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🛒</text></svg>`
         };
 
         async function ladeDaten() {
@@ -102,7 +105,7 @@
             container.innerHTML = '';
             
             if (liste.length === 0) {
-                container.innerHTML = '<p style="text-align:center; grid-column: 1/-1; color:#8e8e93; margin-top: 30px;">Keine Angebote gefunden.</p>';
+                container.innerHTML = '<p style="text-align:center; grid-column: 1/-1; color:#7f8c8d; margin-top: 30px;">Keine Angebote gefunden.</p>';
                 return;
             }
 
