@@ -51,7 +51,6 @@ def hole_aktuelle_prospekte():
                 if ersparnis > 0: rabatt_text = f"🔥 {ersparnis}% gespart!"
         except Exception: pass
 
-        # Automatische Erkennung des Bild-Keys basierend auf dem Namen für Live-Daten
         titel_mitte = str(item.get("title", "")).lower()
         key = item.get("image_key", "default")
         
