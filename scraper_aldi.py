@@ -2,47 +2,23 @@ import json
 import re
 import pdfplumber
 
-def ist_farbe_rot(non_stroking_color):
-    """Prüft, ob die Textfarbe im Prospekt im roten Bereich liegt."""
-    if not non_stroking_color:
-        return False
-        
-    # Fall 1: RGB-Farbraum (Werte zwischen 0 und 1)
-    if len(non_stroking_color) == 3:
-        r, g, b = non_stroking_color
-        # Rot muss deutlich dominieren gegenüber Grün und Blau
-        return r > 0.6 and g < 0.3 and b < 0.3
-        
-    # Fall 2: CMYK-Farbraum (Oft bei Druck-PDFs genutzt)
-    if len(non_stroking_color) == 4:
-        c, m, y, k = non_stroking_color
-        # Magenta und Yellow müssen hoch sein, Cyan niedrig (ergibt Rot/Orange)
-        return c < 0.2 and m > 0.7 and y > 0.7
-        
-    return False
-
 def aldi_pdf_profi_scanner():
-    print("=== START: REINIGUNGS-SCANNER V8 (FARB- & LAYOUT-ANALYSE) ===")
+    print("=== START: REINIGUNGS-SCANNER V11 (ALLE PRODUKTE ZURÜCK) ===")
     neue_liste = []
     
-    # Erlaubte Produktwörter zur finalen Absicherung
-    erlaubte_kategorien = [
-        "kostüm", "kugeln", "deko", "led", "apfel", "äpfel", "lachs", "fisch", 
-        "kartoffel", "pommes", "spezi", "limo", "cola", "wasser", "bier", "wein", 
-        "schoko", "riegel", "snack", "keks", "bonbon", "haribo", "milka", "hose", 
-        "hemd", "jacke", "schuh", "socke", "t-shirt", "jeans", "pullover", "fleisch",
-        "wurst", "käse", "milch", "butter", "joghurt", "brot", "brötchen", "ei", "eier"
+    # Diese Begriffe werden mitten aus dem Namen herausgelöscht, damit der Name sauber wird
+    muell_woerter = [
+        "l-preis", "l-flasche", "ml-flasche", "flasche", "vol", "sorten", "frankreich",
+        "italien", "deutschland", "kg-preis", "best-preis", "stückpreis", "grundpreis", 
+        "je stück", "je kg", "aktion", "ab mo", "ab do", "sparpotenzial", "dauerhaft", "die preise"
     ]
-    
-    blacklist = ["kg-preis", "best-preis", "stückpreis", "grundpreis", "je stück", "je kg", "aktion", "ab mo", "ab do"]
 
     try:
         with pdfplumber.open("aldi.pdf") as pdf:
-            print(f"-> {len(pdf.pages)} Seiten werden farblich analysiert...")
+            print(f"-> {len(pdf.pages)} Seiten werden analysiert...")
             
             for page in pdf.pages:
-                # Wichtig: Wir fordern die erweiterten Eigenschaften (wie Farbe) an
-                words = page.extract_words(extra_attrs=["non_stroking_color"])
+                words = page.extract_words()
                 if not words: continue
                 
                 preis_liste = []
@@ -50,20 +26,12 @@ def aldi_pdf_profi_scanner():
                 
                 for w in words:
                     t_clean = w["text"].strip()
-                    farbe = w.get("non_stroking_color")
-                    
-                    # 1. HÄRTESTER FILTER: Such nach Preisen mit PUNKT
+                    # Such nach Preisen mit PUNKT
                     if re.search(r'^\d+\.\d{2}$', t_clean):
-                        # 2. ZUSATZ-FILTER: Ist die Zahl im Prospekt ROT gedruckt?
-                        if ist_farbe_rot(farbe):
-                            preis_liste.append(w)
-                        else:
-                            # Wenn sie nicht rot ist, behandeln wir sie als normalen Text (z.B. alter Preis)
-                            text_liste.append(w)
+                        preis_liste.append(w)
                     else:
                         text_liste.append(w)
                 
-                # Räumliche Zuordnung der Produkte zum roten Punkt-Preis
                 for p in preis_liste:
                     preis_zahl = p["text"]
                     px = (p["x0"] + p["x1"]) / 2
@@ -75,33 +43,42 @@ def aldi_pdf_profi_scanner():
                         ty = t["top"]
                         
                         abstand = ((px - tx)**2 + (py - ty)**2)**0.5
-                        # Ein Produktname steht nah dran und meist direkt über/neben dem Preis
-                        if abstand < 120 and ty < py + 15: 
+                        # Suchradius, um den Namen über/neben dem Preis zu greifen
+                        if abstand < 130 and ty < py + 15: 
                             nahe_woerter.append((abstand, t))
                     
                     if nahe_woerter:
-                        nahe_woerter.sort(key=lambda x: x[0])
-                        treffer_objekte = [item[1] for item in nahe_woerter[:4]]
+                        nahe_woerter.sort(key=lambda x: x)
+                        # Wir nehmen die nahesten Textbausteine
+                        treffer_objekte = [item for item in nahe_woerter[:5]]
                         treffer_objekte.sort(key=lambda x: x["x0"])
                         
                         roher_name = " ".join([o["text"] for o in treffer_objekte]).strip()
-                        roher_name_clean = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', roher_name).strip()
                         
-                        t_lower = roher_name_clean.lower()
+                        # BEREINIGUNG: Wir löschen den Müll direkt aus dem Text-String
+                        name_clean = roher_name
+                        for mw in muell_woerter:
+                            # Ersetzt das Müllwort unabhängig von Groß-/Kleinschreibung
+                            name_clean = re.sub(re.escape(mw), "", name_clean, flags=re.IGNORECASE)
                         
-                        # Abgleich mit der Erlaubt-Liste
-                        ist_wichtiges_produkt = any(wort in t_lower for wort in erlaubte_kategorien)
-                        enthält_muell = any(mü in t_lower for mü in blacklist)
+                        # Reine Zahlenkolonnen (wie 2399, 713) herauslöschen
+                        name_clean = re.sub(r'\b\d{3,4}\b', "", name_clean)
                         
-                        if not ist_wichtiges_produkt or enthält_muell or len(roher_name_clean) < 3:
+                        # Doppelte Leerzeichen und Sonderzeichen entfernen
+                        name_clean = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', name_clean)
+                        name_clean = re.sub(r'\s+', ' ', name_clean).strip()
+                        
+                        # Wenn nach der Reinigung noch ein echter Text übrig bleibt, nehmen wir ihn!
+                        if len(name_clean) < 3:
                             continue
                         
+                        t_lower = name_clean.lower()
                         key = "apple" if "apfel" in t_lower else "fish" if "fisch" in t_lower else "chocolate" if "schoko" in t_lower else "default"
                         
                         neue_liste.append({
                             "markt_id": "aldi",
                             "markt_name": "ALDI SÜD",
-                            "produkt_name": roher_name_clean,
+                            "produkt_name": name_clean,
                             "preis": f"{preis_zahl.replace('.', ',')} €",
                             "alter_preis": "",
                             "rabatt": "",
@@ -109,9 +86,9 @@ def aldi_pdf_profi_scanner():
                             "bild": key
                         })
                         
-        print(f"=== ENDE: {len(neue_liste)} ECHTE rote Aktionsprodukte extrahiert! ===")
+        print(f"=== ENDE: {len(neue_liste)} Produkte erfolgreich geladen! ===")
     except Exception as e:
-        print(f"Fehler bei Farbanalyse: {e}")
+        print(f"Fehler: {e}")
 
     with open("daten_aldi.json", "w", encoding="utf-8") as f:
         json.dump(neue_liste, f, ensure_ascii=False, indent=2)
