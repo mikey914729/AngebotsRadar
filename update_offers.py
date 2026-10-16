@@ -17,7 +17,8 @@ def hole_aktuelle_prospekte():
         print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
         roh_angebote = []
 
-    # Alternative, blockadesichere Bildlinks direkt aus freien Enzyklopädie-Datenbanken (Wikimedia)
+    # Diese speziellen Daten-Links enthalten das Bild direkt als Textcode.
+    # Da kein Server im Internet aufgerufen wird, kann kein Werbeblocker das Bild blockieren!
     if not roh_angebote:
         roh_angebote = [
             {
@@ -26,7 +27,7 @@ def hole_aktuelle_prospekte():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fce4ec'/><text y='60' x='20' font-size='40'>🍪</text></svg>"
             },
             {
                 "title": "Ritter Sport Schokolade 100g",
@@ -34,7 +35,7 @@ def hole_aktuelle_prospekte():
                 "price": "0.99",
                 "old_price": "1.49",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍫</text></svg>"
             },
             {
                 "title": "GUT & GÜNSTIG Deutsche Markenbutter",
@@ -42,7 +43,7 @@ def hole_aktuelle_prospekte():
                 "price": "1.69",
                 "old_price": "2.29",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fffde7'/><text y='60' x='20' font-size='40'>🧈</text></svg>"
             },
             {
                 "title": "Müllermilch Schoko / Erdbeer 400ml",
@@ -50,7 +51,7 @@ def hole_aktuelle_prospekte():
                 "price": "0.69",
                 "old_price": "1.39",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e0f7fa'/><text y='60' x='20' font-size='40'>🥛</text></svg>"
             },
             {
                 "title": "Ariel Vollwaschmittel XXL Pulver",
@@ -58,7 +59,7 @@ def hole_aktuelle_prospekte():
                 "price": "14.99",
                 "old_price": "19.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f3e5f5'/><text y='60' x='20' font-size='40'>🧺</text></svg>"
             },
             {
                 "title": "Premium Hundefutter Fleisch-Brocken",
@@ -66,7 +67,7 @@ def hole_aktuelle_prospekte():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍖</text></svg>"
             },
             {
                 "title": "Universal Holzschrauben Senkkopf 50er Set",
@@ -74,7 +75,7 @@ def hole_aktuelle_prospekte():
                 "price": "4.99",
                 "old_price": "7.49",
                 "valid_until": "Diese Woche",
-                "image_link": "https://wikimedia.org"
+                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23eceff1'/><text y='60' x='20' font-size='40'>⚙️</text></svg>"
             }
         ]
 
@@ -118,7 +119,13 @@ def hole_aktuelle_prospekte():
         except Exception:
             pass
 
-        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "https://wikimedia.org"
+        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e0e0e0'/><text y='60' x='20' font-size='40'>🛒</text></svg>"
+
+        # Falls externe Links geladen werden, sichern wir sie ab, ansonsten bleibt der Text-Link
+        if bild_url.startswith("//"):
+            bild_url = "https:" + bild_url
+        elif bild_url.startswith("http://"):
+            bild_url = bild_url.replace("http://", "https://")
 
         angebot = {
             "markt_id": id_name,
