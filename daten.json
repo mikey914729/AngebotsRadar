@@ -2,12 +2,38 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Wintertraum Pfeffernüsse 600g",
-    "preis": "2.99 €",
-    "alter_preis": "statt 3.99 €",
-    "rabatt": "🔥 25% gespart!",
+    "produkt_name": "Äpfel süß-säuerlich 1kg",
+    "preis": "1.59 €",
+    "alter_preis": "",
+    "gueltigkeit": "Mo, 12.10. - Sa, 17.10.",
+    "bild": "https://wikimedia.org"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Speisekartoffeln 2,5 kg",
+    "preis": "2.49 €",
+    "alter_preis": "",
+    "gueltigkeit": "Mo, 12.10. - Sa, 17.10.",
+    "bild": "https://wikimedia.org"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Norwegische Lachsfiletportionen 500 g",
+    "preis": "7.49 €",
+    "alter_preis": "statt 9.49 €",
+    "gueltigkeit": "Mo, 12.10. - Sa, 17.10.",
+    "bild": "https://wikimedia.org"
+  },
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko 400ml",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €",
     "gueltigkeit": "Diese Woche",
-    "bild": "cookies"
+    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23e0f7fa'/><text y='65' x='25' font-size='50'>🥛</text></svg>"
   },
   {
     "markt_id": "edeka",
@@ -15,58 +41,7 @@
     "produkt_name": "Ritter Sport Schokolade 100g",
     "preis": "0.99 €",
     "alter_preis": "statt 1.49 €",
-    "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "chocolate"
-  },
-  {
-    "markt_id": "netto",
-    "markt_name": "Netto",
-    "produkt_name": "GUT & GÜNSTIG Deutsche Markenbutter",
-    "preis": "1.69 €",
-    "alter_preis": "statt 2.29 €",
-    "rabatt": "🔥 26% gespart!",
-    "gueltigkeit": "Diese Woche",
-    "bild": "butter"
-  },
-  {
-    "markt_id": "penny",
-    "markt_name": "PENNY",
-    "produkt_name": "Müllermilch Schoko / Erdbeer 400ml",
-    "preis": "0.69 €",
-    "alter_preis": "statt 1.39 €",
-    "rabatt": "🔥 50% gespart!",
-    "gueltigkeit": "Diese Woche",
-    "bild": "milkshake"
-  },
-  {
-    "markt_id": "rossmann",
-    "markt_name": "ROSSMANN",
-    "produkt_name": "Ariel Vollwaschmittel XXL Pulver",
-    "preis": "14.99 €",
-    "alter_preis": "statt 19.99 €",
-    "rabatt": "🔥 25% gespart!",
-    "gueltigkeit": "Diese Woche",
-    "bild": "laundry"
-  },
-  {
-    "markt_id": "fressnapf",
-    "markt_name": "Fressnapf",
-    "produkt_name": "Premium Hundefutter Fleisch-Brocken",
-    "preis": "2.99 €",
-    "alter_preis": "statt 3.99 €",
-    "rabatt": "🔥 25% gespart!",
-    "gueltigkeit": "Diese Woche",
-    "bild": "dogfood"
-  },
-  {
-    "markt_id": "baumarkt",
-    "markt_name": "Sonderpreis Baumarkt",
-    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
-    "preis": "4.99 €",
-    "alter_preis": "statt 7.49 €",
-    "rabatt": "🔥 33% gespart!",
-    "gueltigkeit": "Diese Woche",
-    "bild": "screws"
+    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23efebe9'/><text y='65' x='25' font-size='50'>🍫</text></svg>"
   }
 ]
