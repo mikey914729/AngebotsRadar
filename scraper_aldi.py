@@ -4,14 +4,12 @@ import requests
 def aldi_sued():
     url = "https://discounto.de"
     headers = {"User-Agent": "Mozilla/5.0"}
-    
     try:
         res = requests.get(url, headers=headers, timeout=10).json()
         items = res.get("offers", []) or res.get("results", [])
     except:
         items = []
 
-    # Stamm-Highlights, falls das Live-Internet mal hakt
     if not items:
         items = [
             {"title": "Äpfel süß-säuerlich 1kg", "price": "1.59", "old_price": ""},
@@ -30,13 +28,9 @@ def aldi_sued():
             "rabatt": "🔥 AKTION" if i.get("old_price") else "", "gueltigkeit": "Diese Woche", "bild": key
         })
 
-    # Wir hängen die Daten an die bestehende Liste an
-    try:
-        with open("daten.json", "r", encoding="utf-8") as f: daten = json.load(f)
-    except: daten = []
-    
-    # Filtert alte Aldi-Einträge vor dem Speichern raus, damit nichts doppelt ist
-    daten = [d for d in daten if d["markt_id"] != "aldi"] + neue_liste
-    with open("daten.json", "w", encoding="utf-8") as f: json.dump(daten, f, ensure_ascii=False, indent=2)
+    # KORREKTUR: Speichert exklusiv in den eigenen Aldi-Korb!
+    with open("daten_aldi.json", "w", encoding="utf-8") as f:
+        json.dump(neue_liste, f, ensure_ascii=False, indent=2)
 
-if __name__ == "__main__": aldi_sued()
+if __name__ == "__main__":
+    aldi_sued()
