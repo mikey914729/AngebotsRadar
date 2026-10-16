@@ -16,9 +16,9 @@
         #prospekt-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 10px; }
         .prospekt-card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 320px; }
         
-        /* Das optimierte, zentrierte Bild-Layout */
+        /* Absolut präzise Zentrierung im Flexbox-Container */
         .image-wrapper { width: 100%; height: 120px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; }
-        .image-wrapper svg { width: 80px; height: 80px; display: block; }
+        .image-wrapper svg { width: 90px; height: 90px; display: block; margin: 0 auto; }
         
         .market-label { font-size: 12px; color: #7f8c8d; font-weight: bold; margin-bottom: 5px; }
         .product-title { font-size: 16px; font-weight: bold; margin-bottom: 8px; min-height: 40px; display: flex; align-items: center; justify-content: center; }
@@ -30,7 +30,7 @@
 
     <div class="header">
         <h2>Mein Digitales ProspektHeft</h2>
-        <p>Öffne ein Werbeheft aus Wolnzach...</p>
+        <p>Öndere ein Werbeheft aus Wolnzach...</p>
     </div>
 
     <div class="search-container">
@@ -54,15 +54,16 @@
         let alleAngebote = [];
         let aktuellerMarkt = 'alle';
 
+        // Die mathematisch auf den Mittelpunkt (50,50) ausgerichteten SVGs
         const svgBilder = {
-            "cookies": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fce4ec"/><text y="68" x="25" font-size="50">🍪</text></svg>`,
-            "chocolate": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="68" x="25" font-size="50">🍫</text></svg>`,
-            "butter": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fffde7"/><text y="68" x="25" font-size="50">🧈</text></svg>`,
-            "milkshake": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0f7fa"/><text y="68" x="25" font-size="50">🥛</text></svg>`,
-            "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="68" x="25" font-size="50">🧺</text></svg>`,
-            "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="68" x="25" font-size="50">🍖</text></svg>`,
-            "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#eceff1"/><text y="68" x="25" font-size="50">⚙️</text></svg>`,
-            "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0e0e0"/><text y="68" x="25" font-size="50">🛒</text></svg>`
+            "cookies": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fce4ec"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍪</text></svg>`,
+            "chocolate": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍫</text></svg>`,
+            "butter": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#fffde7"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧈</text></svg>`,
+            "milkshake": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0f7fa"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🥛</text></svg>`,
+            "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧺</text></svg>`,
+            "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍖</text></svg>`,
+            "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#eceff1"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">⚙️</text></svg>`,
+            "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0e0e0"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🛒</text></svg>`
         };
 
         async function ladeDaten() {
