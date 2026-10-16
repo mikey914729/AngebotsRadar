@@ -3,108 +3,90 @@ import re
 import pdfplumber
 
 def aldi_pdf_profi_scanner():
-    print("=== START: REINIGUNGS-SCANNER V6 ===")
+    print("=== SCHRITT 1: Starte isolierten PUNKT-PREIS Extraktor ===")
     neue_liste = []
     
-    # Erweiterte, aggressive Blacklist
-    blacklist = [
-        "kg-preis", "best-preis", "stückpreis", "grundpreis", "je stück", "je kg", 
-        "preis", "aktion", "kühlung", "gutes für alle", "klasse", "stg", "packung",
-        "becher", "flasche", "z b", "bzw", "ab mo", "ab do", "ab fr", "gültig", 
-        "grusel-fans", "mehr auf", "prospekt", "billiger", "sparen", "tiefpreis", "l-preis",
-        "top-deals", "für kleine", "deals", "sparpotenzial", "rabatt", "kracher"
+    # DATENBANK: Nur Texte, die diese echten Produktwörter enthalten, werden zugelassen!
+    erlaubte_kategorien = [
+        "kostüm", "kugeln", "deko", "led", "apfel", "äpfel", "lachs", "fisch", 
+        "kartoffel", "pommes", "spezi", "limo", "cola", "wasser", "bier", "wein", 
+        "schoko", "riegel", "snack", "keks", "bonbon", "haribo", "milka", "hose", 
+        "hemd", "jacke", "schuh", "socke", "t-shirt", "jeans", "pullover", "fleisch",
+        "wurst", "käse", "milch", "butter", "joghurt", "brot", "brötchen", "ei", "eier"
     ]
+    
+    blacklist = ["kg-preis", "best-preis", "stückpreis", "grundpreis", "je stück", "je kg", "aktion", "ab mo", "ab do"]
 
     try:
         with pdfplumber.open("aldi.pdf") as pdf:
-            print(f"-> {len(pdf.pages)} Seiten werden analysiert...")
-            
             for page in pdf.pages:
                 words = page.extract_words()
                 if not words: continue
                 
-                zeilen_dict = {}
+                preis_liste = []
+                text_liste = []
+                
                 for w in words:
-                    y_pos = int(round(w["top"]))
-                    gefunden = False
-                    for existing_y in zeilen_dict.keys():
-                        if abs(existing_y - y_pos) <= 4:
-                            zeilen_dict[existing_y].append(w)
-                            gefunden = True
-                            break
-                    if not gefunden:
-                        zeilen_dict[y_pos] = [w]
-                
-                sortierte_hoehen = sorted(zeilen_dict.keys())
-                
-                for idx, y in enumerate(sortierte_hoehen):
-                    wort_liste = sorted(zeilen_dict[y], key=lambda k: k["x0"])
-                    zeilen_text = " ".join([w["text"] for w in wort_liste])
+                    t_clean = w["text"].strip()
                     
-                    alle_preise = re.findall(r'(\d+[\.,]\d{2})\s*€?', zeilen_text)
-                    if alle_preise:
-                        neuer_preis_raw = alle_preise[-1]
-                        alter_preis_raw = alle_preise[0] if len(alle_preise) > 1 else ""
+                    # DEIN WUNSCH-FILTER: Erkennt NUR Zahlen mit einem PUNKT (z.B. 4.99 oder 12.10)
+                    # Reine Komma-Zahlen oder Fließtext-Zahlen werden ignoriert
+                    if re.search(r'^\d+\.\d{2}$', t_clean):
+                        preis_liste.append(w)
+                    else:
+                        text_liste.append(w)
+                
+                # Räumliche Zuordnung der Produkte zum Punkt-Preis
+                for p in preis_liste:
+                    # Wir behalten den Punkt für das System, konvertieren ihn aber für die Anzeige später in ein Komma
+                    preis_zahl = p["text"]
+                    px = (p["x0"] + p["x1"]) / 2
+                    py = p["top"]
+                    
+                    nahe_woerter = []
+                    for t in text_liste:
+                        tx = (t["x0"] + t["x1"]) / 2
+                        ty = t["top"]
                         
-                        produkt_name = ""
+                        abstand = ((px - tx)**2 + (py - ty)**2)**0.5
+                        if abstand < 120 and ty < py + 15: 
+                            nahe_woerter.append((abstand, t))
+                    
+                    if nahe_woerter:
+                        nahe_woerter.sort(key=lambda x: x[0])
+                        treffer_objekte = [item[1] for item in nahe_woerter[:4]]
+                        treffer_objekte.sort(key=lambda x: x["x0"])
                         
-                        # Bis zu 5 Zeilen hochwandern
-                        for schritt in range(1, 6):
-                            if idx - schritt >= 0:
-                                obere_y = sortierte_hoehen[idx - schritt]
-                                obere_woerter = sorted(zeilen_dict[obere_y], key=lambda k: k["x0"])
-                                obere_zeile_text = " ".join([w["text"] for w in obere_woerter]).strip()
-                                
-                                # Alten Preis oben drüber abfangen
-                                obere_preise = re.findall(r'(\d+[\.,]\d{2})\s*€?', obere_zeile_text)
-                                if obere_preise and not alter_preis_raw:
-                                    alter_preis_raw = obere_preise[0]
-                                
-                                if obere_zeile_text and not re.search(r'\d+[\.,]\d{2}', obere_zeile_text):
-                                    # Radikaler Check: Keine Füllwörter und keine reinen Nummern/Prozentzeichen/Minuszeichen
-                                    if not any(b in obere_zeile_text.lower() for b in blacklist):
-                                        if not re.search(r'[-+%33]', obere_zeile_text): # Blockiert explizit "-33"
-                                            if len(obere_zeile_text.strip()) > 3:
-                                                produkt_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/\.,&]', '', obere_zeile_text).strip()
-                                                break
+                        roher_name = " ".join([o["text"] for o in treffer_objekte]).strip()
+                        roher_name_clean = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', roher_name).strip()
                         
-                        # Fallback
-                        if not produkt_name or len(produkt_name) < 3:
-                            roher_rest = zeilen_text
-                            for pr in alle_preise:
-                                roher_rest = roher_rest.replace(pr, "")
-                            roher_rest = roher_rest.replace("€", "").strip()
-                            
-                            if not any(b in roher_rest.lower() for b in blacklist):
-                                if not re.search(r'[-+%33]', roher_rest):
-                                    if len(roher_rest) > 3:
-                                        produkt_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/\.,&]', '', roher_rest).strip()
+                        t_lower = roher_name_clean.lower()
                         
-                        # Letzte harte Filterbarriere vor dem Speicher
-                        if not produkt_name or len(produkt_name) < 3 or any(b in produkt_name.lower() for b in blacklist):
-                            continue
-                        if re.search(r'[-+%33]', produkt_name):
+                        # Abgleich mit unserer erlaubten Produkt-Wort-Datei
+                        ist_wichtiges_produkt = any(wort in t_lower for wort in erlaubte_kategorien)
+                        enthält_muell = any(mü in t_lower for mü in blacklist)
+                        
+                        if not ist_wichtiges_produkt or enthält_muell or len(roher_name_clean) < 3:
                             continue
                         
-                        preis_final = f"{neuer_preis_raw.replace('.', ',')} €"
-                        alter_preis_final = f"{alter_preis_raw.replace('.', ',')} €" if alter_preis_raw else ""
+                        # Smiley-Zuweisung
+                        key = "apple" if "apfel" in t_lower else "fish" if "fisch" in t_lower else "chocolate" if "schoko" in t_lower else "default"
                         
                         neue_liste.append({
                             "markt_id": "aldi",
                             "markt_name": "ALDI SÜD",
-                            "produkt_name": produkt_name,
-                            "preis": preis_final,
-                            "alter_preis": alter_preis_final,
+                            "produkt_name": roher_name_clean,
+                            "preis": f"{preis_zahl.replace('.', ',')} €", # Für die Anzeige schön mit Komma
+                            "alter_preis": "",
                             "rabatt": "",
                             "gueltigkeit": "KW 42",
-                            "bild": "default"
+                            "bild": key
                         })
                         
-        print(f"=== ENDE: {len(neue_liste)} ECHTE Produkte ===")
+        print(f"=== ENDE: {len(neue_liste)} ECHTE Produkte mit Punkt-Preisen gefiltert! ===")
     except Exception as e:
         print(f"Fehler: {e}")
 
-    # Hier leeren wir die JSON absichtlich NICHT mehr mit Müll-Dummys
     with open("daten_aldi.json", "w", encoding="utf-8") as f:
         json.dump(neue_liste, f, ensure_ascii=False, indent=2)
 
