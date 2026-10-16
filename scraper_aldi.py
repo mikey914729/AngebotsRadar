@@ -2,40 +2,54 @@ import json
 import re
 from pypdf import PdfReader
 
-def aldi_pdf_scanner():
-    print("KI-Scanner gestartet: Analysiere die Datei 'aldi.pdf'...")
+def aldi_pdf_profi_scanner():
+    print("Profi-Scanner gestartet: Bereinige Textstrukturen aus 'aldi.pdf'...")
     neue_liste = []
     
     try:
-        # Öffnet die von Ihnen hochgeladene PDF-Datei
         reader = PdfReader("aldi.pdf")
-        print(f"-> Prospekt erfolgreich geladen ({len(reader.pages)} Seiten identifiziert).")
+        print(f"-> {len(reader.pages)} Prospektseiten erfolgreich im Speicher analysiert.")
         
-        # Der Roboter liest Seite für Seite das gesamte Heft durch
         for page_idx, page in enumerate(reader.pages):
             text = page.extract_text()
             if not text: continue
             
-            # Trennt den Text in einzelne Zeilen
             zeilen = text.split("\n")
-            for zeile in zeilen:
+            for i, zeile in enumerate(zeilen):
                 zeile = zeile.strip()
                 
-                # SPRECH- UND PREISFINDER: Sucht nach Zahlen mit Komma/Punkt und Eurozeichen
+                # Sucht nach Preisen mit Komma oder Punkt
                 preis_treffer = re.search(r'(\d+[\.,]\d{2})\s*€?', zeile)
                 if preis_treffer:
                     preis_raw = preis_treffer.group(1)
                     
-                    # Wir säubern die Zeile, um den Produktnamen herauszufiltern
-                    produkt_name = zeile.replace(preis_raw, "").replace("€", "").strip()
-                    # Sonderzeichen entfernen
-                    produkt_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', produkt_name).strip()
+                    # Wir holen uns den potenziellen Produktnamen aus dieser Zeile
+                    roher_name = zeile.replace(preis_raw, "").replace("€", "").strip()
+                    roher_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', roher_name).strip()
                     
-                    # Ein gültiges Produkt braucht einen Namen mit mindestens 4 Buchstaben
-                    if len(produkt_name) < 4: continue
+                    # DETEKTOR-TRICK: Wenn der gefundene Name ein Datum oder Wochentag ist,
+                    # schauen wir stattdessen 1 oder 2 Zeilen HÖHER im PDF nach dem echten Namen!
+                    t_check = roher_name.lower()
+                    ist_datum = any(w in t_check for w in ["ab mo", "ab do", "ab fr", "sa", "fr", "do", "mo", "di", "mi", "woche", "gültig", "vom", "bis", "1610", "1710", "1510"])
+                    
+                    if ist_datum or len(roher_name) < 4:
+                        # Rettungs-Schleife: Wir wandern im Text nach oben, um den echten Namen zu greifen
+                        for standard_index in range(1, 3):
+                            if i - standard_index >= 0:
+                                check_zeile = zeilen[i - standard_index].strip()
+                                check_zeile = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', check_zeile).strip()
+                                # Wenn die obere Zeile keinen Preis und kein Datum enthält, ist es unser Produktname!
+                                if check_zeile and not re.search(r'\d+[\.,]\d{2}', check_zeile) and not any(w in check_zeile.lower() for w in ["ab mo", "ab do", "ab fr", "sa", "1710"]):
+                                    roher_name = check_zeile
+                                    break
+                    
+                    # Bereinigung des finalen Produktnamens
+                    produkt_name = roher_name.strip()
+                    if len(produkt_name) < 4 or any(w in produkt_name.lower() for w in ["ab mo", "ab do", "1710"]): 
+                        continue # Wenn immer noch Müll, überspringen
                     
                     t = produkt_name.lower()
-                    # Automatische Smiley-Zuweisung basierend auf dem gefundenen PDF-Text
+                    # Blockadefreie Smiley-Zuweisung für die bereinigten Produkte
                     key = "apple" if "apfel" in t or "äpfel" in t else "potato" if "kartoffel" in t else "fish" if "lachs" in t or "fisch" in t else "milkshake" if any(w in t for w in ["paulaner", "spezi", "limo", "getränk", "saft", "cola", "wasser", "bier"]) else "chocolate" if any(w in t for w in ["schoko", "riegel", "snack", "keks", "bonbon", "haribo", "milka"]) else "clothes" if any(w in t for w in ["hose", "hemd", "jacke", "schuh", "socke", "t-shirt", "strick", "jeans", "pullover"]) else "default"
                     
                     neue_liste.append({
@@ -43,28 +57,22 @@ def aldi_pdf_scanner():
                         "markt_name": "ALDI SÜD",
                         "produkt_name": produkt_name,
                         "preis": f"{preis_raw.replace('.', ',')} €",
-                        "alter_preis": "", # Kann bei Bedarf erweitert werden
+                        "alter_preis": "",
                         "rabatt": "🔥 PROSPEKT-DEAL",
-                        "gueltigkeit": "Aus dem aktuellen PDF",
+                        "gueltigkeit": "KW 42",
                         "bild": key
                     })
                     
-        print(f"-> Erfolg! Der Scanner hat {len(neue_liste)} Angebote vollautomatisch aus dem PDF extrahiert!")
+        print(f"-> Bereinigung beendet: {len(neue_liste)} ECHTE Produkte erfolgreich gefiltert!")
         
-    except FileNotFoundError:
-        print("⚠️ Hinweis: Die Datei 'aldi.pdf' wurde noch nicht im Hauptordner hochgeladen.")
     except Exception as e:
-        print(f"Fehler beim Scannen des PDFs: {e}")
+        print(f"Fehler: {e}")
 
-    # Sicherheitsnetz, falls das PDF komplett leer oder unlesbar verschlüsselt ist
     if not neue_liste:
-        neue_liste = [
-            {"markt_id": "aldi", "markt_name": "ALDI SÜD", "produkt_name": "PDF Wartungs-Modus aktiv", "preis": "0,00 €", "alter_preis": "", "rabatt": "", "gueltigkeit": "Warte auf Upload", "bild": "default"}
-        ]
+        neue_liste = [{"markt_id": "aldi", "markt_name": "ALDI SÜD", "produkt_name": "Warte auf PDF-Korrektur", "preis": "0,00 €", "alter_preis": "", "rabatt": "", "gueltigkeit": "KW 42", "bild": "default"}]
 
-    # Schreibt die gescannten Daten in den ALDI-Korb
     with open("daten_aldi.json", "w", encoding="utf-8") as f:
         json.dump(neue_liste, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    aldi_pdf_scanner()
+    aldi_pdf_profi_scanner()
