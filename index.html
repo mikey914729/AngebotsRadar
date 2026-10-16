@@ -17,12 +17,10 @@
         .prospekt-card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 290px; }
         
         .image-wrapper { width: 100%; height: 120px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; }
-        .image-wrapper svg { width: 90px; height: 90px; display: block; margin: 0 auto; }
+        .image-wrapper svg, .image-wrapper img { width: 90px; height: 90px; display: block; margin: 0 auto; object-fit: contain; }
         
         .market-label { font-size: 12px; color: #7f8c8d; font-weight: bold; margin-bottom: 5px; }
         .product-title { font-size: 16px; font-weight: bold; margin-bottom: 8px; min-height: 40px; display: flex; align-items: center; justify-content: center; }
-        
-        /* Preis-Layout-Optimierung */
         .price-container { margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 2px; }
         .old-price { font-size: 13px; color: #7f8c8d; text-decoration: line-through; font-weight: normal; }
         .price { font-size: 19px; color: #e54b3b; font-weight: bold; }
@@ -36,7 +34,7 @@
     </div>
 
     <div class="search-container">
-        <input type="text" id="suche" class="search-input" placeholder="Nach Äpfeln, Schokolade, Spezi... suchen" onkeyup="sucheAngebote()">
+        <input type="text" id="suche" class="search-input" placeholder="Nach Äpfeln, Kleidung, Spezi... suchen" onkeyup="sucheAngebote()">
     </div>
 
     <div class="buttons-container">
@@ -64,6 +62,7 @@
             "laundry": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f3e5f5"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🧺</text></svg>`,
             "dogfood": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#efebe9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🍖</text></svg>`,
             "screws": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#eceff1"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">⚙️</text></svg>`,
+            "clothes": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#f1f8e9"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">👕</text></svg>`,
             "default": `<svg viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#e0e0e0"/><text y="50" x="50" font-size="55" dominant-baseline="central" text-anchor="middle">🛒</text></svg>`
         };
 
@@ -80,7 +79,6 @@
 
         function sucheAngebote() {
             let eingabe = document.getElementById('suche').value.toLowerCase().trim();
-            
             let liste = alleAngebote;
             if (aktuellerMarkt !== 'alle') {
                 liste = alleAngebote.filter(item => item.markt_name === aktuellerMarkt);
@@ -110,13 +108,19 @@
                 const card = document.createElement('div');
                 card.className = 'prospekt-card';
                 
-                let svgCode = svgBilder[item.bild] || svgBilder["default"];
+                let imageContent = "";
                 
-                // Prüfen, ob ein alter Preis vorhanden ist, um ihn durchgestrichen anzuzeigen
+                // Intelligente Bild-Entscheidung: Nutzt Aldi-Fotolink oder lokales SVG-Symbol
+                if (item.bild.startsWith("http")) {
+                    imageContent = `<img src="${item.bild}" alt="${item.produkt_name}" onerror="this.src='https://unsplash.com';">`;
+                } else {
+                    imageContent = svgBilder[item.bild] || svgBilder["default"];
+                }
+
                 let alterPreisHtml = item.alter_preis ? `<span class="old-price">${item.alter_preis}</span>` : '';
 
                 card.innerHTML = `
-                    <div class="image-wrapper">${svgCode}</div>
+                    <div class="image-wrapper">${imageContent}</div>
                     <div class="market-label">📍 ${item.markt_name}</div>
                     <div class="product-title">${item.produkt_name}</div>
                     <div class="price-container">
@@ -132,7 +136,6 @@
             aktuellerMarkt = markt;
             const buttons = document.querySelectorAll('.btn');
             buttons.forEach(btn => btn.classList.remove('active'));
-            
             if (event && event.target) {
                 event.target.classList.add('active');
             }
