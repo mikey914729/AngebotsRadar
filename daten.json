@@ -2,7 +2,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Wintertraum pfeffernüsse 600g",
+    "produkt_name": "Wintertraum Pfeffernüsse 600g",
     "preis": "2.99 €",
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
@@ -12,7 +12,7 @@
   {
     "markt_id": "edeka",
     "markt_name": "EDEKA",
-    "produkt_name": "Ritter sport schokolade 100g",
+    "produkt_name": "Ritter Sport Schokolade 100g",
     "preis": "0.99 €",
     "alter_preis": "statt 1.49 €",
     "rabatt": "🔥 33% gespart!",
@@ -22,7 +22,7 @@
   {
     "markt_id": "netto",
     "markt_name": "Netto",
-    "produkt_name": "Gut & günstig deutsche markenbutter",
+    "produkt_name": "GUT & GÜNSTIG Deutsche Markenbutter",
     "preis": "1.69 €",
     "alter_preis": "statt 2.29 €",
     "rabatt": "🔥 26% gespart!",
@@ -32,7 +32,7 @@
   {
     "markt_id": "penny",
     "markt_name": "PENNY",
-    "produkt_name": "Müllermilch schoko / erdbeer 400ml",
+    "produkt_name": "Müllermilch Schoko / Erdbeer 400ml",
     "preis": "0.69 €",
     "alter_preis": "statt 1.39 €",
     "rabatt": "🔥 50% gespart!",
@@ -42,7 +42,7 @@
   {
     "markt_id": "rossmann",
     "markt_name": "ROSSMANN",
-    "produkt_name": "Ariel vollwaschmittel xxl pulver",
+    "produkt_name": "Ariel Vollwaschmittel XXL Pulver",
     "preis": "14.99 €",
     "alter_preis": "statt 19.99 €",
     "rabatt": "🔥 25% gespart!",
@@ -52,7 +52,7 @@
   {
     "markt_id": "fressnapf",
     "markt_name": "Fressnapf",
-    "produkt_name": "Premium hundefutter fleisch-brocken",
+    "produkt_name": "Premium Hundefutter Fleisch-Brocken",
     "preis": "2.99 €",
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
@@ -62,7 +62,7 @@
   {
     "markt_id": "baumarkt",
     "markt_name": "Sonderpreis Baumarkt",
-    "produkt_name": "Universal holzschrauben senkkopf 50er set",
+    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
     "preis": "4.99 €",
     "alter_preis": "statt 7.49 €",
     "rabatt": "🔥 33% gespart!",
