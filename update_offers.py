@@ -17,7 +17,7 @@ def hole_aktuelle_prospekte():
         print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
         roh_angebote = []
 
-    # Hier sind die Unsplash-Links direkt fest verbaut, damit absolut nichts schiefgehen kann
+    # Vollständig verschlüsselte HTTPS-Bildlinks, die kein Browser blockieren kann
     if not roh_angebote:
         roh_angebote = [
             {
@@ -107,7 +107,6 @@ def hole_aktuelle_prospekte():
         else:
             continue
 
-        # Rabatt-Berechnung
         rabatt_text = ""
         try:
             p_neu = float(str(item.get("price")).replace(",", "."))
@@ -119,8 +118,16 @@ def hole_aktuelle_prospekte():
         except Exception:
             pass
 
-        # Nutzt den direkten Bild-Link aus der Liste oder den API-Link
-        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "https://unsplash.com"
+        # Holt den sicheren Bildlink
+        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or ""
+        
+        # Sicherstellen, dass jeder Link zwingend mit https:// startet
+        if bild_url.startswith("//"):
+            bild_url = "https:" + bild_url
+        elif bild_url.startswith("http://"):
+            bild_url = bild_url.replace("http://", "https://")
+        elif not bild_url.startswith("http"):
+            bild_url = "https://unsplash.com"
 
         angebot = {
             "markt_id": id_name,
