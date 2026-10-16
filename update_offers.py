@@ -1,28 +1,13 @@
 import json
 import os
-
-# Direktes Importieren der Markt-Scanner-Funktionen
-# (Stelle sicher, dass die Funktionen in den jeweiligen Skripten so heißen!)
-try: from scraper_aldi import aldi_pdf_profi_scanner
-except: aldi_pdf_profi_scanner = None
+import subprocess
 
 def master_scraper():
-    print("=== STARTE MULTI-MARKT-PIPELINE (NATIV) ===")
+    print("=== STARTE MULTI-MARKT-PIPELINE (SICHERHEITS-MODUS) ===")
     
-    # 1. ALDI SÜD direkt ausführen (Ohne unsicheres subprocess)
-    if aldi_pdf_profi_scanner:
-        try:
-            print("Starte Teilsystem: scraper_aldi.py (Direktimport)...")
-            aldi_pdf_profi_scanner()
-        except Exception as e:
-            print(f"⚠️ Störung bei scraper_aldi.py: {e}")
-    else:
-        print("Starte Teilsystem: scraper_aldi.py via Fallback...")
-        os.system("python3 scraper_aldi.py")
-
-    # 2. ALLE ANDEREN SKRIPTE HIER HINTEREINANDER AUSFÜHREN
-    # Wir nutzen "python3", da "python" auf GitHub Actions oft fehlschlägt!
-    restliche_skripte = [
+    # Liste aller Skripte
+    skripte = [
+        "scraper_aldi.py",
         "scraper_penny.py",
         "scraper_edeka.py",
         "scraper_netto.py",
@@ -31,31 +16,40 @@ def master_scraper():
         "scraper_baumarkt.py"
     ]
     
-    for skript in restliche_skripte:
-        try:
-            print(f"Starte Teilsystem: {skript}...")
-            # Umstieg auf os.system mit python3 für maximale Stabilität auf Linux/GitHub
-            os.system(f"python3 {skript}")
-        except Exception as e:
-            print(f"⚠️ Störung bei {skript}: {e}")
+    # Jedes Skript wird isoliert gestartet. Stürzt eines ab, läuft die Pipeline trotzdem weiter!
+    for skript in skripte:
+        if os.path.exists(skript):
+            try:
+                print(f"Starte Teilsystem: {skript}...")
+                # Führt das Skript explizit mit python3 aus und wartet auf das Ende
+                subprocess.run(["python3", skript], check=True)
+                print(f"-> {skript} erfolgreich beendet.")
+            except Exception as e:
+                print(f"⚠️ Störung bei {skript}, System läuft weiter: {e}")
+        else:
+            print(f"ℹ️ Skript {skript} nicht gefunden. Überspringe...")
 
-        # Zusammenführung aller Körbe in die daten.json
+    print("=== ZUSAMMENFÜHRUNG DER DATEN ===")
     gesamt_liste = []
     maerkte = ["aldi", "penny", "edeka", "netto", "rossmann", "fressnapf", "baumarkt"]
     
     for markt in maerkte:
-        try:
-            # Wir zwingen das System, jede Datei einzeln zu lesen, selbst wenn andere fehlen!
-            with open(f"daten_{markt}.json", "r", encoding="utf-8") as f:
-                markt_daten = json.load(f)
-                gesamt_liste.extend(markt_daten)
-                print(f"Erfolgreich geladen: daten_{markt}.json")
-        except Exception as e:
-            print(f"Hinweis: daten_{markt}.json konnte nicht geladen werden, überspringe... ({e})")
-
+        pfad = f"daten_{markt}.json"
+        if os.path.exists(pfad):
+            try:
+                with open(pfad, "r", encoding="utf-8") as f:
+                    markt_daten = json.load(f)
+                    if isinstance(markt_daten, list) and len(markt_daten) > 0:
+                        # Verhindert das Hinzufügen von fehlerhaften Dummy-Einträgen
+                        if markt_daten[0].get("produkt_name") != "Warte auf PDF-Korrektur":
+                            gesamt_liste.extend(markt_daten)
+                            print(f"-> {pfad} ({len(markt_daten)} Produkte) hinzugefügt.")
+            except Exception as e:
+                print(f"⚠️ Fehler beim Einlesen von {pfad}: {e}")
         else:
-            print(f"ℹ️ {pfad} existiert noch nicht. Überspringe...")
+            print(f"ℹ️ {pfad} fehlt. Keine Daten für diesen Markt.")
 
+    # Schreibt die endgültige Datei für deine Webseite
     with open("daten.json", "w", encoding="utf-8") as f:
         json.dump(gesamt_liste, f, ensure_ascii=False, indent=2)
 
