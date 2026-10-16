@@ -24,8 +24,8 @@
         .markt-preis.grun { color: #28a745; }
         .markt-altpreis { font-size: 11px; color: #7f8c8d; text-decoration: line-through; }
     </style>
-    <!-- Wir laden den unzerstörbaren Lade-Helfer -->
-    <script src="https://unpkg.com"></script>
+    <!-- KORREKTUR: Ausfallsicherer, globaler Lade-Server für Vue.js -->
+    <script src="https://cloudflare.com"></script>
 </head>
 <body>
 
@@ -44,12 +44,12 @@
             <button v-for="m in maerkteListe" class="btn" :class="{active: markt === m}" @click="markt = m">{{m}}</button>
         </div>
 
-        <!-- 1. DIE PREISVERGLEICHS-ANSICHT (WENN "ALLE" GEWÄHLT IST) -->
+        <!-- Preisvergleichs-Ansicht -->
         <div v-if="markt === 'alle'">
-            <div v-for="gruppe in gefilterteGruppen" class="vergleich-block">
+            <div v-for="gruppe in gefilterteGruppen" :key="gruppe.key" class="vergleich-block">
                 <div class="vergleich-titel">
-                    <span>{{ symbole[gruppe.key] }}</span>
-                    <span style="margin-left: 10px;">Vergleich: {{ namen[gruppe.key] }}</span>
+                    <span>{{ symbole[gruppe.key] || '🛒' }}</span>
+                    <span style="margin-left: 10px;">Vergleich: {{ namen[gruppe.key] || 'Sonstiges' }}</span>
                 </div>
                 <div class="maerkte-grid">
                     <div v-for="a in gruppe.angebote" class="markt-preis-card" :class="{guenstigster: istBilligster(a, gruppe.angebote)}">
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <!-- 2. NORMALE MARKT-ANSICHT (WENN EIN EINZELNER SUPERMARKT GEWÄHLT IST) -->
+        <!-- Normale Markt-Ansicht -->
         <div v-else class="maerkte-grid">
             <div v-for="a in gefilterteAngebote" class="markt-preis-card" style="min-height: 180px;">
                 <div style="font-size: 30px; margin-bottom: 5px;">{{ symbole[a.bild] || '🛒' }}</div>
@@ -87,20 +87,21 @@
                 const symbole = {"apple":"🍎","potato":"🥔","fish":"🐟","lemon":"🍋","onion":"🧅","cookies":"🍪","chocolate":"🍫","butter":"🧈","milkshake":"🥛","laundry":"🧺","dogfood":"🍖","screws":"⚙️","clothes":"👕","default":"🛒"};
                 const namen = {"apple":"Äpfel","potato":"Kartoffeln","fish":"Fisch & Lachs","lemon":"Zitronen","onion":"Zwiebeln","cookies":"Kekse & Gebäck","chocolate":"Schokolade & Snacks","butter":"Butter & Molkerei","milkshake":"Milch & Getränke","laundry":"Waschmittel & Drogerie","dogfood":"Tierfutter","screws":"Schrauben & Werkzeug","clothes":"Kleidung","default":"Sonstiges"};
 
-                fetch('daten.json').then(r => r.json()).then(d => angebote.value = d);
+                fetch('daten.json').then(r => r.json()).then(d => angebote.value = d).catch(e => console.error(e));
 
                 const gefilterteAngebote = computed(() => {
                     let txt = suche.value.toLowerCase().trim();
                     let liste = angebote.value;
                     if (markt.value !== 'alle') liste = liste.filter(a => a.markt_name === markt.value);
-                    return liste.filter(a => a.produkt_name.toLowerCase().includes(txt) || (txt === 'apfel' && a.produkt_name.toLowerCase().includes('äpfel')));
+                    return listFiltered = liste.filter(a => a.produkt_name.toLowerCase().includes(txt) || (txt === 'apfel' && a.produkt_name.toLowerCase().includes('äpfel')));
                 });
 
                 const gefilterteGruppen = computed(() => {
                     let map = {};
                     gefilterteAngebote.value.forEach(a => {
-                        if (!map[a.bild]) map[a.bild] = { key: a.bild, angebote: [] };
-                        map[a.bild].angebote.push(a);
+                        let bKey = a.bild || 'default';
+                        if (!map[bKey]) map[bKey] = { key: bKey, angebote: [] };
+                        map[bKey].angebote.push(a);
                     });
                     return Object.values(map);
                 });
