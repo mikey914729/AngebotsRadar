@@ -3,10 +3,10 @@ import re
 import pdfplumber
 
 def aldi_pdf_profi_scanner():
-    print("=== START: REINIGUNGS-SCANNER V11 (ALLE PRODUKTE ZURÜCK) ===")
+    print("=== START: REINIGUNGS-SCANNER V12 (UNIVERSAL) ===")
     neue_liste = []
     
-    # Diese Begriffe werden mitten aus dem Namen herausgelöscht, damit der Name sauber wird
+    # Begriffe, die wir aus dem Namen herausfiltern
     muell_woerter = [
         "l-preis", "l-flasche", "ml-flasche", "flasche", "vol", "sorten", "frankreich",
         "italien", "deutschland", "kg-preis", "best-preis", "stückpreis", "grundpreis", 
@@ -21,72 +21,73 @@ def aldi_pdf_profi_scanner():
                 words = page.extract_words()
                 if not words: continue
                 
-                preis_liste = []
-                text_liste = []
-                
+                # Zeilen basierend auf den Höhen-Koordinaten bauen
+                zeilen_dict = {}
                 for w in words:
-                    t_clean = w["text"].strip()
-                    # Such nach Preisen mit PUNKT
-                    if re.search(r'^\d+\.\d{2}$', t_clean):
-                        preis_liste.append(w)
-                    else:
-                        text_liste.append(w)
+                    y_pos = int(round(w["top"]))
+                    gefunden = False
+                    for existing_y in zeilen_dict.keys():
+                        if abs(existing_y - y_pos) <= 5: # 5 Pixel Toleranz
+                            zeilen_dict[existing_y].append(w)
+                            gefunden = True
+                            break
+                    if not gefunden:
+                        zeilen_dict[y_pos] = [w]
                 
-                for p in preis_liste:
-                    preis_zahl = p["text"]
-                    px = (p["x0"] + p["x1"]) / 2
-                    py = p["top"]
+                sortierte_hoehen = sorted(zeilen_dict.keys())
+                
+                for idx, y in enumerate(sortierte_hoehen):
+                    wort_liste = sorted(zeilen_dict[y], key=lambda k: k["x0"])
+                    zeilen_text = " ".join([w["text"] for w in wort_liste])
                     
-                    nahe_woerter = []
-                    for t in text_liste:
-                        tx = (t["x0"] + t["x1"]) / 2
-                        ty = t["top"]
+                    # FEHLERTOLERANTER REGEX: Findet Preise mit Punkt ODER Komma, optional mit €
+                    preis_treffer = re.search(r'(\d+[\.,]\d{2})\s*€?', zeilen_text)
+                    if preis_treffer:
+                        preis_raw = preis_treffer.group(1)
                         
-                        abstand = ((px - tx)**2 + (py - ty)**2)**0.5
-                        # Suchradius, um den Namen über/neben dem Preis zu greifen
-                        if abstand < 130 and ty < py + 15: 
-                            nahe_woerter.append((abstand, t))
-                    
-                    if nahe_woerter:
-                        nahe_woerter.sort(key=lambda x: x)
-                        # Wir nehmen die nahesten Textbausteine
-                        treffer_objekte = [item for item in nahe_woerter[:5]]
-                        treffer_objekte.sort(key=lambda x: x["x0"])
+                        # Wir holen uns den restlichen Text der Zeile als Produktnamen
+                        roher_name = zeilen_text.replace(preis_raw, "").replace("€", "").strip()
                         
-                        roher_name = " ".join([o["text"] for o in treffer_objekte]).strip()
+                        # Falls die Zeile leer ist, schauen wir kurz eine Zeile höher nach
+                        if len(roher_name) < 3 and idx - 1 >= 0:
+                            obere_y = sortierte_hoehen[idx - 1]
+                            obere_woerter = sorted(zeilen_dict[obere_y], key=lambda k: k["x0"])
+                            roher_name = " ".join([w["text"] for w in obere_woerter]).strip()
                         
-                        # BEREINIGUNG: Wir löschen den Müll direkt aus dem Text-String
+                        # BEREINIGUNG: Müllwörter löschen
                         name_clean = roher_name
                         for mw in muell_woerter:
-                            # Ersetzt das Müllwort unabhängig von Groß-/Kleinschreibung
                             name_clean = re.sub(re.escape(mw), "", name_clean, flags=re.IGNORECASE)
                         
-                        # Reine Zahlenkolonnen (wie 2399, 713) herauslöschen
+                        # Reine Nummernkolonnen (3- oder 4-stellig wie 2399, 713) löschen
                         name_clean = re.sub(r'\b\d{3,4}\b', "", name_clean)
                         
-                        # Doppelte Leerzeichen und Sonderzeichen entfernen
+                        # Sonderzeichen entfernen und Text glätten
                         name_clean = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/]', '', name_clean)
                         name_clean = re.sub(r'\s+', ' ', name_clean).strip()
                         
-                        # Wenn nach der Reinigung noch ein echter Text übrig bleibt, nehmen wir ihn!
-                        if len(name_clean) < 3:
-                            continue
+                        # Wenn fast nichts übrig bleibt, setzen wir einen soliden Platzhalter statt abzubrechen
+                        if len(name_clean) < 2:
+                            name_clean = "ALDI Aktionsartikel"
                         
                         t_lower = name_clean.lower()
                         key = "apple" if "apfel" in t_lower else "fish" if "fisch" in t_lower else "chocolate" if "schoko" in t_lower else "default"
+                        
+                        # Preis einheitlich mit Komma formatieren
+                        preis_final = f"{preis_raw.replace('.', ',')} €"
                         
                         neue_liste.append({
                             "markt_id": "aldi",
                             "markt_name": "ALDI SÜD",
                             "produkt_name": name_clean,
-                            "preis": f"{preis_zahl.replace('.', ',')} €",
+                            "preis": preis_final,
                             "alter_preis": "",
                             "rabatt": "",
                             "gueltigkeit": "KW 42",
                             "bild": key
                         })
                         
-        print(f"=== ENDE: {len(neue_liste)} Produkte erfolgreich geladen! ===")
+        print(f"=== ENDE: {len(neue_liste)} Produkte erfolgreich importiert ===")
     except Exception as e:
         print(f"Fehler: {e}")
 
