@@ -11,7 +11,7 @@
         .buttons-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
         .btn { padding: 10px 20px; border: none; border-radius: 20px; background: white; font-weight: bold; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         .btn.active { background: #e54b3b; color: white; }
-        .vergleich-block { background: white; border-radius: 16px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 12 rgba(0,0,0,0.04); border: 1px solid #e6ebf0; }
+        .vergleich-block { background: white; border-radius: 16px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.04); border: 1px solid #e6ebf0; }
         .maerkte-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
         .markt-card { background: white; border: 1px solid #e6ebf0; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 280px; position: relative; box-sizing: border-box; }
         .markt-card.best { border: 2px solid #28a745; background: #e8f5e9; }
@@ -34,7 +34,8 @@
     </div>
 
     <div class="buttons-container">
-        <button class="btn active" onclick="filtereMarkt('alle', this)">Preisvergleich</button>
+        <!-- KORREKTUR: Button heißt wieder 'alle Prospekte' -->
+        <button class="btn active" onclick="filtereMarkt('alle', this)">alle Prospekte</button>
         <button class="btn" onclick="filtereMarkt('ALDI SÜD', this)">ALDI SÜD</button>
         <button class="btn" onclick="filtereMarkt('EDEKA', this)">EDEKA</button>
         <button class="btn" onclick="filtereMarkt('Netto', this)">Netto</button>
@@ -74,7 +75,8 @@
                 return;
             }
 
-            if (aktuellerMarkt === 'alle') {
+            // KORREKTUR: Wenn das Suchfeld leer ist, zeigen wir ALLES auf einen Blick an
+            if (aktuellerMarkt === 'alle' && txt !== "") {
                 let map = {};
                 gefundene.forEach(i => {
                     let b = i.bild || 'default';
@@ -86,7 +88,7 @@
                     let block = document.createElement('div');
                     block.className = 'vergleich-block';
                     let m = info[key] || info["default"];
-                    block.innerHTML = `<h3>${m.s} Vergleich: ${m.n}</h3>`;
+                    block.innerHTML = `<h3>${m.s} Preisvergleich: ${m.n}</h3>`;
                     let grid = document.createElement('div');
                     grid.className = 'maerkte-grid';
                     let minP = Math.min(...map[key].map(a => parseFloat(a.preis.replace('€','').replace(',','.').trim())).filter(p => !isNaN(p)));
@@ -110,17 +112,19 @@
                     container.appendChild(block);
                 });
             } else {
+                // Zeigt alle Kacheln wunderschön nacheinander an (beim Start oder Einzelmarkt)
                 let grid = document.createElement('div');
                 grid.className = 'maerkte-grid';
                 gefundene.forEach(a => {
                     let m = info[a.bild] || info["default"];
+                    let altPreisHtml = a.alter_preis ? `<span class="old-price">${a.alter_preis}</span>` : '';
                     grid.innerHTML += `
                         <div class="markt-card">
                             <div class="image-box" style="background: ${m.f};">${m.s}</div>
                             <div class="markt-label">📍 ${a.markt_name}</div>
                             <div class="product-title">${a.produkt_name}</div>
                             <div class="price-container">
-                                <span class="old-price">${a.alter_preis}</span>
+                                ${altPreisHtml}
                                 <span class="price">${a.preis}</span>
                             </div>
                         </div>`;
