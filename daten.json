@@ -28,5 +28,75 @@
     "rabatt": "🔥 AKTION",
     "gueltigkeit": "Diese Woche",
     "bild": "fish"
+  },
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko 400ml",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "edeka",
+    "markt_name": "EDEKA",
+    "produkt_name": "Ritter Sport Schokolade 100g",
+    "preis": "0.99 €",
+    "alter_preis": "statt 1.49 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "netto",
+    "markt_name": "Netto",
+    "produkt_name": "GUT & GÜNSTIG Deutsche Markenbutter",
+    "preis": "1.69 €",
+    "alter_preis": "statt 2.29 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "butter"
+  },
+  {
+    "markt_id": "rossmann",
+    "markt_name": "ROSSMANN",
+    "produkt_name": "Ariel Vollwaschmittel XXL Pulver",
+    "preis": "14.99 €",
+    "alter_preis": "statt 19.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "laundry"
+  },
+  {
+    "markt_id": "fressnapf",
+    "markt_name": "Fressnapf",
+    "produkt_name": "Premium Hundefutter Fleisch-Brocken",
+    "preis": "2.99 €",
+    "alter_preis": "statt 3.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "dogfood"
+  },
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
+    "preis": "4.99 €",
+    "alter_preis": "statt 7.49 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "screws"
+  },
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Profi Akku-Bohrschrauber 18V Koffer",
+    "preis": "39.99 €",
+    "alter_preis": "statt 59.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "screws"
   }
 ]
