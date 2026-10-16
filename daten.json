@@ -7,7 +7,7 @@
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fce4ec'/><text y='60' x='20' font-size='40'>🍪</text></svg>"
+    "bild": "cookies"
   },
   {
     "markt_id": "edeka",
@@ -17,7 +17,7 @@
     "alter_preis": "statt 1.49 €",
     "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍫</text></svg>"
+    "bild": "chocolate"
   },
   {
     "markt_id": "netto",
@@ -27,7 +27,7 @@
     "alter_preis": "statt 2.29 €",
     "rabatt": "🔥 26% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fffde7'/><text y='60' x='20' font-size='40'>🧈</text></svg>"
+    "bild": "butter"
   },
   {
     "markt_id": "penny",
@@ -37,7 +37,7 @@
     "alter_preis": "statt 1.39 €",
     "rabatt": "🔥 50% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e0f7fa'/><text y='60' x='20' font-size='40'>🥛</text></svg>"
+    "bild": "milkshake"
   },
   {
     "markt_id": "rossmann",
@@ -47,7 +47,7 @@
     "alter_preis": "statt 19.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f3e5f5'/><text y='60' x='20' font-size='40'>🧺</text></svg>"
+    "bild": "laundry"
   },
   {
     "markt_id": "fressnapf",
@@ -57,7 +57,7 @@
     "alter_preis": "statt 3.99 €",
     "rabatt": "🔥 25% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍖</text></svg>"
+    "bild": "dogfood"
   },
   {
     "markt_id": "baumarkt",
@@ -67,6 +67,6 @@
     "alter_preis": "statt 7.49 €",
     "rabatt": "🔥 33% gespart!",
     "gueltigkeit": "Diese Woche",
-    "bild": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23eceff1'/><text y='60' x='20' font-size='40'>⚙️</text></svg>"
+    "bild": "screws"
   }
 ]
