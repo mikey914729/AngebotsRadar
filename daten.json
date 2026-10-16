@@ -2,38 +2,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "BEST-PREISEN",
+    "produkt_name": "-33",
     "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "LED-Deko-Kugeln",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,43 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 843",
-    "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -52,8 +22,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "17,52 €",
+    "produkt_name": "TOP-DEALS FÜR KLEINE",
+    "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -62,7 +32,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1752",
+    "produkt_name": "-33",
     "preis": "2,19 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -72,8 +42,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "4,28 €",
+    "produkt_name": "-33",
+    "preis": "3,29 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -82,7 +52,27 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 428",
+    "produkt_name": "-33",
+    "preis": "17,52 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Hintergrund KI-generiert",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-30",
     "preis": "1,39 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -92,7 +82,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "z B 139",
+    "produkt_name": "z. B. z. B.",
     "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -102,7 +92,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "GRUSEL-FANS",
+    "produkt_name": "z. B. z. B.",
+    "preis": "4,28 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
     "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -122,7 +122,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
+    "produkt_name": "Saisonstart",
     "preis": "1,59 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -132,7 +132,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
+    "produkt_name": "siehe Etikett Stück",
     "preis": "0,89 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -142,7 +142,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
+    "produkt_name": "siehe Etikett Stück",
     "preis": "0,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -152,7 +152,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle Mehr auf aldi-suedde/frischekracher",
+    "produkt_name": "Mo. .  Sa. 17.10.",
     "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -162,27 +162,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Klasse I Stück",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
+    "produkt_name": "siehe Etikett",
     "preis": "0,75 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -192,7 +172,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Aktion",
+    "produkt_name": "siehe Etikett",
     "preis": "0,89 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -202,7 +182,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Netz kg-Preis",
+    "produkt_name": "NR. 1 Zitronen",
     "preis": "2,58 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -212,7 +192,27 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Klasse II 15-kg-Netz kg-Preis",
+    "produkt_name": "NR. 1 Zitronen",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Immer günstig und täglich frisch für",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Ursprung Deutschland/Niederlande Dein Bio-Händler Nr. 1 2",
     "preis": "0,86 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -222,7 +222,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
+    "produkt_name": "Mo. .  Sa. 17.10.",
     "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -232,7 +232,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Becher kg-Preis",
+    "produkt_name": "MARKEN. Versch. Sorten",
     "preis": "2,92 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -242,7 +242,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 220",
+    "produkt_name": "MARKEN. Versch. Sorten",
     "preis": "2,36 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -252,7 +252,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
+    "produkt_name": "-62",
     "preis": "0,33 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -262,237 +262,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,32 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 532",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "8,89 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,93 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "12,90 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,40 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 569",
-    "preis": "6,34 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,11 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle Mehr auf aldi-suedde/preise",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,27 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 527",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "14,48 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis 1448",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "888 bzw 712",
-    "preis": "15,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1549 888 bzw 712",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 437",
-    "preis": "4,59 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "TIEFKÜHLUNG",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "ausverkauft sein können Alle Artikel ohne Dekoration Gutes für alleGutes für alle Mehr auf aldi-suedde/preise",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Schale l-Preis  bzw 199",
-    "preis": "2,11 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Glas kg-Preis",
-    "preis": "2,47 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Glas kg-Preis 247",
+    "produkt_name": "-62",
     "preis": "0,89 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -502,8 +272,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "4,28 €",
+    "produkt_name": "-62  750-g-Glas",
+    "preis": "5,32 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -512,8 +282,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 428",
-    "preis": "1,39 €",
+    "produkt_name": "-31",
+    "preis": "3,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -522,8 +292,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "-l-Flasche",
-    "preis": "0,75 €",
+    "produkt_name": "-31",
+    "preis": "5,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -532,437 +302,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "2,12 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 212",
-    "preis": "1,59 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "13,27 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "14,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Becher kg-Preis",
-    "preis": "1,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "11,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1 Enthält von Natur aus Zucker",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Brötchen je Stück",
-    "preis": "0,35 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "500-g-Packung kg-Preis",
-    "preis": "2,22 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "500-g-Packung kg-Preis 222",
-    "preis": "1,11 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "360 g kg-Preis  /",
-    "preis": "5,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Abtropfgewicht",
-    "preis": "2,15 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gewürzt 350-g-Packung kg-Preis",
-    "preis": "14,26 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "FRISCHFLEISCH",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "500 g kg-Preis",
-    "preis": "3,38 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "500 g kg-Preis 338",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "190 bzw 220 g kg-Preis",
-    "preis": "3,63 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw  / Abtropfgewicht",
-    "preis": "3,14 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 314 / Abtropfgewicht",
-    "preis": "0,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "180 g kg-Preis  /",
-    "preis": "9,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Abtropfgewicht",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "800-g-Packung kg-Preis",
-    "preis": "8,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "800-g-Packung kg-Preis 899",
-    "preis": "7,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je 11-kg-Packung kg-Preis",
-    "preis": "4,26 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je 11-kg-Packung kg-Preis 426",
-    "preis": "4,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "12,65 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1265",
-    "preis": "3,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "14,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1498",
-    "preis": "7,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 610",
-    "preis": "5,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 698",
-    "preis": "4,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 598",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "2,11 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 211",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
+    "produkt_name": "Versch. Sorten Versch. Sorten",
     "preis": "9,93 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -972,7 +312,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
+    "produkt_name": "-44",
     "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -982,8 +322,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Blatt je Packung",
-    "preis": "1,95 €",
+    "produkt_name": "-44",
+    "preis": "2,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -992,8 +332,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "11,27 €",
+    "produkt_name": "Versch. Sorten NEWSLETTER ABONNIEREN FÜR ANGEBOTE,",
+    "preis": "8,89 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1002,8 +342,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,69 €",
+    "produkt_name": "Versch. Sorten NEWSLETTER ABONNIEREN FÜR ANGEBOTE,",
+    "preis": "7,40 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1012,67 +352,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "5,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "17,52 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Mehr auf aldi-suedde/preise Gutes für alle",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,88 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 888",
+    "produkt_name": "abonnieren.",
     "preis": "1,11 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1082,307 +362,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "20,75 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2075",
-    "preis": "4,15 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "-l-Flasche",
-    "preis": "0,75 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "2,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 239",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 799",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "60-g-Packung kg-Preis",
-    "preis": "28,17 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "60-g-Packung kg-Preis 2817",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "2 x 125 g  250-g-Packung kg-Preis",
-    "preis": "7,16 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "2 x 125 g  250-g-Packung kg-Preis 716",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1 Ausstattung kann abweichen",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "19,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1995",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "12,90 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1290",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "16,13 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1613",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "19,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1992",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "21,78 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2178",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Mehr Infos fairtrade-deutschlandde/siegel Gutes für alle",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,65 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 665",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "300-g-Packung kg-Preis",
-    "preis": "19,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "300-g-Packung kg-Preis 1997",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "14,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1495",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "175-g-Packung kg-Preis",
-    "preis": "18,80 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "175-g-Packung kg-Preis 1880",
+    "produkt_name": "abonnieren.",
     "preis": "3,29 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1392,67 +372,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,51 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 751",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,76 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 876",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "9,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis 995",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Mehr Infos fairtrade-deutschlandde/siegel",
+    "produkt_name": "Mo. .  Sa. 17.10.",
     "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1462,8 +382,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "26,00 €",
+    "produkt_name": "Versch. Sorten",
+    "preis": "5,27 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1472,8 +392,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 1709",
-    "preis": "23,92 €",
+    "produkt_name": "-27",
+    "preis": "0,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1482,8 +402,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "2392 bzw 1709",
-    "preis": "2,99 €",
+    "produkt_name": "-27",
+    "preis": "1,09 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1492,8 +412,18 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "12,45 €",
+    "produkt_name": "62 Riegel 172-g-",
+    "preis": "14,48 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-24",
+    "preis": "1,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1502,7 +432,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1245",
+    "produkt_name": "-24",
     "preis": "2,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1512,8 +442,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "28,60 €",
+    "produkt_name": "-24",
+    "preis": "2,11 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1522,8 +452,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2860",
-    "preis": "4,29 €",
+    "produkt_name": "Versch. Sorten Versch. Sorten",
+    "preis": "4,59 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1532,8 +462,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "5,98 €",
+    "produkt_name": "-20",
+    "preis": "1,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1542,8 +472,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis 598",
-    "preis": "4,98 €",
+    "produkt_name": "-20",
+    "preis": "0,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1552,8 +482,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 498",
-    "preis": "2,99 €",
+    "produkt_name": "-20",
+    "preis": "3,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1562,8 +492,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "27,92 €",
+    "produkt_name": "-20",
+    "preis": "0,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1572,8 +502,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2792",
-    "preis": "3,49 €",
+    "produkt_name": "Mo. .  Sa. 17.10.",
+    "preis": "12,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1582,8 +512,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "18,32 €",
+    "produkt_name": "je 325-ml-Glas",
+    "preis": "4,28 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1592,47 +522,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1832",
-    "preis": "2,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 939",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 695",
+    "produkt_name": "-30",
     "preis": "1,39 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1642,8 +532,1138 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ausverkauft sein können Alle Artikel ohne Dekoration Artikel teilweise mit Serviervorschlägen Gutes für alle",
+    "produkt_name": "-30",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "11,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mild 3,8  Fett 400-g-",
+    "preis": "1,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20  Traditionell fermen-",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mit L. acidophilus",
+    "preis": "0,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "NUR NUR NATUR",
+    "preis": "0,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "NUR NUR NATUR Versch. Sorten je 150-g-",
+    "preis": "13,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 360-g-",
+    "preis": "2,47 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 360-g-",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 360-g-",
+    "preis": "0,89 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 360-g-",
+    "preis": "2,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mit Rohmilch hergestellt",
+    "preis": "1,15 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "100  Direktsaft",
+    "preis": "0,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "100  Direktsaft",
+    "preis": "2,12 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20  -18",
+    "preis": "1,59 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Aus handwerklicher",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
     "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "KI-generiert",
+    "preis": "9,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Weizen-Sauerteig-",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Weizen-Sauerteig-",
+    "preis": "0,35 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Weizen-Sauerteig-",
+    "preis": "2,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Nur in  NUR NUR NATUR",
+    "preis": "0,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mehrmals täglich Filialen2 Bio-Roggen- 670-g-Glas Abtropfgewicht",
+    "preis": "5,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Sauerteigbrot Abtropfgewicht",
+    "preis": "3,38 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-22",
+    "preis": "2,15 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-22",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mit Weißweinessig",
+    "preis": "2,65 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gurken aus Deutschland",
+    "preis": "2,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Dinkel aus Deutschland als gesetzlich vorgeschrieben.",
+    "preis": "1,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Bio-Dinkel-Spaghetti Sozialrichtlinien.",
+    "preis": "2,22 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "330-g-Glas Abtropfgewicht",
+    "preis": "3,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "330-g-Glas Abtropfgewicht",
+    "preis": "3,14 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "FRISCHFLEISCH -27",
+    "preis": "4,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "FRISCHFLEISCH -27",
+    "preis": "0,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schenkelsteaks",
+    "preis": "14,26 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schenkelsteaks",
+    "preis": "0,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-21",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schwein, Hähnchen und Pute aus den Gyros",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-21",
+    "preis": "7,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-13  Lachsfilet-Portionen",
+    "preis": "3,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "fish"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Bio-Hamburger",
+    "preis": "3,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-16",
+    "preis": "7,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "4,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "8,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "6,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "4,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "5,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mit Paprika-Putenhackfleisch-",
+    "preis": "6,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "WOCHEN- Dinkel-Sandwich",
+    "preis": "2,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20",
+    "preis": "0,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20",
+    "preis": "0,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "17,52 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-33",
+    "preis": "2,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "GUT DREI EICHEN",
+    "preis": "3,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Vom Schwein",
+    "preis": "9,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Am Stück 400-g-",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Am Stück 400-g-",
+    "preis": "1,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-31",
+    "preis": "2,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-31",
+    "preis": "2,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-31",
+    "preis": "3,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "11,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-32  -26",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-32  -26",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "der Pfalz trocken",
+    "preis": "0,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "der Pfalz trocken",
+    "preis": "2,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-30",
+    "preis": "1,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-30",
+    "preis": "2,59 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "8,88 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20",
+    "preis": "1,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-20",
+    "preis": "1,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Knusper-Schoklis",
+    "preis": "7,16 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Knusper-Schoklis",
+    "preis": "1,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "9 x 23,5 g",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-15",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-15",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "WELCHER",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten 3 x 20 g",
+    "preis": "28,17 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "200-g-Glas TEAM-TEST",
+    "preis": "20,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "verschiedene Rollen. Manche treiben an, auf andere",
+    "preis": "4,15 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Spaß in den Berufsalltag. Welcher Team-Typ du bist",
+    "preis": "5,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "FINEST CUISINE Pandoro",
+    "preis": "16,13 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "19,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "21,78 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "5,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Versch. Sorten",
+    "preis": "19,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Versch. Sorten",
+    "preis": "3,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Entdecke unsere unwiderstehliche Auswahl",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zertifiziertem Kakao.",
+    "preis": "7,51 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokoriegel 16 Stück",
+    "preis": "8,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokoriegel 16 Stück",
+    "preis": "9,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "S E G E B",
+    "preis": "6,65 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "S E G E B",
+    "preis": "3,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "WINTERTRAUM",
+    "preis": "5,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Elisen-Lebkuchen Feines",
+    "preis": "19,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Nusskonfekt",
+    "preis": "14,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Zimtsterne",
+    "preis": "18,80 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Rumkugeln KI-generiert",
+    "preis": "6,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokokugeln",
+    "preis": "9,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokokugeln",
+    "preis": "1,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "preis": "4,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Edelmarzipan-",
+    "preis": "18,32 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "12,45 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Bio-Mini-Elisen-Lebkuchen",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Bio-Mini-Elisen-Lebkuchen",
+    "preis": "28,60 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "preis": "27,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "preis": "26,00 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mandelprinten -Zimtsterne oder",
+    "preis": "23,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "G EOGRAFI",
+    "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1662,7 +1682,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "45 oder 6 Std",
+    "produkt_name": "Effekt 2er-Set",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1672,7 +1692,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Garantie je Stück",
+    "produkt_name": "Weitere spülmaschinen- und",
     "preis": "6,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1682,27 +1702,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "3 Jahre Garantie",
-    "preis": "9,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "mit Silikonrand",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 432 ml je Stück",
+    "produkt_name": "Volumen 450, 443",
     "preis": "2,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1712,67 +1712,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "9,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "6,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "3 Jahre Garantie",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "ab 6 Jahren je Set",
+    "produkt_name": "6er-Set",
     "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1782,8 +1722,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "12,10 €",
+    "produkt_name": "CROFTON Hexenhut-Lichterkette",
+    "preis": "9,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1792,8 +1732,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Größen 2129 je Paar",
-    "preis": "4,99 €",
+    "produkt_name": "Wahl zwischen Steckbaustein-",
+    "preis": "9,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1802,8 +1742,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Größen 19/2235/38",
-    "preis": "2,99 €",
+    "produkt_name": "licht mit Sound oder Sound",
+    "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1812,8 +1752,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "110/116134/140 je Set",
-    "preis": "4,99 €",
+    "produkt_name": "Stapelbares Design HOME CREATION",
+    "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1822,7 +1762,27 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ab 3 Jahren je Stück",
+    "produkt_name": "von Licht und Sound Farbe",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Figuren",
+    "preis": "6,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Einheitsgröße",
     "preis": "5,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1832,8 +1792,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "3,99 €",
+    "produkt_name": "100  Polyester",
+    "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1842,8 +1802,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "1  Disney 2  DWA LLC  TM SML  2026 Par Pics",
-    "preis": "12,10 €",
+    "produkt_name": "2er-Set Größen 2129 je Paar",
+    "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1852,7 +1812,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Kissenbezug 80 x 80 cm je Set",
+    "produkt_name": "170 x 130 cm Kissen",
+    "preis": "4,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "NOVITESSE",
     "preis": "12,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1862,8 +1832,18 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "45 x 45 cm je Stück",
-    "preis": "4,99 €",
+    "produkt_name": "Höhe ca. 20 cm",
+    "preis": "6,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "&TM SML. 2026 Par. PicLs.eggings",
+    "preis": "3,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1882,7 +1862,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
+    "produkt_name": "Aldenhoven GmbH & Co. KG",
+    "preis": "92,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Benzstr. 1 48683 Ahaus",
     "preis": "6,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -1892,8 +1882,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "16 x 21 cm",
-    "preis": "3,99 €",
+    "produkt_name": "Nahrungsergänzungsmittel1",
+    "preis": "27,96 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1902,8 +1892,18 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "12,10 €",
+    "produkt_name": "Medizinprodukt versch. mittel1 je 150 Tablet-",
+    "preis": "26,34 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "schwerden",
+    "preis": "2,95 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -1922,77 +1922,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "1,59 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Rosmarin",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "2682 bzw 2107",
-    "preis": "92,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "9219 2682 bzw 2107",
-    "preis": "2,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 1788",
-    "preis": "26,34 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "2634 bzw 1788",
-    "preis": "2,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "topf je Stück",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Busch",
+    "produkt_name": "Chrysanthemen-",
     "preis": "4,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2002,27 +1932,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "31,80 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 3180",
-    "preis": "7,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Packung",
+    "produkt_name": "je 40 Lutschpastillen",
     "preis": "1,95 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2032,8 +1942,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 250-ml-Flasche l-Preis",
-    "preis": "27,96 €",
+    "produkt_name": "je 40 Lutschpastillen",
+    "preis": "2,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2042,8 +1952,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je 250-ml-Flasche l-Preis 2796",
-    "preis": "6,99 €",
+    "produkt_name": "LACURA",
+    "preis": "2,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2052,8 +1962,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "eine gesunde Lebensweise ist",
-    "preis": "12,10 €",
+    "produkt_name": "oder Vanille Versch. Sorten, z. B.",
+    "preis": "31,80 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2062,8 +1972,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "3,99 €",
+    "produkt_name": "oder Vanille Versch. Sorten, z. B.",
+    "preis": "7,95 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2072,7 +1982,27 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "gebündelt je Stück",
+    "produkt_name": "2er-Set",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ca. 20 cm",
+    "preis": "4,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "HIGHLIGHTS",
     "preis": "14,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2082,8 +2012,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "bar je Stück",
-    "preis": "7,99 €",
+    "produkt_name": "Brenndauer ca.",
+    "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2092,17 +2022,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
+    "produkt_name": "Farben Farbe",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2112,7 +2032,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "3 Jahre Garantie",
+    "produkt_name": "rabheizsuA rabheizsuA lichen Längen auszieh- inkl. Batterien",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Farbe",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2122,27 +2052,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "15,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
+    "produkt_name": "LED-Lese- oder Buchleuchte",
     "preis": "6,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2152,17 +2062,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ab 7 Jahren je Stück",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Cordoptik je Stück",
+    "produkt_name": "-Rätselbuch Journal oder Gefühlstagebuch",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2172,17 +2072,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Eltern je Stück",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zum Ausmalen je Stück",
+    "produkt_name": "malen Rätselbuch 42 buch mit Anregungen und Tipps für die",
     "preis": "2,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2192,7 +2082,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "ab 16 Jahren je Stück",
+    "produkt_name": "Versch. Motive",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2202,8 +2092,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "15,10 €",
+    "produkt_name": "Versch. Motive",
+    "preis": "3,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2212,8 +2102,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "gehaken und Magneten je Stück",
-    "preis": "22,99 €",
+    "produkt_name": "mit Memory-Schaum",
+    "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2222,27 +2112,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "0 Std",
-    "preis": "25,00 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "25000 Std",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "50 x 30 x 9 cm je Stück",
+    "produkt_name": "NOVITESSE",
     "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2252,7 +2122,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
+    "produkt_name": "3-fach-Eck-Steckdosenleiste",
     "preis": "12,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2262,7 +2132,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "füll-Tab",
+    "produkt_name": "Mit USB-A- und USB-C-Ausgängen zum",
     "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2272,8 +2142,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "15,10 €",
+    "produkt_name": "liche Lebensdauer ca.",
+    "preis": "25,00 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2282,8 +2152,58 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Maße ca 70 x 120 cm je Stück",
-    "preis": "4,99 €",
+    "produkt_name": "liche Lebensdauer ca.",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "liche Lebensdauer ca.",
+    "preis": "22,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "größe für Kinder und",
+    "preis": "5,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Partien Größen",
+    "preis": "19,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Partien Größen",
+    "preis": "14,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "100  Polyester",
+    "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2302,27 +2222,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Versch Modelle",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Erwachsene je Stück",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "2 x 40 mm bzw 2 x 50 mm",
+    "produkt_name": "DECO CRAFT",
     "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2332,7 +2232,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "2  Elasthan LYCRA",
+    "produkt_name": "DECO CRAFT",
     "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2342,47 +2242,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "4856 je Stück",
-    "preis": "14,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "XL 56/58 je Stück",
-    "preis": "19,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1999",
-    "preis": "15,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "10 x 1 m m-Preis  je Stück",
-    "preis": "0,60 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "10 x 1 m m-Preis 060 je Stück",
+    "produkt_name": "Modelle stoffkoffer",
     "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2392,7 +2252,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "m-Preis",
+    "produkt_name": "4er-Set",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Maße ca. 50 m x DECO CRAFT",
     "preis": "0,02 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2402,7 +2272,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "m-Preis 002",
+    "produkt_name": "ca. 26 x 30 cm und Alu-",
     "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2412,7 +2282,17 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Maße ca 4 x 5 m",
+    "produkt_name": "per Knopfdruck 4er-Set",
+    "preis": "5,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Maße ca. 4 x 5 m",
     "preis": "0,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2422,37 +2302,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "PET Maße ca je 30 x 30 cm",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Teleskopstab",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "stoffkoffer",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "stoffpinsel 1 Rührstab",
+    "produkt_name": "8er-Set",
     "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2462,8 +2312,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "15,10 €",
+    "produkt_name": "DECO CRAFT",
+    "preis": "5,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2472,8 +2322,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "2,58 €",
+    "produkt_name": "mehrfach wiederverwendbar Maße ca.",
+    "preis": "0,60 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -2482,7 +2332,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
+    "produkt_name": "Grand",
     "preis": "0,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2492,217 +2342,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "3,38 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Becher kg-Preis",
-    "preis": "1,78 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "0,89 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "3,96 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "0,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "13,27 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je 1-kg-Packung",
-    "preis": "13,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,24 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Einzelpreis",
-    "preis": "10,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "10 kg",
-    "preis": "87,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "10 kg  8792",
-    "preis": "65,94 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "6594",
-    "preis": "87,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "5,96 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand",
-    "preis": "0,25 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "14,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "16,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "16,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je 1-l-Packung",
+    "produkt_name": "Grand",
     "preis": "0,88 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -2712,1437 +2352,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis  bzw 1427",
-    "preis": "19,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 1998 bzw 1427",
-    "preis": "9,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis  751",
-    "preis": "7,67 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 767 751",
-    "preis": "7,20 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "TIEFKÜHLUNG",
-    "preis": "3,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Preis  866",
-    "preis": "9,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "756 715 bzw",
-    "preis": "8,55 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "855 756 715 bzw",
-    "preis": "4,91 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,93 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 793",
-    "preis": "1,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "z B 1000 g",
-    "preis": "8,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,51 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 851",
-    "preis": "8,28 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 828",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "375 g kg-Preis  /",
-    "preis": "7,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Abtropfgewicht",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 199",
-    "preis": "2,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "TIEFKÜHLUNG",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "1,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand",
-    "preis": "0,25 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand 025",
-    "preis": "0,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,31 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "TIEFKÜHLUNG",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUFSTELLER",
-    "preis": "1,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "16,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,43 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 843",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,32 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 832",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "16,90 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1690",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,65 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 665",
-    "preis": "4,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,20 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 920",
-    "preis": "0,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 698",
-    "preis": "3,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "9,93 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis 993",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "15,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1519",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,05 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 905",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "11,63 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1163",
-    "preis": "3,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,14 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUFSTELLER",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alleGutes für alle",
-    "preis": "16,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,31 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 831",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "19,89 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUFSTELLER",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "HIGHLIGHT",
-    "preis": "8,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1-l-Flasche",
-    "preis": "8,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "11,24 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis  bzw 670",
-    "preis": "18,76 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUFSTELLER",
-    "preis": "4,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "12,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUFSTELLER",
-    "preis": "6,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis  149",
-    "preis": "3,73 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 830",
-    "preis": "9,22 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "922 bzw 830",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "023 bzw 017",
-    "preis": "0,35 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "035 023 bzw 017",
-    "preis": "18,88 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Cerveza Especial",
-    "preis": "1,58 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand",
-    "preis": "0,25 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand 025",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 1163",
-    "preis": "13,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "2,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "12 x  l  396-l-",
-    "preis": "0,33 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "zzgl Pfand",
-    "preis": "2,02 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "12 x   300",
-    "preis": "0,25 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "12 x 025  300",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 999",
-    "preis": "7,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "29,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2999",
-    "preis": "14,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "5,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,30 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
-    "preis": "1,59 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Gutes für alle",
-    "preis": "16,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "AUCH NÄCHSTE WOCHE GÜNSTIGE AUSSICHTEN",
-    "preis": "23,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Größen 62/6898/104",
-    "preis": "3,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "86/92 je Stück",
-    "preis": "3,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "je Stück",
-    "preis": "3,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "10/2026",
-    "preis": "17,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,48 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 748",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Packung kg-Preis",
-    "preis": "7,45 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Packung kg-Preis 745",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,38 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 738",
-    "preis": "3,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 997",
-    "preis": "2,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "300-g-Packung kg-Preis",
-    "preis": "6,63 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "300-g-Packung kg-Preis 663",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "2,82 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 282",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Packung kg-Preis",
-    "preis": "8,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "200-g-Packung kg-Preis 895",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis",
-    "preis": "9,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Packung kg-Preis 995",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "15,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1592",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "14,97 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1497",
-    "preis": "4,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "100-g-Packung kg-Preis",
-    "preis": "12,90 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "100-g-Packung kg-Preis 1290",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "8,95 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 895",
-    "preis": "1,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "15,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1592",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,96 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 796",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,96 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 796",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "bzw 1309",
-    "preis": "15,27 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "1527 bzw 1309",
-    "preis": "2,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "11,92 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1192",
-    "preis": "1,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "10,47 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1047",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "5,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 549",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,63 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 663",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "17,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1779",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "250-g-Packung kg-Preis",
-    "preis": "6,76 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "250-g-Packung kg-Preis 676",
-    "preis": "1,69 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "108-g-Packung kg-Preis",
-    "preis": "11,94 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "108-g-Packung kg-Preis 1194",
-    "preis": "1,29 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis  bzw 1106",
-    "preis": "12,44 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 1244 bzw 1106",
-    "preis": "1,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "-l-Flasche",
-    "preis": "0,75 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "23,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 2399",
-    "preis": "17,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "5-l-Flasche",
-    "preis": "0,37 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "13,31 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 1331",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
-    "preis": "7,13 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 713",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis",
+    "produkt_name": "Versch. Sorten",
     "preis": "2,58 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4152,8 +2362,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "l-Preis 258",
-    "preis": "1,29 €",
+    "produkt_name": "Classico oder",
+    "preis": "13,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4162,7 +2372,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
+    "produkt_name": "Original-Feta",
     "preis": "13,27 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4172,7 +2382,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "KÜHLUNG",
+    "produkt_name": "GRATIS",
     "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4182,207 +2392,7 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "3,17 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 317",
-    "preis": "1,19 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "SO EINFACH GEHTS",
-    "preis": "189,00 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "des Gutscheins ist nicht möglich Nach Buchung ist eine Stornierung oder Umbuchung nicht mehr möglich Anbieter dieses Gutscheins ist die Animod",
-    "preis": "1,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Dauerhaft erhältlich",
-    "preis": "29,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "pro 4 Wochen1",
-    "preis": "19,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "FÜR UNTERWEGS",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "FÜR UNTERWEGS",
-    "preis": "12,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "ZUM ALDI PREIS",
-    "preis": "42,50 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "KEINE ANGEBOTE MEHR VERPASSEN",
-    "preis": "19,10 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Niedriglehner-Auflage",
-    "preis": "5,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "0,98 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 098",
-    "preis": "0,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "z B  049",
-    "preis": "0,79 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Bettwäsche",
-    "preis": "6,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,96 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 996",
-    "preis": "2,49 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Franzbrötchen",
-    "preis": "0,39 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Pinienkerne",
-    "preis": "4,99 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "29,80 €",
-    "alter_preis": "",
-    "rabatt": "🔥 PROSPEKT-DEAL",
-    "gueltigkeit": "KW 42",
-    "bild": "default"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 2980",
+    "produkt_name": "Smoothie",
     "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4392,18 +2402,208 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Fleece-Jacke",
+    "produkt_name": "Smoothie",
+    "preis": "5,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Smoothie",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Joghurt",
+    "preis": "0,89 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mini-",
+    "preis": "1,78 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "200-g-Netz",
+    "preis": "14,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "3,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "8-kg-Karton -25",
+    "preis": "8,24 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "8-kg-Karton -25",
+    "preis": "65,94 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "8-kg-Karton -25",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Röstzwiebeln 12  Saftgehalt",
+    "preis": "7,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Röstzwiebeln 12  Saftgehalt",
+    "preis": "1,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "AMERICAN",
+    "preis": "0,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "AMERICAN",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Pizzabrot",
+    "preis": "8,43 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "je 200-g-Tube",
+    "preis": "5,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Hot-Dog-",
+    "preis": "1,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Pizza Pockets je 665-g-Glas",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten  Abtropfgewicht",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "17  vol. je 0,5-",
+    "preis": "19,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Air Fryer",
     "preis": "9,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
-    "bild": "clothes"
+    "bild": "default"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "7,11 €",
+    "produkt_name": "Stuffed 1-2-3 Frites",
+    "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4412,7 +2612,47 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 711",
+    "produkt_name": "Stuffed 1-2-3 Frites",
+    "preis": "3,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je",
+    "preis": "8,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "B B Q - M a r in a d e  P re i s 9 . 9 7 , 8 .6 6 , 1 8 0 - g - P a c k u ng",
+    "preis": "8,55 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "B B Q - M a r in a d e  P re i s 9 . 9 7 , 8 .6 6 , 1 8 0 - g - P a c k u ng",
+    "preis": "4,91 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "TROLLI",
     "preis": "1,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4422,8 +2662,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "1-kg-Eimer",
-    "preis": "1,59 €",
+    "produkt_name": "Glotzer",
+    "preis": "15,19 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4432,8 +2672,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "z B  159",
-    "preis": "2,19 €",
+    "produkt_name": "LORENZ",
+    "preis": "1,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4442,8 +2682,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "PREISWERTE FREUDE",
-    "preis": "23,10 €",
+    "produkt_name": "HALLOWEEN Versch. Sorten",
+    "preis": "0,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4452,8 +2692,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "PREISWERTE FREUDE",
-    "preis": "19,10 €",
+    "produkt_name": "HALLOWEEN Versch. Sorten",
+    "preis": "8,14 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4462,8 +2702,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Mo   Sa 2410",
-    "preis": "19,10 €",
+    "produkt_name": "Versch. Sorten",
+    "preis": "9,20 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4472,8 +2712,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "oder Leggings",
-    "preis": "22,10 €",
+    "produkt_name": "Halloween XXL",
+    "preis": "2,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4482,8 +2722,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "6,54 €",
+    "produkt_name": "Sweet & Sour",
+    "preis": "8,31 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4492,8 +2732,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 654",
-    "preis": "1,29 €",
+    "produkt_name": "Sweet & Sour",
+    "preis": "1,49 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4502,8 +2742,18 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "z B 129",
-    "preis": "1,89 €",
+    "produkt_name": "Schoko-Lollies Knoppers Minis",
+    "preis": "9,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Halloween",
+    "preis": "11,63 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4512,8 +2762,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis",
-    "preis": "9,95 €",
+    "produkt_name": "XXL",
+    "preis": "1,69 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4522,8 +2772,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 995",
-    "preis": "1,99 €",
+    "produkt_name": "3.49",
+    "preis": "4,99 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4532,8 +2782,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Adventskalender-Bastelset",
-    "preis": "3,99 €",
+    "produkt_name": "600-g-Dose",
+    "preis": "8,32 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4542,8 +2792,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis  bzw 487",
-    "preis": "6,02 €",
+    "produkt_name": "34. 9 P r o t e i n - C h ips",
+    "preis": "1,79 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4552,8 +2802,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis 602 bzw 487",
-    "preis": "2,19 €",
+    "produkt_name": "Ve r sc h . S o rt en  M a o ween",
+    "preis": "6,98 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4562,8 +2812,8 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Gültig von Mo",
-    "preis": "19,10 €",
+    "produkt_name": "Ve r sc h . S o rt en  M a o ween",
+    "preis": "19,89 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
     "gueltigkeit": "KW 42",
@@ -4572,7 +2822,47 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "kg-Preis  bzw 248",
+    "produkt_name": "XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL",
+    "preis": "8,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL",
+    "preis": "11,24 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL XXL",
+    "preis": "8,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "CurryStar",
+    "preis": "5,30 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
     "preis": "3,73 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
@@ -4582,7 +2872,767 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "reduziert zum 2026",
+    "produkt_name": "HIGHLIGHT",
+    "preis": "6,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "500-ml-Tiegel ab",
+    "preis": "12,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Käsescheiben",
+    "preis": "2,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Käsescheiben",
+    "preis": "18,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "2 x 500 g",
+    "preis": "4,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Geschnetzeltes",
+    "preis": "9,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Original oder Zero",
+    "preis": "0,33 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Original oder Zero",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ARIEL",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "18,88 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "MEINE METZGEREI",
+    "preis": "0,35 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mariniert versch.",
+    "preis": "1,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mariniert versch.",
+    "preis": "29,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Sa. .",
+    "preis": "17,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "LILY & DAN",
+    "preis": "3,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Weitere",
+    "preis": "3,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ALDI",
+    "preis": "3,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "AAUUCCHH NNÄÄCCHHSSTTEE WWOOCCHHEE GGÜÜNNSSTTIIGGEE AAUUSSSSIICCHHTTEENN",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zertifiziertem Kakao.",
+    "preis": "1,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gewürz- Kokosmakronen",
+    "preis": "7,45 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gewürz- Kokosmakronen",
+    "preis": "2,82 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gewürz- Kokosmakronen",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "7,48 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mandel-Spekulatius WINTERTRAUM",
+    "preis": "6,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "WINTERTRAUM",
+    "preis": "7,38 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "herzen",
+    "preis": "3,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "herzen",
+    "preis": "9,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "herzen",
+    "preis": "2,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 200-g-",
+    "preis": "9,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 200-g-",
+    "preis": "1,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokoladen-Kränze",
+    "preis": "8,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Brot",
+    "preis": "11,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Brot",
+    "preis": "1,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Brot",
+    "preis": "1,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mini-Stollen",
+    "preis": "8,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "rund Seite außer Happen",
+    "preis": "15,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "in unseren Filialen.",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten WINTERTRAUM",
+    "preis": "15,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten WINTERTRAUM",
+    "preis": "14,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "7,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Baumstamm",
+    "preis": "12,90 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Neu im Sortiment",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Milch-Mäuse Knusper Freunde",
+    "preis": "11,94 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokolade",
+    "preis": "10,47 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schokolade",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Halber Zopf",
+    "preis": "5,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Halber Zopf",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "17,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten",
+    "preis": "1,69 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mini-Kuchen",
+    "preis": "6,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 160-",
+    "preis": "12,44 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 160-",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten je 160-",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mini-Hefeschnecken",
+    "preis": "6,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Potato Sandwich",
+    "preis": "3,17 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Potato Sandwich",
+    "preis": "1,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "12  vol.",
+    "preis": "7,13 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "12  vol.",
+    "preis": "4,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Bio-Schnittkäse",
+    "preis": "13,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Points",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Frankreich",
+    "preis": "0,37 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Frankreich",
+    "preis": "2,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Versch. Sorten Frankreich",
+    "preis": "1,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Do. .  Sa. 3.",
+    "preis": "1,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo. .  Sa. 17.10.",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-15",
+    "preis": "42,50 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-15",
+    "preis": "50,00 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-15",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "BUCHEN, LOSSURFEN.",
+    "preis": "29,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "D E R N Ä CH S TE N WOCHE. S P A RE N . 6 9. 9  A k t i o n",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "WIR SENKEN",
+    "preis": "1,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "KW 42",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "14.9",
     "preis": "15,10 €",
     "alter_preis": "",
     "rabatt": "🔥 PROSPEKT-DEAL",
