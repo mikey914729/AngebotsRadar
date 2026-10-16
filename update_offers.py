@@ -17,16 +17,65 @@ def hole_aktuelle_prospekte():
         print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
         roh_angebote = []
 
-    # Perfekt abgestimmte Ersatzliste mit kleingeschriebenen Titeln zur fehlerfreien Erkennung
+    # Hier sind die Unsplash-Links direkt fest verbaut, damit absolut nichts schiefgehen kann
     if not roh_angebote:
         roh_angebote = [
-            {"title": "wintertraum pfeffernüsse 600g", "merchant": "ALDI SÜD Wolnzach", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image": "cookies"},
-            {"title": "ritter sport schokolade 100g", "merchant": "EDEKA Wolnzach", "price": "0.99", "old_price": "1.49", "valid_until": "Diese Woche", "image": "chocolate"},
-            {"title": "gut & günstig deutsche markenbutter", "merchant": "Netto Marken-Discount", "price": "1.69", "old_price": "2.29", "valid_until": "Diese Woche", "image": "butter"},
-            {"title": "müllermilch schoko / erdbeer 400ml", "merchant": "PENNY Markt", "price": "0.69", "old_price": "1.39", "valid_until": "Diese Woche", "image": "milkshake"},
-            {"title": "ariel vollwaschmittel xxl pulver", "merchant": "ROSSMANN Drogerie", "price": "14.99", "old_price": "19.99", "valid_until": "Diese Woche", "image": "laundry"},
-            {"title": "premium hundefutter fleisch-brocken", "merchant": "Fressnapf", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image": "dogfood"},
-            {"title": "universal holzschrauben senkkopf 50er set", "merchant": "Sonderpreis Baumarkt", "price": "4.99", "old_price": "7.49", "valid_until": "Diese Woche", "image": "screws"}
+            {
+                "title": "Wintertraum Pfeffernüsse 600g",
+                "merchant": "ALDI SÜD Wolnzach",
+                "price": "2.99",
+                "old_price": "3.99",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "Ritter Sport Schokolade 100g",
+                "merchant": "EDEKA Wolnzach",
+                "price": "0.99",
+                "old_price": "1.49",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "GUT & GÜNSTIG Deutsche Markenbutter",
+                "merchant": "Netto Marken-Discount",
+                "price": "1.69",
+                "old_price": "2.29",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "Müllermilch Schoko / Erdbeer 400ml",
+                "merchant": "PENNY Markt",
+                "price": "0.69",
+                "old_price": "1.39",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "Ariel Vollwaschmittel XXL Pulver",
+                "merchant": "ROSSMANN Drogerie",
+                "price": "14.99",
+                "old_price": "19.99",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "Premium Hundefutter Fleisch-Brocken",
+                "merchant": "Fressnapf",
+                "price": "2.99",
+                "old_price": "3.99",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            },
+            {
+                "title": "Universal Holzschrauben Senkkopf 50er Set",
+                "merchant": "Sonderpreis Baumarkt",
+                "price": "4.99",
+                "old_price": "7.49",
+                "valid_until": "Diese Woche",
+                "image_link": "https://unsplash.com"
+            }
         ]
 
     angebote_liste = []
@@ -58,6 +107,7 @@ def hole_aktuelle_prospekte():
         else:
             continue
 
+        # Rabatt-Berechnung
         rabatt_text = ""
         try:
             p_neu = float(str(item.get("price")).replace(",", "."))
@@ -69,35 +119,13 @@ def hole_aktuelle_prospekte():
         except Exception:
             pass
 
-        bild_url = item.get("image") or item.get("image_url") or ""
-        text_fuer_suche = str(item.get("title", "")).lower()
-        
-        # Falls kein funktionierender Internet-Link da ist, weisen wir feste Unsplash-Bilder zu
-        if not bild_url.startswith("http"):
-            bild_url = "https://unsplash.com" # Ausweich-Bild
-            
-            if "pfeffer" in text_fuer_suche or "cookie" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "schoko" in text_fuer_suche or "ritter" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "butter" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "milch" in text_fuer_suche or "erdbeer" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "ariel" in text_fuer_suche or "wasch" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "futter" in text_fuer_suche or "hund" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-            elif "schraub" in text_fuer_suche or "werkzeug" in text_fuer_suche:
-                bild_url = "https://unsplash.com"
-
-        # Macht den ersten Buchstaben für die Anzeige auf der Website wieder schön groß
-        schoener_titel = item.get("title", "").capitalize()
+        # Nutzt den direkten Bild-Link aus der Liste oder den API-Link
+        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "https://unsplash.com"
 
         angebot = {
             "markt_id": id_name,
             "markt_name": label,
-            "produkt_name": schoener_titel,
+            "produkt_name": item.get("title") or item.get("name"),
             "preis": f"{item.get('price')} €",
             "alter_preis": f"statt {item.get('old_price')} €" if item.get("old_price") else "",
             "rabatt": rabatt_text,
