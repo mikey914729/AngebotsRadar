@@ -17,7 +17,7 @@ def hole_aktuelle_prospekte():
         print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
         roh_angebote = []
 
-    # Vollständig verschlüsselte HTTPS-Bildlinks, die kein Browser blockieren kann
+    # Alternative, blockadesichere Bildlinks direkt aus freien Enzyklopädie-Datenbanken (Wikimedia)
     if not roh_angebote:
         roh_angebote = [
             {
@@ -26,7 +26,7 @@ def hole_aktuelle_prospekte():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "Ritter Sport Schokolade 100g",
@@ -34,7 +34,7 @@ def hole_aktuelle_prospekte():
                 "price": "0.99",
                 "old_price": "1.49",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "GUT & GÜNSTIG Deutsche Markenbutter",
@@ -42,7 +42,7 @@ def hole_aktuelle_prospekte():
                 "price": "1.69",
                 "old_price": "2.29",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "Müllermilch Schoko / Erdbeer 400ml",
@@ -50,7 +50,7 @@ def hole_aktuelle_prospekte():
                 "price": "0.69",
                 "old_price": "1.39",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "Ariel Vollwaschmittel XXL Pulver",
@@ -58,7 +58,7 @@ def hole_aktuelle_prospekte():
                 "price": "14.99",
                 "old_price": "19.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "Premium Hundefutter Fleisch-Brocken",
@@ -66,7 +66,7 @@ def hole_aktuelle_prospekte():
                 "price": "2.99",
                 "old_price": "3.99",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             },
             {
                 "title": "Universal Holzschrauben Senkkopf 50er Set",
@@ -74,7 +74,7 @@ def hole_aktuelle_prospekte():
                 "price": "4.99",
                 "old_price": "7.49",
                 "valid_until": "Diese Woche",
-                "image_link": "https://unsplash.com"
+                "image_link": "https://wikimedia.org"
             }
         ]
 
@@ -118,16 +118,7 @@ def hole_aktuelle_prospekte():
         except Exception:
             pass
 
-        # Holt den sicheren Bildlink
-        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or ""
-        
-        # Sicherstellen, dass jeder Link zwingend mit https:// startet
-        if bild_url.startswith("//"):
-            bild_url = "https:" + bild_url
-        elif bild_url.startswith("http://"):
-            bild_url = bild_url.replace("http://", "https://")
-        elif not bild_url.startswith("http"):
-            bild_url = "https://unsplash.com"
+        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "https://wikimedia.org"
 
         angebot = {
             "markt_id": id_name,
