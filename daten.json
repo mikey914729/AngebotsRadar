@@ -1,32 +1,5 @@
 [
   {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Äpfel süß-säuerlich 1kg",
-    "preis": "1.59 €",
-    "alter_preis": "",
-    "gueltigkeit": "Diese Woche",
-    "bild": "apple"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Speisekartoffeln 2,5 kg",
-    "preis": "2.49 €",
-    "alter_preis": "",
-    "gueltigkeit": "Diese Woche",
-    "bild": "potato"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Norwegische Lachsfiletportionen 500 g",
-    "preis": "7.49 €",
-    "alter_preis": "statt 9.49 €",
-    "gueltigkeit": "Diese Woche",
-    "bild": "fish"
-  },
-  {
     "markt_id": "penny",
     "markt_name": "PENNY",
     "produkt_name": "Müllermilch Schoko 400ml",
@@ -52,5 +25,35 @@
     "alter_preis": "statt 7.49 €",
     "gueltigkeit": "Diese Woche",
     "bild": "screws"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Äpfel süß-säuerlich 1kg",
+    "preis": "1.59 €",
+    "alter_preis": "",
+    "rabatt": "",
+    "gueltigkeit": "Diese Woche",
+    "bild": "apple"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Speisekartoffeln 2,5 kg",
+    "preis": "2.49 €",
+    "alter_preis": "",
+    "rabatt": "",
+    "gueltigkeit": "Diese Woche",
+    "bild": "potato"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Norwegische Lachsfiletportionen 500 g",
+    "preis": "7.49 €",
+    "alter_preis": "statt 9.49 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "fish"
   }
 ]
