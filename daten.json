@@ -2,11 +2,11 @@
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Frische Kulturäpfel Klasse I",
+    "produkt_name": "Frische Kulturäpfel Klasse I (Jonagored)",
     "preis": "1.59 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "KW 42",
+    "gueltigkeit": "Diese Woche",
     "bild": "apple"
   },
   {
@@ -16,27 +16,27 @@
     "preis": "2.49 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "KW 42",
+    "gueltigkeit": "Diese Woche",
     "bild": "potato"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Frisches Lachsfilet mit Haut",
+    "produkt_name": "Frisches Lachsfilet XXL mit Haut",
     "preis": "7.49 €",
     "alter_preis": "statt 9.49 €",
     "rabatt": "🔥 AKTION",
-    "gueltigkeit": "KW 42",
+    "gueltigkeit": "Diese Woche",
     "bild": "fish"
   },
   {
     "markt_id": "aldi",
     "markt_name": "ALDI SÜD",
-    "produkt_name": "Paulaner Spezi Kasten 20x0,5l",
+    "produkt_name": "Paulaner Spezi (Original Spezi-Mischung)",
     "preis": "12.99 €",
     "alter_preis": "",
     "rabatt": "",
-    "gueltigkeit": "KW 42",
+    "gueltigkeit": "Diese Woche",
     "bild": "milkshake"
   },
   {
