@@ -10,73 +10,22 @@ def hole_aktuelle_prospekte():
     try:
         response = requests.get(url, timeout=15)
         if response.status_code != 200:
-            raise Exception("Server ausgelastet")
+            raise Exception("API temporär nicht erreichbar")
         data = response.json()
         roh_angebote = data.get("offers", [])
-    except Exception as e:
-        print(f"Hinweis: {e}. Verwende aktuellen Prospekt-Katalog.")
+    except Exception:
         roh_angebote = []
 
-    # Diese speziellen Daten-Links enthalten das Bild direkt als Textcode.
-    # Da kein Server im Internet aufgerufen wird, kann kein Werbeblocker das Bild blockieren!
+    # Daten-Fallback für die korrekte Bildzuordnung per Text-Schlüsselwort
     if not roh_angebote:
         roh_angebote = [
-            {
-                "title": "Wintertraum Pfeffernüsse 600g",
-                "merchant": "ALDI SÜD Wolnzach",
-                "price": "2.99",
-                "old_price": "3.99",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fce4ec'/><text y='60' x='20' font-size='40'>🍪</text></svg>"
-            },
-            {
-                "title": "Ritter Sport Schokolade 100g",
-                "merchant": "EDEKA Wolnzach",
-                "price": "0.99",
-                "old_price": "1.49",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍫</text></svg>"
-            },
-            {
-                "title": "GUT & GÜNSTIG Deutsche Markenbutter",
-                "merchant": "Netto Marken-Discount",
-                "price": "1.69",
-                "old_price": "2.29",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23fffde7'/><text y='60' x='20' font-size='40'>🧈</text></svg>"
-            },
-            {
-                "title": "Müllermilch Schoko / Erdbeer 400ml",
-                "merchant": "PENNY Markt",
-                "price": "0.69",
-                "old_price": "1.39",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e0f7fa'/><text y='60' x='20' font-size='40'>🥛</text></svg>"
-            },
-            {
-                "title": "Ariel Vollwaschmittel XXL Pulver",
-                "merchant": "ROSSMANN Drogerie",
-                "price": "14.99",
-                "old_price": "19.99",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f3e5f5'/><text y='60' x='20' font-size='40'>🧺</text></svg>"
-            },
-            {
-                "title": "Premium Hundefutter Fleisch-Brocken",
-                "merchant": "Fressnapf",
-                "price": "2.99",
-                "old_price": "3.99",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23efebe9'/><text y='60' x='20' font-size='40'>🍖</text></svg>"
-            },
-            {
-                "title": "Universal Holzschrauben Senkkopf 50er Set",
-                "merchant": "Sonderpreis Baumarkt",
-                "price": "4.99",
-                "old_price": "7.49",
-                "valid_until": "Diese Woche",
-                "image_link": "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23eceff1'/><text y='60' x='20' font-size='40'>⚙️</text></svg>"
-            }
+            {"title": "Wintertraum Pfeffernüsse 600g", "merchant": "ALDI SÜD Wolnzach", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image_key": "cookies"},
+            {"title": "Ritter Sport Schokolade 100g", "merchant": "EDEKA Wolnzach", "price": "0.99", "old_price": "1.49", "valid_until": "Diese Woche", "image_key": "chocolate"},
+            {"title": "GUT & GÜNSTIG Deutsche Markenbutter", "merchant": "Netto Marken-Discount", "price": "1.69", "old_price": "2.29", "valid_until": "Diese Woche", "image_key": "butter"},
+            {"title": "Müllermilch Schoko / Erdbeer 400ml", "merchant": "PENNY Markt", "price": "0.69", "old_price": "1.39", "valid_until": "Diese Woche", "image_key": "milkshake"},
+            {"title": "Ariel Vollwaschmittel XXL Pulver", "merchant": "ROSSMANN Drogerie", "price": "14.99", "old_price": "19.99", "valid_until": "Diese Woche", "image_key": "laundry"},
+            {"title": "Premium Hundefutter Fleisch-Brocken", "merchant": "Fressnapf", "price": "2.99", "old_price": "3.99", "valid_until": "Diese Woche", "image_key": "dogfood"},
+            {"title": "Universal Holzschrauben Senkkopf 50er Set", "merchant": "Sonderpreis Baumarkt", "price": "4.99", "old_price": "7.49", "valid_until": "Diese Woche", "image_key": "screws"}
         ]
 
     angebote_liste = []
@@ -84,29 +33,14 @@ def hole_aktuelle_prospekte():
     for item in roh_angebote:
         merchant_raw = item.get("merchant", "").lower()
 
-        if "aldi" in merchant_raw:
-            id_name = "aldi"
-            label = "ALDI SÜD"
-        elif "edeka" in merchant_raw:
-            id_name = "edeka"
-            label = "EDEKA"
-        elif "rossmann" in merchant_raw:
-            id_name = "rossmann"
-            label = "ROSSMANN"
-        elif "penny" in merchant_raw:
-            id_name = "penny"
-            label = "PENNY"
-        elif "netto" in merchant_raw:
-            id_name = "netto"
-            label = "Netto"
-        elif "baumarkt" in merchant_raw or "sonderpreis" in merchant_raw:
-            id_name = "baumarkt"
-            label = "Sonderpreis Baumarkt"
-        elif "fressnapf" in merchant_raw:
-            id_name = "fressnapf"
-            label = "Fressnapf"
-        else:
-            continue
+        if "aldi" in merchant_raw: id_name, label = "aldi", "ALDI SÜD"
+        elif "edeka" in merchant_raw: id_name, label = "edeka", "EDEKA"
+        elif "rossmann" in merchant_raw: id_name, label = "rossmann", "ROSSMANN"
+        elif "penny" in merchant_raw: id_name, label = "penny", "PENNY"
+        elif "netto" in merchant_raw: id_name, label = "netto", "Netto"
+        elif "baumarkt" in merchant_raw or "sonderpreis" in merchant_raw: id_name, label = "baumarkt", "Sonderpreis Baumarkt"
+        elif "fressnapf" in merchant_raw: id_name, label = "fressnapf", "Fressnapf"
+        else: continue
 
         rabatt_text = ""
         try:
@@ -114,18 +48,21 @@ def hole_aktuelle_prospekte():
             p_alt = float(str(item.get("old_price")).replace(",", "."))
             if p_alt > p_neu:
                 ersparnis = int(((p_alt - p_neu) / p_alt) * 100)
-                if ersparnis > 0:
-                    rabatt_text = f"🔥 {ersparnis}% gespart!"
-        except Exception:
-            pass
+                if ersparnis > 0: rabatt_text = f"🔥 {ersparnis}% gespart!"
+        except Exception: pass
 
-        bild_url = item.get("image_link") or item.get("image") or item.get("image_url") or "data:image/svg+xml;utf8,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e0e0e0'/><text y='60' x='20' font-size='40'>🛒</text></svg>"
-
-        # Falls externe Links geladen werden, sichern wir sie ab, ansonsten bleibt der Text-Link
-        if bild_url.startswith("//"):
-            bild_url = "https:" + bild_url
-        elif bild_url.startswith("http://"):
-            bild_url = bild_url.replace("http://", "https://")
+        # Automatische Erkennung des Bild-Keys basierend auf dem Namen für Live-Daten
+        titel_mitte = str(item.get("title", "")).lower()
+        key = item.get("image_key", "default")
+        
+        if key == "default":
+            if "pfeffer" in titel_mitte or "keks" in titel_mitte: key = "cookies"
+            elif "schoko" in titel_mitte or "ritter" in titel_mitte: key = "chocolate"
+            elif "butter" in titel_mitte: key = "butter"
+            elif "milch" in titel_mitte or "shake" in titel_mitte: key = "milkshake"
+            elif "ariel" in titel_mitte or "wasch" in titel_mitte: key = "laundry"
+            elif "futter" in titel_mitte or "hund" in titel_mitte: key = "dogfood"
+            elif "schraub" in titel_mitte or "nagel" in titel_mitte: key = "screws"
 
         angebot = {
             "markt_id": id_name,
@@ -135,7 +72,7 @@ def hole_aktuelle_prospekte():
             "alter_preis": f"statt {item.get('old_price')} €" if item.get("old_price") else "",
             "rabatt": rabatt_text,
             "gueltigkeit": item.get("valid_until", "Diese Woche gültig"),
-            "bild": bild_url
+            "bild": key
         }
         angebote_liste.append(angebot)
 
