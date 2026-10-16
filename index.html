@@ -42,7 +42,6 @@
     <script>
         let alleAngebote = [];
 
-        // Definition der unblockbaren Vektor-Grafiken (Emojis als SVG)
         const svgBilder = {
             "cookies": `<svg viewBox="0 0 100 100" width="100%" height="100%"><rect width="100" height="100" rx="15" fill="#fce4ec"/><text y="65" x="25" font-size="50">🍪</text></svg>`,
             "chocolate": `<svg viewBox="0 0 100 100" width="100%" height="100%"><rect width="100" height="100" rx="15" fill="#efebe9"/><text y="65" x="25" font-size="50">🍫</text></svg>`,
@@ -79,8 +78,6 @@
                 card.className = 'prospekt-card';
                 
                 let rabattAnzeige = item.rabatt ? item.rabatt : '% Aktion';
-                
-                // Holt das passende SVG-Symbol basierend auf dem vom Scraper übergebenen Schlüssel
                 let svgCode = svgBilder[item.bild] || svgBilder["default"];
 
                 card.innerHTML = `
