@@ -1,0 +1,32 @@
+[
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Müllermilch Schoko 400ml",
+    "preis": "0.69 €",
+    "alter_preis": "statt 1.39 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "milkshake"
+  },
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Kuscheldecke XXL Fleece",
+    "preis": "9.99 €",
+    "alter_preis": "statt 14.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "clothes"
+  },
+  {
+    "markt_id": "penny",
+    "markt_name": "PENNY",
+    "produkt_name": "Paulaner Spezi Kasten 20x0,5l",
+    "preis": "9.99 €",
+    "alter_preis": "statt 12.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "milkshake"
+  }
+]

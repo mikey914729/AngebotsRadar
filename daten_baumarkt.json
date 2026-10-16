@@ -1,0 +1,22 @@
+[
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Universal Holzschrauben Senkkopf 50er Set",
+    "preis": "4.99 €",
+    "alter_preis": "statt 7.49 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "screws"
+  },
+  {
+    "markt_id": "baumarkt",
+    "markt_name": "Sonderpreis Baumarkt",
+    "produkt_name": "Profi Akku-Bohrschrauber 18V Koffer",
+    "preis": "39.99 €",
+    "alter_preis": "statt 59.99 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "screws"
+  }
+]

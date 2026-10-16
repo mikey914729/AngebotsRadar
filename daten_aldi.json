@@ -1,0 +1,2152 @@
+[
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710 ab Do 1510 ab Fr 1610",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,43 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "17,52 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "4,28 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gültig von Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Netz kg-Preis",
+    "preis": "2,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Klasse II 15-kg-Netz kg-Preis",
+    "preis": "0,86 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Becher kg-Preis",
+    "preis": "2,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 220",
+    "preis": "2,36 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,32 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "8,89 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "12,90 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,40 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 569",
+    "preis": "6,34 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "14,48 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "888 bzw 712",
+    "preis": "15,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 437",
+    "preis": "4,59 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Schale l-Preis  bzw 199",
+    "preis": "2,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Glas kg-Preis",
+    "preis": "2,47 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "4,28 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-l-Flasche",
+    "preis": "0,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "2,12 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "13,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "14,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Becher kg-Preis",
+    "preis": "1,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "11,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "500-g-Packung kg-Preis",
+    "preis": "2,22 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "360 g kg-Preis  /",
+    "preis": "5,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gewürzt 350-g-Packung kg-Preis",
+    "preis": "14,26 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "500 g kg-Preis",
+    "preis": "3,38 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "190 bzw 220 g kg-Preis",
+    "preis": "3,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw  / Abtropfgewicht",
+    "preis": "3,14 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "180 g kg-Preis  /",
+    "preis": "9,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "800-g-Packung kg-Preis",
+    "preis": "8,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "je 11-kg-Packung kg-Preis",
+    "preis": "4,26 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "12,65 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "14,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "2,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "11,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "17,52 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,88 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "20,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-l-Flasche",
+    "preis": "0,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "2,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "60-g-Packung kg-Preis",
+    "preis": "28,17 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "2 x 125 g  250-g-Packung kg-Preis",
+    "preis": "7,16 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "19,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "12,90 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "16,13 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "19,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "21,78 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,65 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "300-g-Packung kg-Preis",
+    "preis": "19,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "14,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "175-g-Packung kg-Preis",
+    "preis": "18,80 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,51 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "9,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "26,00 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 1709",
+    "preis": "23,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "12,45 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "28,60 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "5,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "27,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "18,32 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,39 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Rosmarin",
+    "preis": "2,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "2682 bzw 2107",
+    "preis": "92,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 1788",
+    "preis": "26,34 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Busch",
+    "preis": "4,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "31,80 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "je 250-ml-Flasche l-Preis",
+    "preis": "27,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "0 Std",
+    "preis": "25,00 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "10 x 1 m m-Preis  je Stück",
+    "preis": "0,60 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "m-Preis",
+    "preis": "0,02 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "2,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "3,38 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "3,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "13,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,24 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "10 kg",
+    "preis": "87,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "5,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zzgl Pfand",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "14,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "1 Gültig von Freitag  bis Samstag 1710",
+    "preis": "16,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr",
+    "preis": "16,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis  bzw 1427",
+    "preis": "19,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis  751",
+    "preis": "7,67 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Preis  866",
+    "preis": "9,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "756 715 bzw",
+    "preis": "8,55 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,51 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "375 g kg-Preis  /",
+    "preis": "7,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 199",
+    "preis": "2,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "1,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zzgl Pfand",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,31 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr",
+    "preis": "16,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,43 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,32 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "16,90 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,65 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,20 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "9,93 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "15,19 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,05 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "11,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,14 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr",
+    "preis": "16,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,31 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "19,89 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "11,24 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis  bzw 670",
+    "preis": "18,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "12,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis  149",
+    "preis": "3,73 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 830",
+    "preis": "9,22 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "023 bzw 017",
+    "preis": "0,35 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "05-l-Dose l-Preis",
+    "preis": "1,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zzgl Pfand",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 1163",
+    "preis": "13,29 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "12 x  l  396-l-",
+    "preis": "0,33 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "zzgl Pfand",
+    "preis": "2,02 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "12 x   300",
+    "preis": "0,25 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "29,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,30 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr",
+    "preis": "16,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr ab Do 2210ab Mo 1910",
+    "preis": "23,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Sa",
+    "preis": "17,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,48 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "200-g-Packung kg-Preis",
+    "preis": "7,45 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,38 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "300-g-Packung kg-Preis",
+    "preis": "6,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "2,82 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "200-g-Packung kg-Preis",
+    "preis": "8,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Packung kg-Preis",
+    "preis": "9,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "15,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "14,97 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "100-g-Packung kg-Preis",
+    "preis": "12,90 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "8,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "15,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "bzw 1309",
+    "preis": "15,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "11,92 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "10,47 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "5,49 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,63 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "17,79 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "250-g-Packung kg-Preis",
+    "preis": "6,76 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "108-g-Packung kg-Preis",
+    "preis": "11,94 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis  bzw 1106",
+    "preis": "12,44 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "-l-Flasche",
+    "preis": "0,75 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "23,99 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "5-l-Flasche",
+    "preis": "0,37 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "13,31 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "7,13 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "l-Preis",
+    "preis": "2,58 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "13,27 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "3,17 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Do   Sa 3",
+    "preis": "1,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 1710",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "1 Rabatt gilt nur für die Zalando 50  Guthabenkarte im Zeitraum vom   17 102026 in teilnehmenden Filialen Wir bitten um Beachtung dass diese Artikel nur in begrenzter Anzahl zur",
+    "preis": "12,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Gültig ab MO",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "0,98 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,96 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "29,80 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "7,11 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Fr",
+    "preis": "23,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Mo   Sa 2410",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Mo",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "ab Do",
+    "preis": "22,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "6,54 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis",
+    "preis": "9,95 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis  bzw 487",
+    "preis": "6,02 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "Sa 2410",
+    "preis": "19,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "kg-Preis  bzw 248",
+    "preis": "3,73 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  },
+  {
+    "markt_id": "aldi",
+    "markt_name": "ALDI SÜD",
+    "produkt_name": "reduziert zum 2026",
+    "preis": "15,10 €",
+    "alter_preis": "",
+    "rabatt": "🔥 PROSPEKT-DEAL",
+    "gueltigkeit": "Aus dem aktuellen PDF",
+    "bild": "default"
+  }
+]

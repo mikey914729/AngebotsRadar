@@ -1,0 +1,22 @@
+[
+  {
+    "markt_id": "edeka",
+    "markt_name": "EDEKA",
+    "produkt_name": "Ritter Sport Schokolade 100g",
+    "preis": "0.99 €",
+    "alter_preis": "statt 1.49 €",
+    "rabatt": "🔥 AKTION",
+    "gueltigkeit": "Diese Woche",
+    "bild": "chocolate"
+  },
+  {
+    "markt_id": "edeka",
+    "markt_name": "EDEKA",
+    "produkt_name": "Paulaner Spezi Kasten 20x0,5l",
+    "preis": "13.49 €",
+    "alter_preis": "",
+    "rabatt": "",
+    "gueltigkeit": "Diese Woche",
+    "bild": "milkshake"
+  }
+]
