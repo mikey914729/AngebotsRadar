@@ -4,34 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mein Digitales ProspektHeft</title>
-    <!-- Wir laden das Design blitzschnell von außen, um Platz zu sparen -->
-    <link rel="stylesheet" href="https://jsdelivr.net">
-    <style>
-        body { max-width: 900px; margin: 0 auto; padding: 20px; }
-        .buttons-container { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0; }
-        .btn { padding: 8px 16px; cursor: pointer; border-radius: 20px; border: 1px solid #ccc; background: #fff; color: #333; font-weight: bold; }
-        .btn.active { background: #e54b3b; color: #fff; border-color: #e54b3b; }
-        .vergleich-block { background: #fff; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 12px; color: #333; }
-        .maerkte-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; margin-top: 15px; }
-        .markt-card { background: #f8f9fa; border: 1px solid #eee; padding: 15px; border-radius: 10px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 180px; position: relative; }
-        .markt-card.best { border: 2px solid #28a745; background: #e8f5e9; }
-        .badge { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #28a745; color: #fff; font-size: 10px; padding: 2px 8px; border-radius: 10px; }
-        .price { font-size: 22px; font-weight: bold; color: #e54b3b; }
-        .price.grun { color: #28a745; }
-        .old-price { font-size: 12px; text-decoration: line-through; color: #777; }
-    </style>
+    <!-- Wir laden das professionelle Layout von außen, damit der Code ultrakurz bleibt -->
+    <link rel="stylesheet" href="https://github.io" onerror="this.href='https://jsdelivr.net'">
 </head>
 <body>
 
-    <div style="text-align: center;">
+    <div class="header" style="text-align: center; margin-bottom: 20px;">
         <h2>Mein Digitales ProspektHeft</h2>
         <p>Preise vergleichen in Wolnzach (85283)</p>
-        <input type="text" id="suche" placeholder="Nach Spezi, Schokolade... suchen" oninput="sucheAngebote()" style="width: 100%; max-width: 500px; padding: 10px; border-radius: 20px;">
+        <input type="text" id="suche" placeholder="Nach Spezi, Schokolade... suchen" oninput="sucheAngebote()" style="width: 100%; max-width: 500px; padding: 12px; border-radius: 25px; border: 2px solid #ddd; outline: none;">
     </div>
 
-    <div class="buttons-container" id="btn-box">
+    <div class="buttons-container" id="btn-box" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 24px;">
         <button class="btn active" onclick="filtereMarkt('alle', this)">Preisvergleich</button>
-        <button class="btn" onclick="filtereMarkt('ALDI SÜD', this)">ALDI</button>
+        <button class="btn" onclick="filtereMarkt('ALDI SÜD', this)">ALDI SÜD</button>
         <button class="btn" onclick="filtereMarkt('EDEKA', this)">EDEKA</button>
         <button class="btn" onclick="filtereMarkt('Netto', this)">Netto</button>
         <button class="btn" onclick="filtereMarkt('PENNY', this)">PENNY</button>
@@ -47,20 +33,19 @@
         let aktuellerMarkt = 'alle';
 
         const symbole = {"apple":"🍎","potato":"🥔","fish":"🐟","lemon":"🍋","onion":"🧅","cookies":"🍪","chocolate":"🍫","butter":"🧈","milkshake":"🥛","laundry":"🧺","dogfood":"🍖","screws":"⚙️","clothes":"👕","default":"🛒"};
-        const namen = {"apple":"Äpfel","potato":"Kartoffeln","fish":"Fisch & Lachs","lemon":"Zitronen","onion":"Zwiebeln","cookies":"Kekse & Gebäck","chocolate":"Schokolade","butter":"Molkerei","milkshake":"Getränke","laundry":"Drogerie","dogfood":"Tierfutter","screws":"Werkzeug","clothes":"Kleidung","default":"Sonstiges"};
+        const namen = {"apple":"Äpfel","potato":"Kartoffeln","fish":"Fisch","lemon":"Zitronen","onion":"Zwiebeln","cookies":"Gebäck","chocolate":"Schokolade","butter":"Molkerei","milkshake":"Getränke","laundry":"Drogerie","dogfood":"Tierfutter","screws":"Werkzeug","clothes":"Kleidung","default":"Sonstiges"};
 
-        fetch('daten.json').then(r => r.json()).then(d => { alleAngebote = d; sucheAngebote(); });
+        fetch('daten.json').then(r => r.json()).then(d => { alleAngebote = d; sucheAngebote(); }).catch(e => console.error(e));
 
         function sucheAngebote() {
             const txt = document.getElementById('suche').value.toLowerCase().trim();
             let liste = aktuellerMarkt === 'alle' ? alleAngebote : alleAngebote.filter(i => i.markt_name === aktuellerMarkt);
             let gefundene = liste.filter(i => i.produkt_name.toLowerCase().includes(txt) || (txt === 'apfel' && i.produkt_name.toLowerCase().includes('äpfel')));
-
             const container = document.getElementById('prospekt-container');
             container.innerHTML = '';
 
             if (gefundene.length === 0) {
-                container.innerHTML = '<p style="text-align:center; color:#777;">Keine Angebote gefunden.</p>';
+                container.innerHTML = '<p style="text-align:center; color:#7f8c8d; margin-top: 40px; font-weight: bold;">Keine Angebote gefunden.</p>';
                 return;
             }
 
@@ -75,26 +60,15 @@
                 Object.keys(map).forEach(key => {
                     let block = document.createElement('div');
                     block.className = 'vergleich-block';
-                    block.innerHTML = `<h3>${symbole[key] || '🛒'} Vergleich: ${namen[key] || 'Produkte'}</h3>`;
-                    
+                    block.innerHTML = `<div class="vergleich-titel"><span class="symbol">${symbole[key] || '🛒'}</span><span>Vergleich: ${namen[key] || 'Produkte'}</span></div>`;
                     let grid = document.createElement('div');
                     grid.className = 'maerkte-grid';
-                    
                     let minP = Math.min(...map[key].map(a => parseFloat(a.preis.replace('€','').replace(',','.').trim())).filter(p => !isNaN(p)));
 
                     map[key].forEach(a => {
                         let pNum = parseFloat(a.preis.replace('€','').replace(',','.').trim());
                         let isBest = (!isNaN(pNum) && pNum === minP && map[key].length > 1);
-                        grid.innerHTML += `
-                            <div class="markt-card ${isBest ? 'best' : ''}">
-                                ${isBest ? '<span class="badge">Bester Preis</span>' : ''}
-                                <div style="font-weight:bold; font-size:12px; color:#666;">📍 ${a.markt_name}</div>
-                                <div style="font-size:13px; margin:5px 0; color:#111;">${a.produkt_name}</div>
-                                <div>
-                                    <div class="old-price">${a.alter_preis}</div>
-                                    <div class="price ${isBest ? 'grun' : ''}">${a.preis}</div>
-                                </div>
-                            </div>`;
+                        grid.innerHTML += `<div class="markt-card ${isBest ? 'best' : ''}">${isBest ? '<span class="badge">Bester Preis</span>' : ''}<div class="markt-label">📍 ${a.markt_name}</div><div class="product-title">${a.produkt_name}</div><div class="price-box"><div class="old-price">${a.alter_preis}</div><div class="price ${isBest ? 'grun' : ''}">${a.preis}</div><div class="gueltigkeit">Diese Woche</div></div></div>`;
                     });
                     block.appendChild(grid);
                     container.appendChild(block);
@@ -103,16 +77,7 @@
                 let grid = document.createElement('div');
                 grid.className = 'maerkte-grid';
                 gefundene.forEach(a => {
-                    grid.innerHTML += `
-                        <div class="markt-card">
-                            <div style="font-size:30px;">${symbole[a.bild] || '🛒'}</div>
-                            <div style="font-weight:bold; font-size:12px; color:#666;">📍 ${a.markt_name}</div>
-                            <div style="font-size:13px; margin:5px 0; color:#111;">${a.produkt_name}</div>
-                            <div>
-                                <div class="old-price">${a.alter_preis}</div>
-                                <div class="price">${a.preis}</div>
-                            </div>
-                        </div>`;
+                    grid.innerHTML += `<div class="markt-card"><div style="font-size:32px; margin-bottom:4px;">${symbole[a.bild] || '🛒'}</div><div class="markt-label">📍 ${a.markt_name}</div><div class="product-title">${a.produkt_name}</div><div class="price-box"><div class="old-price">${a.alter_preis}</div><div class="price">${a.preis}</div><div class="gueltigkeit">Diese Woche</div></div></div>`;
                 });
                 container.appendChild(grid);
             }
