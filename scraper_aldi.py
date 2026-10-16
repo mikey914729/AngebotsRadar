@@ -6,16 +6,18 @@ def aldi_pdf_profi_scanner():
     print("Profi-Scanner gestartet: Analysiere Layouts und Textstrukturen aus 'aldi.pdf'...")
     neue_liste = []
     
-    # Wichtigste Signalwörter zur Bereinigung
-    daten_filter = ["ab mo", "ab do", "ab fr", "sa", "fr", "do", "mo", "di", "mi", "woche", "gültig", "vom", "bis", "prospekt"]
+    # Erweiterte Signalwörter: Filtert Wochentage, Slogans und kleingedruckte Grundpreise aus
+    daten_filter = [
+        "ab mo", "ab do", "ab fr", "sa", "fr", "do", "mo", "di", "mi", 
+        "woche", "gültig", "vom", "bis", "prospekt", "1610", "1710", "1510",
+        "kg-preis", "best-preis", "stückpreis", "grundpreis", "je stück", "je kg", "preis"
+    ]
 
     try:
-        # pdfplumber öffnet die Datei präzise nach Layout-Blöcken
         with pdfplumber.open("aldi.pdf") as pdf:
             print(f"-> {len(pdf.pages)} Prospektseiten erfolgreich im Speicher analysiert.")
             
             for page_idx, page in enumerate(pdf.pages):
-                # .extract_text() von pdfplumber versucht das visuelle Layout (Spalten) beizubehalten
                 text = page.extract_text()
                 if not text: 
                     continue
@@ -25,7 +27,7 @@ def aldi_pdf_profi_scanner():
                 for i, zeile in enumerate(zeilen):
                     zeile_clean = zeile.strip()
                     
-                    # 1. Regex sucht flexibel nach Preisen (z.B. 1,49, 1.49, 14.99, optional mit €)
+                    # 1. Regex sucht nach Preisen (z.B. 1,49, 1.49, 14.99, optional mit €)
                     preis_treffer = re.search(r'(\d+[\.,]\d{2})\s*€?', zeile_clean)
                     if preis_treffer:
                         preis_raw = preis_treffer.group(1)
@@ -33,29 +35,28 @@ def aldi_pdf_profi_scanner():
                         # Fallback-Namen vorbereiten aus derselben Zeile
                         roher_name = zeile_clean.replace(preis_raw, "").replace("€", "").strip()
                         
-                        # 2. DETEKTOR-TRICK: Wir prüfen die aktuelle Zeile und die oberen Zeilen
+                        # 2. DETEKTOR-TRICK: Wir prüfen die oberen Zeilen
                         produkt_name = ""
                         
-                        # Wir schauen bis zu 3 Zeilen nach oben, um den echten Namen über dem Preis zu finden
-                        for schritt in range(1, 4):
+                        # Radius auf 5 Zeilen erhöht, um über Werbe-Slogans/Grundpreise hinwegzuspringen
+                        for schritt in range(1, 6):
                             if i - schritt >= 0:
                                 potentielle_zeile = zeilen[i - schritt].strip()
                                 t_check = potentielle_zeile.lower()
                                 
-                                # Wenn die obere Zeile keinen Preis hat und kein Datum ist, ist es unser Name!
+                                # Wenn die obere Zeile keinen Preis hat und kein Filterwort enthält, ist es unser Name!
                                 if potentielle_zeile and not re.search(r'\d+[\.,]\d{2}', potentielle_zeile):
                                     if not any(wort in t_check for wort in daten_filter):
-                                        # Nur sauberen Text behalten, aber wichtige Zeichen erlauben
                                         produkt_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/\.,&]', '', potentielle_zeile).strip()
                                         break
                         
-                        # Wenn oben nichts gefunden wurde, nehmen wir den bereinigten Rest der aktuellen Zeile
+                        # Fallback: Wenn oben nichts gefunden wurde, nehmen wir den bereinigten Rest der aktuellen Zeile
                         if not produkt_name or len(produkt_name) < 3:
                             t_check_raw = roher_name.lower()
                             if not any(wort in t_check_raw for wort in daten_filter):
                                 produkt_name = re.sub(r'[^a-zA-Z0-9\säöüÄÖÜß\-\/\.,&]', '', roher_name).strip()
                         
-                        # Letzter Check: Wenn es immer noch leer oder ein Datum ist, überspringen
+                        # Letzter Check: Wenn es immer noch leer, zu kurz oder Müll ist, überspringen
                         if not produkt_name or len(produkt_name) < 3 or any(wort in produkt_name.lower() for wort in daten_filter):
                             continue
                         
