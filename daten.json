@@ -1,55 +1,5 @@
 [
   {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Äpfel süß-säuerlich 1kg",
-    "preis": "1.59 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "Diese Woche",
-    "bild": "apple"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Speisekartoffeln 2,5 kg",
-    "preis": "2.49 €",
-    "alter_preis": "",
-    "rabatt": "",
-    "gueltigkeit": "Diese Woche",
-    "bild": "potato"
-  },
-  {
-    "markt_id": "aldi",
-    "markt_name": "ALDI SÜD",
-    "produkt_name": "Norwegische Lachsfiletportionen 500 g",
-    "preis": "7.49 €",
-    "alter_preis": "statt 9.49 €",
-    "rabatt": "🔥 AKTION",
-    "gueltigkeit": "Diese Woche",
-    "bild": "fish"
-  },
-  {
-    "markt_id": "penny",
-    "markt_name": "PENNY",
-    "produkt_name": "Müllermilch Schoko 400ml",
-    "preis": "0.69 €",
-    "alter_preis": "statt 1.39 €",
-    "rabatt": "🔥 AKTION",
-    "gueltigkeit": "Diese Woche",
-    "bild": "milkshake"
-  },
-  {
-    "markt_id": "edeka",
-    "markt_name": "EDEKA",
-    "produkt_name": "Ritter Sport Schokolade 100g",
-    "preis": "0.99 €",
-    "alter_preis": "statt 1.49 €",
-    "rabatt": "🔥 AKTION",
-    "gueltigkeit": "Diese Woche",
-    "bild": "chocolate"
-  },
-  {
     "markt_id": "netto",
     "markt_name": "Netto",
     "produkt_name": "GUT & GÜNSTIG Deutsche Markenbutter",
