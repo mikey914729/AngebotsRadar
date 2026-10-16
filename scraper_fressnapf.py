@@ -18,9 +18,7 @@ def fressnapf_markt():
             "rabatt": "🔥 AKTION" if i.get("old_price") else "", "gueltigkeit": "Diese Woche", "bild": "dogfood"
         })
 
-    try: with open("daten.json", "r", encoding="utf-8") as f: daten = json.load(f)
-    except: daten = []
-    daten = [d for d in daten if d["markt_id"] != "fressnapf"] + neue_liste
-    with open("daten.json", "w", encoding="utf-8") as f: json.dump(daten, f, ensure_ascii=False, indent=2)
+   with open("daten_fressnapf.json", "w", encoding="utf-8") as f:
+    json.dump(neue_liste, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__": fressnapf_markt()
